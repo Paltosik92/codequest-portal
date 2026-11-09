@@ -1,4 +1,5 @@
 import type { LearningLesson } from '../lib/learning-catalog';
+import { setupReadingTools } from './reading-tools';
 import {
   STORAGE_KEY,
   emptyState,
@@ -59,6 +60,16 @@ const completionButtons = Array.from(
   document.querySelectorAll<HTMLButtonElement>('[data-lesson-complete]'),
 );
 const resumePanels = Array.from(document.querySelectorAll<HTMLElement>('[data-resume-course]'));
+const readingTools = setupReadingTools(
+  catalog,
+  () => state,
+  (update) => {
+    sync();
+    update(state);
+    persist();
+    refresh();
+  },
+);
 function refresh() {
   for (const element of document.querySelectorAll<HTMLElement>('[data-course-progress]')) {
     const lessons = catalog.filter((lesson) => lesson.courseId === element.dataset.courseProgress);
@@ -96,6 +107,7 @@ function refresh() {
     button.setAttribute('aria-pressed', String(completed));
     button.textContent = completed ? '✓ Работа выполнена' : 'Отметить выполненной';
   }
+  readingTools.refresh();
 }
 function record(): LessonProgress {
   return { completed: false, ratio: 0, anchor: '', offset: 0, updatedAt: Date.now() };

@@ -1,0 +1,18 @@
+<div class="reading-tools" data-reading-tools hidden>
+  <details class="learning-panel reading-options">
+    <summary>Настройки чтения</summary>
+    <div class="reading-controls">
+      <div><label for="reading-size">Размер текста</label><select id="reading-size" data-reading-setting="fontSize"><option value="20">20 px</option><option value="22" selected>22 px · по умолчанию</option><option value="24">24 px</option><option value="26">26 px</option></select></div>
+      <div><label for="reading-width">Ширина страницы</label><select id="reading-width" data-reading-setting="width"><option value="standard">Обычная</option><option value="narrow">Узкая</option><option value="wide">Широкая</option></select></div>
+      <div><label for="reading-spacing">Межстрочный интервал</label><select id="reading-spacing" data-reading-setting="spacing"><option value="default">Обычный</option><option value="compact">Плотнее</option><option value="relaxed">Свободнее</option></select></div>
+    </div>
+    <button class="button button-outline" type="button" data-reading-reset>Сбросить настройки</button>
+    <p class="reading-help">Настройки применяются ко всем методичкам и сохраняются в этом браузере.</p>
+    <p role="status" aria-live="polite" data-reading-status></p>
+  </details>
+  <details class="learning-panel reader-bookmarks" data-bookmark-panel>
+    <summary>Закладки этой работы <span data-bookmark-count>0</span></summary>
+    <p data-bookmark-empty>Нажми ☆ рядом с заголовком раздела, чтобы сохранить закладку.</p>
+    <ul class="bookmark-list" data-bookmark-list="lesson"></ul>
+  </details>
+</div>

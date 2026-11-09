@@ -1,0 +1,194 @@
+/* Reading preferences only affect lesson content; defaults preserve the existing theme. */
+.prose {
+  font-size: var(--reader-size, 1.1rem);
+}
+html[data-reading-spacing='compact'] .prose {
+  line-height: 1.7;
+}
+html[data-reading-spacing='relaxed'] .prose {
+  line-height: 2.2;
+}
+html[data-reading-size]:not([data-reading-size='22']) .prose :is(table, blockquote) {
+  font-size: calc(var(--reader-size, 22px) * 0.91);
+}
+html[data-reading-width='narrow'] .lesson-content {
+  max-width: 760px;
+}
+html[data-reading-width='wide'] .lesson-page {
+  max-width: 1640px;
+}
+html[data-reading-width='wide'] .lesson-content {
+  max-width: 1250px;
+}
+.reading-tools {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+  margin-block: 24px;
+}
+.reading-tools .learning-panel {
+  padding: 0;
+}
+.reading-tools summary {
+  cursor: pointer;
+  padding: 18px 22px;
+  font: 1.05rem/1.6 var(--font-display);
+  color: var(--text);
+}
+.reading-tools summary:hover {
+  color: var(--accent);
+}
+.reading-tools details[open] {
+  padding-bottom: 22px;
+}
+.reading-controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin: 6px 22px 24px;
+}
+.reading-controls > div {
+  min-width: 0;
+}
+.reading-controls label {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+.reading-controls select {
+  width: 100%;
+  min-height: 54px;
+  padding: 12px;
+  font: 1rem/1.4 var(--font);
+  color: var(--text);
+  background: var(--bg);
+  border: 2px solid var(--border);
+  border-radius: 0;
+}
+.reading-controls option {
+  color: var(--text);
+  background: var(--surface);
+}
+.reading-options > :is(button, p),
+.reader-bookmarks > :is(p, ul) {
+  margin-inline: 22px;
+}
+.reading-options .reading-help {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+[data-reading-status]:not(:empty) {
+  margin-top: 16px;
+}
+.section-bookmark {
+  float: right;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  min-height: 44px;
+  margin: 0 0 8px 14px;
+  padding: 0;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font:
+    28px/1 Arial,
+    sans-serif;
+}
+.section-bookmark:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.section-bookmark[aria-pressed='true'] {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+}
+.bookmark-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
+.bookmark-list:empty {
+  margin: 0;
+}
+.bookmark-list > li {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+  padding-block: 20px;
+  border-top: 1px solid var(--border);
+}
+.bookmark-list > li > div {
+  min-width: 0;
+}
+.bookmark-link {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+.bookmark-meta {
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+.bookmark-remove {
+  min-height: 44px;
+  padding: 8px 12px;
+  flex-shrink: 0;
+  font: 0.9rem/1.4 var(--font);
+  color: var(--text);
+  border: 2px solid var(--border);
+  background: var(--surface-raised);
+}
+.bookmark-remove:hover {
+  border-color: var(--accent);
+}
+[data-bookmark-count] {
+  display: inline-block;
+  min-width: 28px;
+  text-align: center;
+  margin-left: 8px;
+  color: var(--accent);
+}
+.saved-bookmarks {
+  margin-block: 32px;
+}
+@media (min-width: 1101px) {
+  html[data-reading-width='wide'] .lesson-grid {
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 32px;
+  }
+}
+@media (max-width: 800px) {
+  .reading-controls {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 540px) {
+  .reading-tools summary {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+  .reading-controls {
+    margin-inline: 16px;
+  }
+  .reading-options > :is(button, p),
+  .reader-bookmarks > :is(p, ul) {
+    margin-inline: 16px;
+  }
+  .reading-options > button {
+    max-width: calc(100% - 32px);
+    text-align: center;
+  }
+  .bookmark-list > li {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .section-bookmark {
+    margin-left: 10px;
+  }
+}

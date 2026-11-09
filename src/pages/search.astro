@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { publishedCourses } from '../data/courses';
+import { url } from '../lib/paths';
+---
+<BaseLayout title="Поиск по работам — CodeQuest" description="Поиск по тексту и коду практических работ CodeQuest." current="search">
+  <div class="container utility-page">
+    <div class="eyebrow">Найди нужный шаг</div><h1>Поиск по работам</h1>
+    <p>Ищи тему, команду или имя из кода: JSON, ObservableCollection, TakeDamage.</p>
+    <form class="search-form learning-panel" role="search" data-search-index={url('search-index.json')}>
+      <div><label for="search-query">Текст или код</label><input id="search-query" name="q" type="search" minlength="2" maxlength="120" placeholder="Что будем искать?" autocomplete="off" required/></div>
+      <div><label for="search-course">Направление</label><select id="search-course" name="course"><option value="">Все курсы</option>{publishedCourses.map(course => <option value={course.id}>{course.title}</option>)}</select></div>
+      <button type="submit" class="button button-primary">Найти</button>
+    </form>
+    <noscript><p>Для поиска по тексту включи JavaScript. Все работы доступны в <a href={url('#courses')}>каталоге курсов</a>.</p></noscript>
+    <p class="utility-status" id="search-status" role="status" aria-live="polite">Введи минимум два символа. Поиск работает по опубликованным методичкам.</p>
+    <ol class="search-results" id="search-results" aria-label="Результаты поиска"></ol>
+    <button class="button button-outline" type="button" id="search-more" hidden>Показать ещё</button>
+  </div>
+  <script src="../scripts/search.ts"></script>
+</BaseLayout>

@@ -9,6 +9,8 @@ const { current = '' } = Astro.props;
     <nav aria-label="Основная навигация">
       <a href={url('#courses')} aria-current={current === 'courses' ? 'page' : undefined}>Курсы</a>
       <a href={url('#approach')}>Подход</a>
+      <a href={url('search/')} aria-current={current === 'search' ? 'page' : undefined}>Поиск</a>
+      <a href={url('progress/')} aria-current={current === 'progress' ? 'page' : undefined}>Прогресс</a>
     </nav>
     <button class="theme-toggle" type="button" aria-label="Включить светлую тему" title="Сменить тему" hidden><span class="theme-sun"><Icon name="sun"/></span><span class="theme-moon"><Icon name="moon"/></span></button>
   </div>

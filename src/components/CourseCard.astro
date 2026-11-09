@@ -12,4 +12,5 @@ const { course, index } = Astro.props;
   <div class="card-content"><div class="card-overline"><span>{course.category}</span><span class="card-number">0{index + 1}</span></div>
   <h3>{course.title}<span class="card-arrow"><Icon name="arrow"/></span></h3>
   <p>{course.description}</p><div class="tags">{course.technologies.map(t => <span>{t}</span>)}</div></div>
+  <p class="card-progress" data-course-progress={course.id} hidden></p>
 </a>

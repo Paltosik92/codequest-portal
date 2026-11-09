@@ -3,11 +3,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import CourseCard from '../components/CourseCard.astro';
 import Icon from '../components/Icon.astro';
 import PixelWorld from '../components/PixelWorld.astro';
+import ResumePanel from '../components/ResumePanel.astro';
 import { publishedCourses } from '../data/courses';
 import { courseUrl } from '../lib/paths';
 const firstCourse = publishedCourses[0];
 ---
 <BaseLayout>
+  <div class="container home-resume"><ResumePanel/></div>
   <section class="hero container">
     <div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> ТВОЙ СЛЕДУЮЩИЙ УРОВЕНЬ</div>
       <h1>От первой<br/>строки кода<br/>до <span class="highlight">собственного проекта<span class="text-cursor" aria-hidden="true">_</span></span></h1>

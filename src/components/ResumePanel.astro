@@ -1,0 +1,8 @@
+---
+interface Props { courseId?: string; }
+const { courseId } = Astro.props;
+---
+<section class="learning-panel resume-panel" data-resume-course={courseId || ''} hidden aria-label="Продолжить чтение">
+  <div><span class="eyebrow">Точка сохранения</span><h2>Продолжить чтение</h2><p data-resume-title></p></div>
+  <a class="button button-primary" data-resume-link>Продолжить →</a>
+</section>

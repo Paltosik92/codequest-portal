@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ResumePanel from '../components/ResumePanel.astro';
+import { publishedCourses } from '../data/courses';
+import { getLearningCatalog } from '../lib/learning-catalog';
+import { courseUrl } from '../lib/paths';
+const catalog = await getLearningCatalog();
+---
+<BaseLayout title="Мой прогресс — CodeQuest" description="Выполненные работы, сохранённое место чтения и перенос прогресса." current="progress">
+  <div class="container utility-page">
+    <div class="eyebrow">Твой маршрут</div><h1>Мой прогресс</h1>
+    <p>Отмечай выполненные работы и возвращайся к чтению. Данные сохраняются в этом браузере. Для другого компьютера экспортируй файл и импортируй его там.</p>
+    <noscript><p>Для сохранения прогресса нужен JavaScript.</p></noscript>
+    <ResumePanel/>
+    <div class="progress-grid">{publishedCourses.map(course => <section class="learning-panel"><h2><a href={courseUrl(course.id)}>{course.title}</a></h2><p data-course-progress={course.id}>Выполнено: 0 из {catalog.filter(l => l.courseId === course.id).length}</p><progress data-course-meter={course.id} max={catalog.filter(l => l.courseId === course.id).length} value="0" aria-label={`Выполненные работы: ${course.title}`}></progress></section>)}</div>
+    <section class="learning-panel transfer-panel" data-progress-transfer hidden>
+      <h2>Перенести прогресс</h2><p>Экспортируй резервную копию. При импорте данные из файла объединятся с текущими: для каждой работы сохранится более новая запись.</p>
+      <div class="learning-actions"><button class="button button-outline" type="button" data-progress-export>Экспорт JSON ↓</button><label class="button button-outline import-label">Импорт JSON ↑<input type="file" accept="application/json,.json" data-progress-import aria-label="Выбрать JSON с прогрессом"/></label></div>
+      <p data-transfer-status role="status" aria-live="polite"></p>
+    </section>
+  </div>
+</BaseLayout>

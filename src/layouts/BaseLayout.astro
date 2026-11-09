@@ -4,6 +4,9 @@ import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 import '../styles/pixel.css';
 import pixelFont from '../assets/fonts/codequest-pixel.ttf?url';
+import '../styles/learning.css';
+import { getLearningCatalog } from '../lib/learning-catalog';
+const learningCatalog = await getLearningCatalog();
 import { url } from '../lib/paths';
 interface Props { title?: string; description?: string; current?: string; }
 const { title = 'CodeQuest — от первой строки кода до собственного проекта', description = 'Личная библиотека практических курсов: игры, мобильные, настольные и веб-приложения. Учись программировать, создавая собственные проекты.', current } = Astro.props;
@@ -26,8 +29,11 @@ const { title = 'CodeQuest — от первой строки кода до со
   <body>
     <a class="skip-link" href="#main">Перейти к содержанию</a>
     <Header current={current}/>
+    <div class="container"><p id="learning-storage-status" class="storage-note" role="status" hidden></p></div>
     <main id="main"><slot /></main>
     <Footer/>
+    <script type="application/json" id="learning-catalog" set:html={JSON.stringify(learningCatalog).replace(/</g, '\\u003c')}/>
+    <script src="../scripts/learning.ts"></script>
     <script>
       const toggle = document.querySelector<HTMLButtonElement>('.theme-toggle');
       function updateThemeLabel() {

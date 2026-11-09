@@ -1,12 +1,12 @@
-# Будущая публикация на GitHub Pages
+# Публикация на GitHub Pages
 
-**На этом этапе ничего не опубликовано. Репозиторий автоматически не создавался.**
+Адрес портала: [paltosik92.github.io/codequest-portal](https://paltosik92.github.io/codequest-portal/). Репозиторий: [Paltosik92/codequest-portal](https://github.com/Paltosik92/codequest-portal). Ниже описаны настройки публикации, повторная сборка и варианты адреса для других репозиториев.
 
 Проект использует официальный action Astro: [руководство](https://docs.astro.build/en/guides/deploy/github/) и [withastro/action](https://github.com/withastro/action). Workflow подготовлен в `.github/workflows/deploy.yml`: checkout, установка, TypeScript, статическая сборка, проверка внутренних ссылок, загрузка артефакта и deploy-pages.
 
 ## Что нужно подготовить
 
-1. В обычном терминале с доступом к npm выполните установку и все локальные проверки из README. Сохраните созданный `package-lock.json` в репозитории. Не создавайте lockfile вручную.
+1. В обычном терминале с доступом к npm выполните установку и локальные проверки из [README](../README.md). Сохраните созданный `package-lock.json` в репозитории. Не создавайте lockfile вручную.
 2. Создайте отдельный GitHub-репозиторий, когда решите публиковать сайт. В его корне должны быть `package.json`, `astro.config.mjs`, `src/`, `public/` и `.github/` из папки `codequest-portal`.
 3. Не добавляйте родительский учебный архив, решения преподавателя, `node_modules/`, `dist/`, `.env`, локальные скриншоты и снимок SHA-256. `.gitignore` подготовлен.
 4. В Settings → Pages выберите **GitHub Actions** как Source.

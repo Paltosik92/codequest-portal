@@ -1,0 +1,1404 @@
+{
+  "courseId": "neon-arena",
+  "sourceRoot": "Разработка_игровых_приложений_2027",
+  "cover": "materials/neon-arena/img/lab9/07-runtime-initial-hud.webp",
+  "lessons": [
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №1. Первая игровая сцена и движение игрока.md",
+      "sourceSha256": "d66de4daaeca310c3927c3038f7f607930adea76a936f9fdb6b08a78212887fc",
+      "target": "src/content/lessons/neon-arena/lab-01.md",
+      "sha256": "7500f2c4cad8cdeca2450d302be0de9d39306ec9a865589b4fd9c74f3adf5e08",
+      "number": 1,
+      "slug": "neon-arena/lab-01",
+      "removedComments": 9,
+      "codeBlocks": 180,
+      "images": 19,
+      "tables": 2
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №2. Стрельба и снаряды.md",
+      "sourceSha256": "0dea262adc1690cccb0cbd2627b6ad77c1a79368ccd39572901369ae51df588b",
+      "target": "src/content/lessons/neon-arena/lab-02.md",
+      "sha256": "d20234a0ad9f79bc20349fdaea5999de4cb77c0a1df62ab0bbf8caab20f98279",
+      "number": 2,
+      "slug": "neon-arena/lab-02",
+      "removedComments": 11,
+      "codeBlocks": 206,
+      "images": 15,
+      "tables": 0
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №3. Первый противник и столкновения.md",
+      "sourceSha256": "29efeff07163956ef34a056fbbddb66574df49be1ab41c8b54099ddac9b407f6",
+      "target": "src/content/lessons/neon-arena/lab-03.md",
+      "sha256": "586a1e542471499171ddc49a3e0a9d160c8bd331800b41fbbb5d199fa2171d42",
+      "number": 3,
+      "slug": "neon-arena/lab-03",
+      "removedComments": 10,
+      "codeBlocks": 243,
+      "images": 18,
+      "tables": 3
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №4. Система здоровья и урона.md",
+      "sourceSha256": "57f94567307ef6f2334f9e999d2601c40237682b6dd1dc1aaa9792d929247f33",
+      "target": "src/content/lessons/neon-arena/lab-04.md",
+      "sha256": "ef7458727ad7783af93c930ba41d454a8947a6e226df62147fcfc1eb4e0eb4ca",
+      "number": 4,
+      "slug": "neon-arena/lab-04",
+      "removedComments": 11,
+      "codeBlocks": 264,
+      "images": 17,
+      "tables": 0
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №5. Анимация игрока и противника.md",
+      "sourceSha256": "aca935d1046e3192b11c15bc12497371bf073316a6c99eacb9a2f4cf3039f570",
+      "target": "src/content/lessons/neon-arena/lab-05.md",
+      "sha256": "e5a2675e5f780ed9759455391a8924aa4cff29f244c5eb60d82aa24eb54eb07f",
+      "number": 5,
+      "slug": "neon-arena/lab-05",
+      "removedComments": 10,
+      "codeBlocks": 236,
+      "images": 17,
+      "tables": 3
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №6. EnemySpawner и волны противников.md",
+      "sourceSha256": "9b82ca62c502242a4ae7fe54b1d181cc2a123689a760ab2d49db84e87ed4f030",
+      "target": "src/content/lessons/neon-arena/lab-06.md",
+      "sha256": "1d9648982ba83d8a9aba516f1ba9fc46c94ae8c19371adce1b10108daaf45e12",
+      "number": 6,
+      "slug": "neon-arena/lab-06",
+      "removedComments": 10,
+      "codeBlocks": 266,
+      "images": 16,
+      "tables": 1
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №7. Разные типы противников.md",
+      "sourceSha256": "6f654505fb0c237c72cbc014e3299514d570c56460d6c03e807127f835348dc1",
+      "target": "src/content/lessons/neon-arena/lab-07.md",
+      "sha256": "78f9512d07f3ad319cb5841a49ab6dc83500d6220cb7c494c477549aa65deb7d",
+      "number": 7,
+      "slug": "neon-arena/lab-07",
+      "removedComments": 7,
+      "codeBlocks": 243,
+      "images": 12,
+      "tables": 3
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №8. Бонусы и временные улучшения.md",
+      "sourceSha256": "7e73c5e632b1326e9e74232efaf184380b99c488d1445ccf55d1487b82c28bcb",
+      "target": "src/content/lessons/neon-arena/lab-08.md",
+      "sha256": "9c4227ca9656647ae47518592f1577999da1d9954ce411cf37deece4843800b1",
+      "number": 8,
+      "slug": "neon-arena/lab-08",
+      "removedComments": 8,
+      "codeBlocks": 254,
+      "images": 13,
+      "tables": 1
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №9. HUD_ здоровье, очки и номер волны.md",
+      "sourceSha256": "2aa917ad8446491ecd958374bc7b298f02164bf1d2dac6216e2a01781dd8fce1",
+      "target": "src/content/lessons/neon-arena/lab-09.md",
+      "sha256": "a00a8c80da7e10f5db695916a59e032046f52d90e81e360600746b84e11ff542",
+      "number": 9,
+      "slug": "neon-arena/lab-09",
+      "removedComments": 7,
+      "codeBlocks": 275,
+      "images": 14,
+      "tables": 2
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №10. Главное меню, пауза и завершение игры.md",
+      "sourceSha256": "8d810c5cf54e1a3877149a78fe0f293ee1dba40fd2ec096da31b5ab66ee9cd18",
+      "target": "src/content/lessons/neon-arena/lab-10.md",
+      "sha256": "c2de9e9ad154cec7464b55d50c7b15f7cba4b39b1ab491b931daa369c462187d",
+      "number": 10,
+      "slug": "neon-arena/lab-10",
+      "removedComments": 7,
+      "codeBlocks": 307,
+      "images": 14,
+      "tables": 1
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №11. Звук, эффекты и Game Feel.md",
+      "sourceSha256": "700f2b70ddc7a2c45db7b0dfa589e828a33657a24099dead1b8d67be23d806cf",
+      "target": "src/content/lessons/neon-arena/lab-11.md",
+      "sha256": "1fd6753b88ae7a96ada8f4f5fed8c8fbe6418d827cd4168949b380f2cd0466a5",
+      "number": 11,
+      "slug": "neon-arena/lab-11",
+      "removedComments": 8,
+      "codeBlocks": 235,
+      "images": 15,
+      "tables": 1
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №12. Сохранение, баланс и сборка версии 1.0.md",
+      "sourceSha256": "bbacc6b11c7e1a0d0ed4fedba888cef4d95b43d6b8a860d3a2e57a0870b70ff5",
+      "target": "src/content/lessons/neon-arena/lab-12.md",
+      "sha256": "9ba33fdb3fdceda0a19bcf5c4ef0650f414eebfad3e9c8b4df5da70db52cc6b0",
+      "number": 12,
+      "slug": "neon-arena/lab-12",
+      "removedComments": 9,
+      "codeBlocks": 249,
+      "images": 16,
+      "tables": 2
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №13. Адаптация Neon Arena под Android.md",
+      "sourceSha256": "1241c69c3dd5919ca6706dbf084baff6efebe82ccf5880fb92027836e057f50d",
+      "target": "src/content/lessons/neon-arena/lab-13.md",
+      "sha256": "5b11eb8d1e8693af1f5d8e5bb5ca5f9b8c859769f31bf8cf83e948c9fa99c699",
+      "number": 13,
+      "slug": "neon-arena/lab-13",
+      "removedComments": 9,
+      "codeBlocks": 321,
+      "images": 17,
+      "tables": 0
+    }
+  ],
+  "assets": [
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/01-godot-editor-overview.webp",
+      "target": "public/materials/neon-arena/img/lab1/01-godot-editor-overview.webp",
+      "sha256": "5eb1d6b44d389a38db45055c8d6f1f640551e695eac6c7a8712e60b292c7c8ba",
+      "bytes": 103440
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/02-create-project.webp",
+      "target": "public/materials/neon-arena/img/lab1/02-create-project.webp",
+      "sha256": "66c31cdac31a76a245cd5ff938de3edd50d6e07b456e7a312334f0296bdf52c6",
+      "bytes": 81616
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/03-window-settings.webp",
+      "target": "public/materials/neon-arena/img/lab1/03-window-settings.webp",
+      "sha256": "4fb4317fe835657074944a1c95f73a6f1224ccd5766bb28babbef74f5202a0e3",
+      "bytes": 125118
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/04-player-motion-mode.webp",
+      "target": "public/materials/neon-arena/img/lab1/04-player-motion-mode.webp",
+      "sha256": "c50e0939acf0658c6944a3915904edfd0091704eb4e64de824cac4ca5e7d1e64",
+      "bytes": 88110
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/05-sprite-texture-scale.webp",
+      "target": "public/materials/neon-arena/img/lab1/05-sprite-texture-scale.webp",
+      "sha256": "b58d2195f934d395c248af8a04c80705aa813b17b27d570fd9e9b6695eac5aa7",
+      "bytes": 84208
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/06-player-collision-shape.webp",
+      "target": "public/materials/neon-arena/img/lab1/06-player-collision-shape.webp",
+      "sha256": "99eb63b19758628eb08c84e846b310050b8dea2641182ab152e27744a0a26cdd",
+      "bytes": 91276
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/07-input-map.webp",
+      "target": "public/materials/neon-arena/img/lab1/07-input-map.webp",
+      "sha256": "6edb2d2df2d32167f41bb6099df44bd9111618d3db9e03d02684f5b69a3e6f17",
+      "bytes": 86874
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/08-attach-csharp-script.webp",
+      "target": "public/materials/neon-arena/img/lab1/08-attach-csharp-script.webp",
+      "sha256": "6703a267b5b82e22904a074ba510bd8ac42f677d665092d69b7d8f6fe04d0f30",
+      "bytes": 105028
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/09-arena-floor-settings.webp",
+      "target": "public/materials/neon-arena/img/lab1/09-arena-floor-settings.webp",
+      "sha256": "e619231b97b6053e22aeccd85997c0fba454c4e50a669e19be6e22c28bcdc1b7",
+      "bytes": 143888
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/10-game-scene-editor.webp",
+      "target": "public/materials/neon-arena/img/lab1/10-game-scene-editor.webp",
+      "sha256": "d812787603a61aa7fbdecc4045667eb8bfa02e8566e100ba768b87adda5804bd",
+      "bytes": 143988
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/11-running-game.webp",
+      "target": "public/materials/neon-arena/img/lab1/11-running-game.webp",
+      "sha256": "d51e21c04661c0aadc6f920211236f70f936c636c103e915c33929d9b9e67521",
+      "bytes": 48652
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/schema-01-scene-node.webp",
+      "target": "public/materials/neon-arena/img/lab1/schema-01-scene-node.webp",
+      "sha256": "77950b2b3378630299a99174eda64b3a737414c772c5a32ce8890197dca6c26e",
+      "bytes": 147276
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/schema-02-coordinate-system.webp",
+      "target": "public/materials/neon-arena/img/lab1/schema-02-coordinate-system.webp",
+      "sha256": "8583c731e6c80ecc4862094bdda36f87fab47c1ea6757b464b3a34b2b34c06dc",
+      "bytes": 155084
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/schema-03-input-action.webp",
+      "target": "public/materials/neon-arena/img/lab1/schema-03-input-action.webp",
+      "sha256": "af9766ea4943ca4591ca95f366fb55a880d34982a9993a6576bbf022e6f32182",
+      "bytes": 205730
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/schema-04-velocity-delta.webp",
+      "target": "public/materials/neon-arena/img/lab1/schema-04-velocity-delta.webp",
+      "sha256": "2bc2115ac629afe84d08161933aa700ab4d3815f19c4213dd309fe61038abdb6",
+      "bytes": 184882
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/schema-05-get-vector.webp",
+      "target": "public/materials/neon-arena/img/lab1/schema-05-get-vector.webp",
+      "sha256": "53ebc18b148c136c60e63ce0187a77e5e1e50592159d902eec08adc532a11e93",
+      "bytes": 217092
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/schema-06-movement-flow.webp",
+      "target": "public/materials/neon-arena/img/lab1/schema-06-movement-flow.webp",
+      "sha256": "ca4b0d8b48405b2a3a2f68e656097118aba406cb3ea9df8ca51a211a08e31a50",
+      "bytes": 152278
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/schema-07-screen-bounds.webp",
+      "target": "public/materials/neon-arena/img/lab1/schema-07-screen-bounds.webp",
+      "sha256": "d216ab4a00ff8aa0c614ba7e15b42200c05cfa678569f9952d667d60807d08f1",
+      "bytes": 152466
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab1/schema-08-scene-instance.webp",
+      "target": "public/materials/neon-arena/img/lab1/schema-08-scene-instance.webp",
+      "sha256": "17fffa51ebff1f66010b65e4e3a544a55a3c7abdf8925c6a0e2c15427b8e3fdc",
+      "bytes": 161838
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/01-pause-input-map.webp",
+      "target": "public/materials/neon-arena/img/lab10/01-pause-input-map.webp",
+      "sha256": "0f3faaea28194411f766563d7e5edd0c01ecc7d46caa0c40e997f5f7ad03a9ef",
+      "bytes": 65058
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/02-main-menu-scene.webp",
+      "target": "public/materials/neon-arena/img/lab10/02-main-menu-scene.webp",
+      "sha256": "6674d6c545d9da5a5b046844340df6b5c857d6ee5b620de23178366cffd043e8",
+      "bytes": 95808
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/03-main-scene-setting.webp",
+      "target": "public/materials/neon-arena/img/lab10/03-main-scene-setting.webp",
+      "sha256": "710bb8b76ede0b9f3d1968fac929646e49fc9b57ca182bab58c3f0f770be32e5",
+      "bytes": 81812
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/04-pause-process-mode.webp",
+      "target": "public/materials/neon-arena/img/lab10/04-pause-process-mode.webp",
+      "sha256": "179dde2c29d4c6527e1929e5e6d2a2e6f4ed1e9bfc72435b4ff00205afdac4e4",
+      "bytes": 83954
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/05-pause-menu-scene.webp",
+      "target": "public/materials/neon-arena/img/lab10/05-pause-menu-scene.webp",
+      "sha256": "0d2af722a3aa55fc0510640530c07ea558b0c11c0ea2ce44f79eef8a9532f0c6",
+      "bytes": 95748
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/06-game-over-scene.webp",
+      "target": "public/materials/neon-arena/img/lab10/06-game-over-scene.webp",
+      "sha256": "c9cc280ade66acece487a9d7dd8502f5f25a4068f488984818e9a33d9d9bb2cf",
+      "bytes": 88614
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/07-game-manager-links.webp",
+      "target": "public/materials/neon-arena/img/lab10/07-game-manager-links.webp",
+      "sha256": "cfe1000ae2d9e7bdffdef736ee9f2cebd076a028a239c52f904a57d2eeac758d",
+      "bytes": 95972
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/08-pause-manager-reference.webp",
+      "target": "public/materials/neon-arena/img/lab10/08-pause-manager-reference.webp",
+      "sha256": "b60d171e85276f1e1933e22bc306024c7cdd3938840cb7831ed48b7607208f88",
+      "bytes": 97126
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/schema-01-scenes-and-overlays.webp",
+      "target": "public/materials/neon-arena/img/lab10/schema-01-scenes-and-overlays.webp",
+      "sha256": "abfc8d3b70908fb2d25f9bacabfe2e322ed06437550aac2f9f72fd1c426d5b42",
+      "bytes": 150422
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/schema-02-process-modes.webp",
+      "target": "public/materials/neon-arena/img/lab10/schema-02-process-modes.webp",
+      "sha256": "e7224fe923e34af81ecbbb263f24feb7c073c65611d7a22fd1e8460d6e4d40bf",
+      "bytes": 257244
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/schema-03-menu-commands.webp",
+      "target": "public/materials/neon-arena/img/lab10/schema-03-menu-commands.webp",
+      "sha256": "5e9aa7f17ce52cfd5a25d407cd915963c20fededd88786f906fb65e41ad99281",
+      "bytes": 152650
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/schema-04-death-before-pause.webp",
+      "target": "public/materials/neon-arena/img/lab10/schema-04-death-before-pause.webp",
+      "sha256": "c29e3c4343bd7083a2334e15be498f0f41746920fa1e2c32870be8f0f9668c44",
+      "bytes": 184284
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/schema-05-reset-and-transition.webp",
+      "target": "public/materials/neon-arena/img/lab10/schema-05-reset-and-transition.webp",
+      "sha256": "07cb8697e5e5e3eb48cd20403bd067b54c4b2af62f553903fdd15dfbec1f1a41",
+      "bytes": 237344
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab10/schema-06-pause-versus-game-over.webp",
+      "target": "public/materials/neon-arena/img/lab10/schema-06-pause-versus-game-over.webp",
+      "sha256": "c07cdf0ea9fc8504f0f11aab8ed7dc73a5159b4a2d385554219815aacde129a3",
+      "bytes": 187940
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/01-shoot-audio-polyphony.webp",
+      "target": "public/materials/neon-arena/img/lab11/01-shoot-audio-polyphony.webp",
+      "sha256": "aa3d12039de29e999699075582389d58ec471b9a97e7ab8e84a483436d0066cb",
+      "bytes": 81530
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/02-player-audio-tree.webp",
+      "target": "public/materials/neon-arena/img/lab11/02-player-audio-tree.webp",
+      "sha256": "9d853f9aeda941d3f0cd2d4dc3479cd3fb3cedcd72bc711f6791988d33fe28ab",
+      "bytes": 81316
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/03-enemy-death-audio.webp",
+      "target": "public/materials/neon-arena/img/lab11/03-enemy-death-audio.webp",
+      "sha256": "5a752ba74b3e0bbe06956cdf7ad0721dc3e93b22590a069aed092c2e32521aa3",
+      "bytes": 100274
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/04-impact-sprite-frames.webp",
+      "target": "public/materials/neon-arena/img/lab11/04-impact-sprite-frames.webp",
+      "sha256": "cfe2918d3cec2ab31b0709cfe86d1e820b468a78ca75141c59bbd0ee7a3e2c03",
+      "bytes": 95034
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/05-impact-hit-audio.webp",
+      "target": "public/materials/neon-arena/img/lab11/05-impact-hit-audio.webp",
+      "sha256": "7f61fb19063736d7e614be648beb67b899deefa9326ef3d9072a70478c6dfacd",
+      "bytes": 94530
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/06-projectile-impact-reference.webp",
+      "target": "public/materials/neon-arena/img/lab11/06-projectile-impact-reference.webp",
+      "sha256": "a07266f62905016221efcc442e4574db4c991b845c79d4a6865a1730a2d5df12",
+      "bytes": 91744
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/07-background-music-settings.webp",
+      "target": "public/materials/neon-arena/img/lab11/07-background-music-settings.webp",
+      "sha256": "a88658798040f78517a78a674b048bbc54ca843a60dca279f71b4845a754c2cf",
+      "bytes": 110032
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/07b-import-loop.webp",
+      "target": "public/materials/neon-arena/img/lab11/07b-import-loop.webp",
+      "sha256": "2335891f0952e9cf294353a80e4a9b607ea1d46cfcaf17bdacf085acc10311c0",
+      "bytes": 117280
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/schema-01-audio-position.webp",
+      "target": "public/materials/neon-arena/img/lab11/schema-01-audio-position.webp",
+      "sha256": "995cfd51dac03b03c5f619407514ce82cda7430dcd18fc1daca8dd5a9c1c63ed",
+      "bytes": 241990
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/schema-02-damage-feedback-gate.webp",
+      "target": "public/materials/neon-arena/img/lab11/schema-02-damage-feedback-gate.webp",
+      "sha256": "64865e2a5d7ecc353b524c778a6d8bed3aeb78cc835f5fe2a6def4bb4687898a",
+      "bytes": 221984
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/schema-03-pickup-sound-owner.webp",
+      "target": "public/materials/neon-arena/img/lab11/schema-03-pickup-sound-owner.webp",
+      "sha256": "57c2dc903732eb7ade09265b10222c53e5d654408079939a6819005c46771708",
+      "bytes": 197924
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/schema-04-enemy-death-audio-lifetime.webp",
+      "target": "public/materials/neon-arena/img/lab11/schema-04-enemy-death-audio-lifetime.webp",
+      "sha256": "5a4d107874a3423e4fa22af1bd0f7b4e3b6863f9a149db8b954ab40f8cd6eab2",
+      "bytes": 130974
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/schema-05-impact-two-completions.webp",
+      "target": "public/materials/neon-arena/img/lab11/schema-05-impact-two-completions.webp",
+      "sha256": "c577b4d4938a42513db2e296d9c35861e5ac3edaa6dd799469c5839585b3a66c",
+      "bytes": 217752
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/schema-06-position-before-ready.webp",
+      "target": "public/materials/neon-arena/img/lab11/schema-06-position-before-ready.webp",
+      "sha256": "c83df5db11b0e252a6bccd450588e43b4bf94af077747149c6f013e76acd5226",
+      "bytes": 252460
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab11/schema-07-damage-flash-tween.webp",
+      "target": "public/materials/neon-arena/img/lab11/schema-07-damage-flash-tween.webp",
+      "sha256": "5583a98b1071c963816933294651baa21a72fe9b611be5640eebb34a36a1ddd1",
+      "bytes": 145066
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/01-master-audio-bus.webp",
+      "target": "public/materials/neon-arena/img/lab12/01-master-audio-bus.webp",
+      "sha256": "4faf8053293d6e40041e41556721068218b82240121ecb2da4ab38e4063f9a52",
+      "bytes": 110222
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/02-volume-slider-range.webp",
+      "target": "public/materials/neon-arena/img/lab12/02-volume-slider-range.webp",
+      "sha256": "016a09d6698522531964a2b97be2fe9c61694cb070b8f0fef03120d3d49995a3",
+      "bytes": 111326
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/03-main-menu-save-ui.webp",
+      "target": "public/materials/neon-arena/img/lab12/03-main-menu-save-ui.webp",
+      "sha256": "efa477b29e59452bdee0121aab1dbb92322dbc73d75bbfc466f1d4e512167421",
+      "bytes": 125036
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/04-game-over-new-record.webp",
+      "target": "public/materials/neon-arena/img/lab12/04-game-over-new-record.webp",
+      "sha256": "a0473a2b3a9a3675aeae6791941ed3d8a278b7b277e067ccb9e4702396187de9",
+      "bytes": 30134
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/05-export-templates.webp",
+      "target": "public/materials/neon-arena/img/lab12/05-export-templates.webp",
+      "sha256": "ad7684f6df83b1e9c2133316cb5c60f0ae9cc2a79a4e9c005915e2589dc5c9a2",
+      "bytes": 111594
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/06-windows-export-preset.webp",
+      "target": "public/materials/neon-arena/img/lab12/06-windows-export-preset.webp",
+      "sha256": "71d9960287955ccc5a71f18fc5049093274cc8fb2a32a366259e42a856bf1ac8",
+      "bytes": 116338
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/07-release-export-dialog.webp",
+      "target": "public/materials/neon-arena/img/lab12/07-release-export-dialog.webp",
+      "sha256": "bd8673d0d071b8e40cbe51a65f9c48d55f9dad36651701db8511cb67ea601bb9",
+      "bytes": 98758
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/08-exported-build-restored-data.webp",
+      "target": "public/materials/neon-arena/img/lab12/08-exported-build-restored-data.webp",
+      "sha256": "952724e816d35fc6025a441e921d7236448c0c8637c21b39e76b194e8b1b220e",
+      "bytes": 13944
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/schema-01-session-and-save.webp",
+      "target": "public/materials/neon-arena/img/lab12/schema-01-session-and-save.webp",
+      "sha256": "517071d8a289dad6dc5546f344d55646121bebe7d3b5f7e00db3b96c5d8d7588",
+      "bytes": 192492
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/schema-02-config-structure.webp",
+      "target": "public/materials/neon-arena/img/lab12/schema-02-config-structure.webp",
+      "sha256": "caa6936327ba483dc2587971f7dbab45eb6d583f186f65975d8d011f5b872ae7",
+      "bytes": 156030
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/schema-03-load-defaults.webp",
+      "target": "public/materials/neon-arena/img/lab12/schema-03-load-defaults.webp",
+      "sha256": "e28b5ed835a742f07b0603c2c5f436ab060382cf409193ed9e2d72c02e010dd5",
+      "bytes": 210644
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/schema-04-high-score-comparison.webp",
+      "target": "public/materials/neon-arena/img/lab12/schema-04-high-score-comparison.webp",
+      "sha256": "b437159f35e1182e6ffb6a9c5651141252a7d2fe333281612ee39467d311601e",
+      "bytes": 180764
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/schema-05-slider-load-and-change.webp",
+      "target": "public/materials/neon-arena/img/lab12/schema-05-slider-load-and-change.webp",
+      "sha256": "2a4bc2c767b6f90e77d41e69e3699cbff06e4591aaa013ac16829e90f9339eaf",
+      "bytes": 225706
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/schema-06-small-balance-change.webp",
+      "target": "public/materials/neon-arena/img/lab12/schema-06-small-balance-change.webp",
+      "sha256": "4fb0699e6220017f1afab8cb728f5655545ef60c2e02be3cd89653d945335667",
+      "bytes": 188226
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/schema-07-build-package.webp",
+      "target": "public/materials/neon-arena/img/lab12/schema-07-build-package.webp",
+      "sha256": "8f0724de629dedcbb9e246c2eb82b3d075a32efd66be7d0a7b240bdd64e2070b",
+      "bytes": 248994
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab12/schema-08-export-save-test.webp",
+      "target": "public/materials/neon-arena/img/lab12/schema-08-export-save-test.webp",
+      "sha256": "6766c1a759b51b6e992ae01c10649c9b8348242fcbeeb211072c36fbeea4ee58",
+      "bytes": 215116
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/01-enemy-runtime-group.webp",
+      "target": "public/materials/neon-arena/img/lab13/01-enemy-runtime-group.webp",
+      "sha256": "7c563a91979ded6c1abe2a0407095b244e4a6ccf083c5bdf99a18ce8a924a8a6",
+      "bytes": 135978
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/02-virtual-joystick-settings.webp",
+      "target": "public/materials/neon-arena/img/lab13/02-virtual-joystick-settings.webp",
+      "sha256": "575e8dfef6de7570cebf803f61a8a4d6cb8aea18b6fcbc36b4b0743005516576",
+      "bytes": 106778
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/03-fire-touchscreen-button.webp",
+      "target": "public/materials/neon-arena/img/lab13/03-fire-touchscreen-button.webp",
+      "sha256": "b56c280e1c10028424f06691714c4898933d25cd3c49c374d6d1563e3ca7a2d2",
+      "bytes": 98762
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/04-mobile-controls-layout.webp",
+      "target": "public/materials/neon-arena/img/lab13/04-mobile-controls-layout.webp",
+      "sha256": "275133a93b7986dd1a1d1f09e165bd838858187473afb167afc151f1fb2e68ca",
+      "bytes": 63136
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/05-mobile-controls-manager-link.webp",
+      "target": "public/materials/neon-arena/img/lab13/05-mobile-controls-manager-link.webp",
+      "sha256": "4e354b289dda48f20bb87ff7044773b3ff1d3d89f381da0981fddedd271da6a3",
+      "bytes": 98762
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/06-landscape-setting.webp",
+      "target": "public/materials/neon-arena/img/lab13/06-landscape-setting.webp",
+      "sha256": "27761a40088e97962311b9034b43c91176f7df9221845742f0b00e276ec8f6d5",
+      "bytes": 127358
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/07-android-sdk-paths.webp",
+      "target": "public/materials/neon-arena/img/lab13/07-android-sdk-paths.webp",
+      "sha256": "526a183a684db29f30964c32d2eddd79080e46c40cb8f47305e3245be1b08607",
+      "bytes": 136860
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/08-android-apk-preset.webp",
+      "target": "public/materials/neon-arena/img/lab13/08-android-apk-preset.webp",
+      "sha256": "f2f7735ec23043fa39e08a6da6bb652d0351792a9f00ab0731f911878e70145d",
+      "bytes": 121974
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/09-android-game-runtime.webp",
+      "target": "public/materials/neon-arena/img/lab13/09-android-game-runtime.webp",
+      "sha256": "fd26f0a555d6e9c45458b4663e1426f17924c56b32bdd726bb7e02d162f19410",
+      "bytes": 121670
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/schema-01-shared-input-actions.webp",
+      "target": "public/materials/neon-arena/img/lab13/schema-01-shared-input-actions.webp",
+      "sha256": "7b6e55532e44e0a6542169d88b7c83fd86f05d6d6c9926d69733c15236f3dfe7",
+      "bytes": 271470
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/schema-02-nearest-living-enemy.webp",
+      "target": "public/materials/neon-arena/img/lab13/schema-02-nearest-living-enemy.webp",
+      "sha256": "fa8afe34c827357ac2d3889058a9bf58e9868711168fe4041675d715777f5809",
+      "bytes": 386072
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/schema-03-no-target-no-projectile.webp",
+      "target": "public/materials/neon-arena/img/lab13/schema-03-no-target-no-projectile.webp",
+      "sha256": "579ceebd29ecba12b9442f722eeb33563a4f1a32d22ada973849fb02ea123da4",
+      "bytes": 295148
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/schema-04-control-anchor-node2d.webp",
+      "target": "public/materials/neon-arena/img/lab13/schema-04-control-anchor-node2d.webp",
+      "sha256": "dff6d7319bf351f5691ee05253e7946f84a79fb8526507c1b1f34f30d6b98ba4",
+      "bytes": 280452
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/schema-05-fire-held-action.webp",
+      "target": "public/materials/neon-arena/img/lab13/schema-05-fire-held-action.webp",
+      "sha256": "188898148a5cf28f4ef70f1610c9ba8c38ea7b0e68a7e0b6d01f83a1e00803df",
+      "bytes": 174800
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/schema-06-pause-input-release.webp",
+      "target": "public/materials/neon-arena/img/lab13/schema-06-pause-input-release.webp",
+      "sha256": "8b9e661fa34e07c1a123841fcdd500f5832fdd3dc7f73d79f271ed6416135509",
+      "bytes": 234622
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/schema-07-desktop-test-versus-phone.webp",
+      "target": "public/materials/neon-arena/img/lab13/schema-07-desktop-test-versus-phone.webp",
+      "sha256": "4feb05878dc6b304a90b8d57e476619ffe26f0137c5d8a3700bcccd228e341fb",
+      "bytes": 281376
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab13/schema-08-android-build-and-test.webp",
+      "target": "public/materials/neon-arena/img/lab13/schema-08-android-build-and-test.webp",
+      "sha256": "4c9be4063a63837d5bf0ba146856446eb02792ded41426c80fe1bc43244d72c0",
+      "bytes": 235040
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/01-projectile-scene.webp",
+      "target": "public/materials/neon-arena/img/lab2/01-projectile-scene.webp",
+      "sha256": "10e81d593dd065dcbdc60fba40b152fdf7b06fa09a04323b02e5b9aaea6cb0c2",
+      "bytes": 91296
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/02-attach-projectile-script.webp",
+      "target": "public/materials/neon-arena/img/lab2/02-attach-projectile-script.webp",
+      "sha256": "70183af6d904ccc0fe6f3ec5ddf0cb060afd04cff49ab484a8c352a79cfb7943",
+      "bytes": 104388
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/03-fire-input-map.webp",
+      "target": "public/materials/neon-arena/img/lab2/03-fire-input-map.webp",
+      "sha256": "97123bb30fcfb6ffe2c77bfd68e2e656c0a1da77f43d83021ab4f373bf5e0259",
+      "bytes": 122692
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/04-player-projectile-export.webp",
+      "target": "public/materials/neon-arena/img/lab2/04-player-projectile-export.webp",
+      "sha256": "2620f54918492338d490263866e902aa35558b88c606580a8dbb37d52d78e876",
+      "bytes": 100248
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/05-running-shooting.webp",
+      "target": "public/materials/neon-arena/img/lab2/05-running-shooting.webp",
+      "sha256": "aaae5ca4deecb7676b6f979db520eb67d8c4194dc08a5c6c4b72c28ae65ce2d9",
+      "bytes": 47476
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-01-packed-scene-instance.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-01-packed-scene-instance.webp",
+      "sha256": "93b4793f239d12c4231df183fe32ffcd16c706790c36547fd682878b3b3ea8a8",
+      "bytes": 158642
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-02-export-null.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-02-export-null.webp",
+      "sha256": "0803b21c78c590355211dbd7b13e7ec18411a267298107d6d264470f53b23378",
+      "bytes": 193282
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-03-direction-rotation.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-03-direction-rotation.webp",
+      "sha256": "6298048654268f7026c0d9022d4b4fa1469976b28e457d7aa9d4789619998df7",
+      "bytes": 168282
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-04-delta-displacement.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-04-delta-displacement.webp",
+      "sha256": "3e01abb587b308da8ad3ed1ed658c81692d6055238ae6c0f0867635f8c28d87d",
+      "bytes": 226030
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-05-local-global-position.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-05-local-global-position.webp",
+      "sha256": "fdbf7cf5b3c12333a7ecd8f78aa16ecf67427a9d7cd02cdbd427a3feeb628f6c",
+      "bytes": 168092
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-06-aim-direction.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-06-aim-direction.webp",
+      "sha256": "02ed5488a868e041082de3b4b4e01c08eb71e0024e2d9269c14370646f076881",
+      "bytes": 156690
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-07-projectile-parent.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-07-projectile-parent.webp",
+      "sha256": "0cee4c418ebf29e6e2a0c29d4234af2e212adf92271b25366efce3058b7d81a5",
+      "bytes": 220446
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-08-shoot-sequence.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-08-shoot-sequence.webp",
+      "sha256": "b9ef95f0cc41d9562221668121efe1d46b87e351d9533774af43c2dfa002f0a4",
+      "bytes": 210328
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-09-input-press-timeline.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-09-input-press-timeline.webp",
+      "sha256": "4826bc24f5505c2d106f8adfafbfa13115e91f7e7b2d9285e7e13d01bcdb8e3f",
+      "bytes": 174724
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab2/schema-10-projectile-lifetime.webp",
+      "target": "public/materials/neon-arena/img/lab2/schema-10-projectile-lifetime.webp",
+      "sha256": "28244116ecfa3a9584e85a2748c324d423296224dba2acdd1629ba9ecdeab334",
+      "bytes": 260876
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/01-enemy-circle-shape.webp",
+      "target": "public/materials/neon-arena/img/lab3/01-enemy-circle-shape.webp",
+      "sha256": "cb6e0ea89f6311da0190b255696d40fce6b8bf14ecd6ffb4c70a3210e5bef951",
+      "bytes": 91882
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/02-physics-layer-names.webp",
+      "target": "public/materials/neon-arena/img/lab3/02-physics-layer-names.webp",
+      "sha256": "4a7e065304782a335332950c4f926caa266d8c9595df1c6fcd666050d576e124",
+      "bytes": 109330
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/03-player-layer-mask.webp",
+      "target": "public/materials/neon-arena/img/lab3/03-player-layer-mask.webp",
+      "sha256": "164cafa0d900021b0fcf447ffb03f295f5834b522abd967d06f14240ca9d8d7c",
+      "bytes": 92304
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/04-enemy-layer-mask.webp",
+      "target": "public/materials/neon-arena/img/lab3/04-enemy-layer-mask.webp",
+      "sha256": "69807dc27187b2bb69363c0bc4dd84c3e1f16175bf6ee118d2a58b8699e04014",
+      "bytes": 99822
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/05-projectile-layer-mask-monitoring.webp",
+      "target": "public/materials/neon-arena/img/lab3/05-projectile-layer-mask-monitoring.webp",
+      "sha256": "b7a9649c1ee06bced18c9ba78cc30110da23b28a49ae32d8e2c50aca504271a0",
+      "bytes": 94634
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/06-enemy-target-player.webp",
+      "target": "public/materials/neon-arena/img/lab3/06-enemy-target-player.webp",
+      "sha256": "4f4baf73f1984827e35d3be3398b6393d0d13f6289bacbadf65778eb7ba1ff9e",
+      "bytes": 150678
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/07-visible-collision-shapes-menu.webp",
+      "target": "public/materials/neon-arena/img/lab3/07-visible-collision-shapes-menu.webp",
+      "sha256": "260e899bf8d7d3ac07908c536ee458ba3f2536dfba4ab1511d7407e93e1e3f44",
+      "bytes": 160620
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/08-runtime-collision-shapes.webp",
+      "target": "public/materials/neon-arena/img/lab3/08-runtime-collision-shapes.webp",
+      "sha256": "329a0c86ce26f8b1bbedef10385c3d368769c19c8c6c5200d5f8732784d2b2a6",
+      "bytes": 50006
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/09-four-enemies-game.webp",
+      "target": "public/materials/neon-arena/img/lab3/09-four-enemies-game.webp",
+      "sha256": "3aa1a5170ff30d71f47ac83ae3603d341505426713c29efd917af51c1b297212",
+      "bytes": 49326
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/schema-01-chase-direction.webp",
+      "target": "public/materials/neon-arena/img/lab3/schema-01-chase-direction.webp",
+      "sha256": "59982663d28977a25aad35c936456d6de85b495b815952ff23e9f835ccaa04e8",
+      "bytes": 209196
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/schema-02-layer-mask.webp",
+      "target": "public/materials/neon-arena/img/lab3/schema-02-layer-mask.webp",
+      "sha256": "359e99aab47e1714a6855aa416d11826c6d0a97232a8ef8fb7eab9ad26bb06eb",
+      "bytes": 240966
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/schema-03-body-entered-event.webp",
+      "target": "public/materials/neon-arena/img/lab3/schema-03-body-entered-event.webp",
+      "sha256": "65562af3526221694821a1eccc68adbc3e1d99648af2518cf6020392a4ce02b3",
+      "bytes": 135488
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/schema-04-target-guard.webp",
+      "target": "public/materials/neon-arena/img/lab3/schema-04-target-guard.webp",
+      "sha256": "17b82ce6c4c7a3a6e0a8c218b811f062c2bba8df6f48a349db65d8a775eac637",
+      "bytes": 248768
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/schema-05-ready-subscription.webp",
+      "target": "public/materials/neon-arena/img/lab3/schema-05-ready-subscription.webp",
+      "sha256": "f0c5bd2e57dc4a411412def8ba7406ef3a3f5d09f57c11829dab30f439712e85",
+      "bytes": 275036
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/schema-06-hit-deletion-guard.webp",
+      "target": "public/materials/neon-arena/img/lab3/schema-06-hit-deletion-guard.webp",
+      "sha256": "51f4a40648251be3e91a70af4f7348867894b3f515598ef7e2f42b125688552d",
+      "bytes": 325658
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/schema-07-mask-experiment.webp",
+      "target": "public/materials/neon-arena/img/lab3/schema-07-mask-experiment.webp",
+      "sha256": "830db8a1d25c72874d79956602a84a1893037b314acbef2d19a89fdf468bfe72",
+      "bytes": 380956
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/schema-08-shared-target.webp",
+      "target": "public/materials/neon-arena/img/lab3/schema-08-shared-target.webp",
+      "sha256": "98387c88334fbf8d2df717a7650dc5e6bf4938c19ba9250de4dc6fcb09f9a6d2",
+      "bytes": 352268
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab3/schema-09-script-responsibilities.webp",
+      "target": "public/materials/neon-arena/img/lab3/schema-09-script-responsibilities.webp",
+      "sha256": "8a5fcb5dca2fa3d85261a5e0a59881fc827703ce008e86d300efe024ade776e6",
+      "bytes": 351816
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/01-health-component-node.webp",
+      "target": "public/materials/neon-arena/img/lab4/01-health-component-node.webp",
+      "sha256": "9956e9723ad73915035aaf73301875e50c43e5484fbbecab7184e9ef7d4a09cd",
+      "bytes": 62844
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/02-enemy-health-component.webp",
+      "target": "public/materials/neon-arena/img/lab4/02-enemy-health-component.webp",
+      "sha256": "705006cfc68e2387a97b743c6d0de204bc8f558460858b4264ec89b5a898c623",
+      "bytes": 72742
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/03-projectile-damage.webp",
+      "target": "public/materials/neon-arena/img/lab4/03-projectile-damage.webp",
+      "sha256": "7c0b3b2b4b3a1f6564708e8bcfe2434b9f0fd511dc2cdf0ebf912c4591997786",
+      "bytes": 99078
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/04-enemy-health-output.webp",
+      "target": "public/materials/neon-arena/img/lab4/04-enemy-health-output.webp",
+      "sha256": "c728865af89c4b2863a826cdd6dc2b4e02e4a4b4a31f9cdf221761e679e1b10c",
+      "bytes": 168038
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/05-player-health-component.webp",
+      "target": "public/materials/neon-arena/img/lab4/05-player-health-component.webp",
+      "sha256": "2b8efd3aa65ac99711f738afdb77c9773be05537241a7323f6fb90e17641d82a",
+      "bytes": 74900
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/06-enemy-contact-damage.webp",
+      "target": "public/materials/neon-arena/img/lab4/06-enemy-contact-damage.webp",
+      "sha256": "9c861941c3436d8fa32772ddcc3bf0e5826f866050bcb0276f6b3b3790400da8",
+      "bytes": 158482
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/07-player-defeated-output.webp",
+      "target": "public/materials/neon-arena/img/lab4/07-player-defeated-output.webp",
+      "sha256": "7e0d0c3f77a4d5a184ae0b633cb9dec9a894a97e2e93267b8e61a36b80b624bb",
+      "bytes": 170396
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-01-health-composition.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-01-health-composition.webp",
+      "sha256": "20d3ae47b5595b2b52cdf980ba1dca3a806e1fe0f7ae5bef315749a6f79fb731",
+      "bytes": 223310
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-02-health-events.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-02-health-events.webp",
+      "sha256": "35a19018fa0d13a2a3ca7977c0cb8162d09e529e96a664b04617fc547f4c1935",
+      "bytes": 185436
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-03-current-max-health.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-03-current-max-health.webp",
+      "sha256": "8d8a866f1b2caf4dd3e58cb0074e45c4f3aa99deae575503fe8a2823bce2e1ae",
+      "bytes": 160478
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-04-take-damage-flow.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-04-take-damage-flow.webp",
+      "sha256": "383d43e0ad34e777dc3b2197b8af212b22b440ce3f08ac398265599450b24bc6",
+      "bytes": 204226
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-05-get-node-component.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-05-get-node-component.webp",
+      "sha256": "ec788e3cea0c4ea2bfd006caec5bf64778a286a45bb3e04228ff0534b47ac544",
+      "bytes": 170118
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-06-three-hits.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-06-three-hits.webp",
+      "sha256": "cd91432bdf27f2417b656904f50dbd579e1ba783baf4f7c49b1d5c4310e4a492",
+      "bytes": 208768
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-07-player-defeated.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-07-player-defeated.webp",
+      "sha256": "080b99c359821e71cf0a44ed60cb51c02ced6581dedea5f7e71fcbea7fd8d720",
+      "bytes": 198578
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-08-slide-collision-data.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-08-slide-collision-data.webp",
+      "sha256": "380bf71027329281ed3a6cb8453c8ccf2ac2e6b417c496ab535b827bf99f17fd",
+      "bytes": 184370
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-09-contact-cooldown.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-09-contact-cooldown.webp",
+      "sha256": "97955e3e471d2fa75e6285238e437aff0c93a28fe7b1f399823f3f23e1576a97",
+      "bytes": 268032
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab4/schema-10-independent-instances.webp",
+      "target": "public/materials/neon-arena/img/lab4/schema-10-independent-instances.webp",
+      "sha256": "1ee148b5d6bffc1b23309368465fc9bc40366e2bdf39e8aed6f9d2d08b97ade3",
+      "bytes": 199576
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/01-player-spriteframes-resource.webp",
+      "target": "public/materials/neon-arena/img/lab5/01-player-spriteframes-resource.webp",
+      "sha256": "0657591c7a236a580062f685ad79f449e91e2a37bd7fa3742e40d93a7f78a0ef",
+      "bytes": 83914
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/02-import-player-idle-sheet.webp",
+      "target": "public/materials/neon-arena/img/lab5/02-import-player-idle-sheet.webp",
+      "sha256": "60026db3699276a83bee0b17b70eb591a89f8941820f023c2076f974d66acc56",
+      "bytes": 119468
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/03-player-idle-settings.webp",
+      "target": "public/materials/neon-arena/img/lab5/03-player-idle-settings.webp",
+      "sha256": "d572147f0c486ed794e1318fcddacb323c607ef2abdd35990f78e37bece8723a",
+      "bytes": 102982
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/04-import-player-move-sheet.webp",
+      "target": "public/materials/neon-arena/img/lab5/04-import-player-move-sheet.webp",
+      "sha256": "1aa0658fa95763143d9a791949c9617cdd4707aea15fb802246227652c5956f1",
+      "bytes": 125084
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/05-player-death-settings.webp",
+      "target": "public/materials/neon-arena/img/lab5/05-player-death-settings.webp",
+      "sha256": "8b30cddfbe13c46a0520b7f8771a6ea36be6d2ad79b2d21394a81fcfe2d66149",
+      "bytes": 104946
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/06-enemy-move-settings.webp",
+      "target": "public/materials/neon-arena/img/lab5/06-enemy-move-settings.webp",
+      "sha256": "afaafd464d6fa6476374cc4026001f22cf07c05c5628b6f9086a3afcfc826d9b",
+      "bytes": 104800
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/07-enemy-death-settings.webp",
+      "target": "public/materials/neon-arena/img/lab5/07-enemy-death-settings.webp",
+      "sha256": "7194a698ef9d2090104ef0e6663a55c3c97e802ca83cc8b04d4c93996b5181a0",
+      "bytes": 103300
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/08-runtime-player-facing.webp",
+      "target": "public/materials/neon-arena/img/lab5/08-runtime-player-facing.webp",
+      "sha256": "65a00ded0b345c220c2b4cceeb0f8bfe6a2c9e1d1bd261d084981a1475c49ae0",
+      "bytes": 51032
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/09-runtime-enemy-death.webp",
+      "target": "public/materials/neon-arena/img/lab5/09-runtime-enemy-death.webp",
+      "sha256": "2303db0e82c3257c266a7869be56313115513b51aa8c4c715f805b4227657655",
+      "bytes": 53298
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/schema-01-sprite-sheet-frames.webp",
+      "target": "public/materials/neon-arena/img/lab5/schema-01-sprite-sheet-frames.webp",
+      "sha256": "f185e2d609d01ad74a9f40ee35af2c1a1fe0a7ee52eedd5cf7f451ef9311f0d5",
+      "bytes": 272198
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/schema-02-node-and-resource.webp",
+      "target": "public/materials/neon-arena/img/lab5/schema-02-node-and-resource.webp",
+      "sha256": "db1c9ac5f9e1ce43551378511718bf21715859ee6893b395b54cc8200621cf5c",
+      "bytes": 292530
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/schema-03-loop-and-fps.webp",
+      "target": "public/materials/neon-arena/img/lab5/schema-03-loop-and-fps.webp",
+      "sha256": "83866b7e443e82753a64d7a896b9fe3c1d5ce9a8d44cd7a0b090cd3b2091d2dc",
+      "bytes": 339080
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/schema-04-player-animation-choice.webp",
+      "target": "public/materials/neon-arena/img/lab5/schema-04-player-animation-choice.webp",
+      "sha256": "b6f2d874eac34af3ea3a17fe17ce735ef40a69030944018f1eb03b0d83715f6c",
+      "bytes": 320302
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/schema-05-movement-and-facing.webp",
+      "target": "public/materials/neon-arena/img/lab5/schema-05-movement-and-facing.webp",
+      "sha256": "35e7e4e05f9a31188094a4d14f2e130f47cfe331b13606e801c5adf0cea3ea32",
+      "bytes": 340456
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/schema-06-physics-stop-animation.webp",
+      "target": "public/materials/neon-arena/img/lab5/schema-06-physics-stop-animation.webp",
+      "sha256": "a7bac7518d86e3d5a210b55e55b2587bf59735c4f2026906842f0730ea8512e1",
+      "bytes": 334788
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/schema-07-enemy-death-lifecycle.webp",
+      "target": "public/materials/neon-arena/img/lab5/schema-07-enemy-death-lifecycle.webp",
+      "sha256": "3d1eeddf2486ce415edf1fdbf4839c5b8bab58dde3bbcf599b4e7a3cc56b49ce",
+      "bytes": 336924
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab5/schema-08-independent-playback.webp",
+      "target": "public/materials/neon-arena/img/lab5/schema-08-independent-playback.webp",
+      "sha256": "bbef9e5d79a0d5e350a6742e797146a35329d3f631c1ab976ef8c5988aec5736",
+      "bytes": 287706
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/01-spawner-marker-tree.webp",
+      "target": "public/materials/neon-arena/img/lab6/01-spawner-marker-tree.webp",
+      "sha256": "58cf5ad9a18ef3e4a1f61ed45a026623555b2fa23e688d6140680698459f62fb",
+      "bytes": 85332
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/02-spawn-point-layout.webp",
+      "target": "public/materials/neon-arena/img/lab6/02-spawn-point-layout.webp",
+      "sha256": "aa2b90296c84469aede5114357b5c489a50b6c0bb6f9f00a1957504014402bed",
+      "bytes": 86420
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/03-spawn-timer-settings.webp",
+      "target": "public/materials/neon-arena/img/lab6/03-spawn-timer-settings.webp",
+      "sha256": "b7600cc64be02ef83cb698d529e83bbbd52740da0d58912b29edfebc2167e5a6",
+      "bytes": 80476
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/04-spawner-game-inspector.webp",
+      "target": "public/materials/neon-arena/img/lab6/04-spawner-game-inspector.webp",
+      "sha256": "614ad1184384ed6d4d2560b7a98a6525740ef6b59d57181059830fabbb5e44ee",
+      "bytes": 146178
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/05-wave-transition-output.webp",
+      "target": "public/materials/neon-arena/img/lab6/05-wave-transition-output.webp",
+      "sha256": "17310727a7b9a641b1e0f4d5b2c75d2b79f7f766c3c92714c76962b9b4fcc82f",
+      "bytes": 109674
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/06-runtime-active-wave.webp",
+      "target": "public/materials/neon-arena/img/lab6/06-runtime-active-wave.webp",
+      "sha256": "3f1306a23602a8a6bffa23bd6fc03b505a5bcca188e7ce5ab5806e1f89524b08",
+      "bytes": 50688
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/07-remote-scene-tree.webp",
+      "target": "public/materials/neon-arena/img/lab6/07-remote-scene-tree.webp",
+      "sha256": "74ef65f1cfd1b29c27536f6096793091eb2ae10f661f4d4b0b896654b5b70392",
+      "bytes": 147570
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/schema-01-spawner-role.webp",
+      "target": "public/materials/neon-arena/img/lab6/schema-01-spawner-role.webp",
+      "sha256": "0f9672d7d1e0cf3fb36648bd7687ee44c9d8d008121ae5763e94bf012ae99240",
+      "bytes": 146502
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/schema-02-timer-timeout.webp",
+      "target": "public/materials/neon-arena/img/lab6/schema-02-timer-timeout.webp",
+      "sha256": "12811fd801a5644ca5a91fd2d7bb2d6ead04523f96382455afe1e30c0bb7f9d3",
+      "bytes": 220696
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/schema-03-wave-growth.webp",
+      "target": "public/materials/neon-arena/img/lab6/schema-03-wave-growth.webp",
+      "sha256": "0f7a11212aed352bad600f3739dca731de5539bccc4c1a413612389dfa94a506",
+      "bytes": 209080
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/schema-04-two-counters.webp",
+      "target": "public/materials/neon-arena/img/lab6/schema-04-two-counters.webp",
+      "sha256": "dc7f59e76a4b5c25f9431f36df6834ae5097032539ad4d2775a1f70ce14f26be",
+      "bytes": 257070
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/schema-05-spawn-enemy-sequence.webp",
+      "target": "public/materials/neon-arena/img/lab6/schema-05-spawn-enemy-sequence.webp",
+      "sha256": "c7562747e3ac522be2f25aa209598542e80973aca79ff14b806a949b9512a2c7",
+      "bytes": 198546
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/schema-06-random-spawn-index.webp",
+      "target": "public/materials/neon-arena/img/lab6/schema-06-random-spawn-index.webp",
+      "sha256": "29b7326ea505b480b6a96ef7e44dbda4b7e2743d15ed21d689916a11464be88e",
+      "bytes": 222060
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/schema-07-death-tree-exited.webp",
+      "target": "public/materials/neon-arena/img/lab6/schema-07-death-tree-exited.webp",
+      "sha256": "cf5cfa1d5fc0516ac98aac8bab62cf77d30e26f55060edb280707aec97c8ed20",
+      "bytes": 269910
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/schema-08-wave-completion.webp",
+      "target": "public/materials/neon-arena/img/lab6/schema-08-wave-completion.webp",
+      "sha256": "c0d8874bd05831cea26ed24f03507ed20507f17dc65f1aa811eb36267d5dea56",
+      "bytes": 173062
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab6/schema-09-editor-runtime-tree.webp",
+      "target": "public/materials/neon-arena/img/lab6/schema-09-editor-runtime-tree.webp",
+      "sha256": "79f35d6a82c50a3492b7b50db639fcf01935b8661fa2900bfd8e633f5d663e43",
+      "bytes": 174420
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/01-enemy-script-reference.webp",
+      "target": "public/materials/neon-arena/img/lab7/01-enemy-script-reference.webp",
+      "sha256": "f9bcbe3cc60125a8b90ce40ca0d168695edacc6f3ae9b541c08dfbcfce23e4e3",
+      "bytes": 104016
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/02-shape-make-unique.webp",
+      "target": "public/materials/neon-arena/img/lab7/02-shape-make-unique.webp",
+      "sha256": "b2d1e44d2dfbe90b99b9232abae3658c38d306237256becb1ce80eb34d6baa63",
+      "bytes": 104696
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/03-fast-enemy-settings.webp",
+      "target": "public/materials/neon-arena/img/lab7/03-fast-enemy-settings.webp",
+      "sha256": "31ccb505046306f70126978935c2e41b69163237eca42c802ba67ac98df2b03b",
+      "bytes": 103406
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/04-fast-spriteframes.webp",
+      "target": "public/materials/neon-arena/img/lab7/04-fast-spriteframes.webp",
+      "sha256": "8295989de2ab549681c70db862bab4f25e1f847c8b08b0dd59443efac5a3b423",
+      "bytes": 112440
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/05-tank-health.webp",
+      "target": "public/materials/neon-arena/img/lab7/05-tank-health.webp",
+      "sha256": "5385d7621da40b6d7cceb72717ca578aef9efe57fa6f7daba1aece478b50bc31",
+      "bytes": 78586
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/06-enemy-scenes-array.webp",
+      "target": "public/materials/neon-arena/img/lab7/06-enemy-scenes-array.webp",
+      "sha256": "449bb5b73b9b371d95ab0b6dbadf692fd46b3da6356c75633fd2d96c42b56564",
+      "bytes": 154748
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/schema-01-one-class-four-scenes.webp",
+      "target": "public/materials/neon-arena/img/lab7/schema-01-one-class-four-scenes.webp",
+      "sha256": "6e18ac97307d0b8c8143766852f93a9016a853b24cfef5a121f0cbca2e3d0fd0",
+      "bytes": 214082
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/schema-02-scene-resources.webp",
+      "target": "public/materials/neon-arena/img/lab7/schema-02-scene-resources.webp",
+      "sha256": "e81326793a57e2e9374101a12e36762e550e3188ba71d3661301488b851279ad",
+      "bytes": 251046
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/schema-03-variant-comparison.webp",
+      "target": "public/materials/neon-arena/img/lab7/schema-03-variant-comparison.webp",
+      "sha256": "1859c7a4b9e04f91e8712f6f70cabd03e68e1401e30e458c6a3dccc92846ee76",
+      "bytes": 219276
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/schema-04-unlocked-prefix.webp",
+      "target": "public/materials/neon-arena/img/lab7/schema-04-unlocked-prefix.webp",
+      "sha256": "a4393050d4d2e64550b4660168a1d3d8e47d1b07d7388316890d829f503eafaa",
+      "bytes": 253954
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/schema-05-index-limit.webp",
+      "target": "public/materials/neon-arena/img/lab7/schema-05-index-limit.webp",
+      "sha256": "821e63f363534ce54580e80eacd33cae1d89f844936872f9842b9a249a0efa3d",
+      "bytes": 148980
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab7/schema-06-shared-death-pipeline.webp",
+      "target": "public/materials/neon-arena/img/lab7/schema-06-shared-death-pipeline.webp",
+      "sha256": "2e2f9d60653a2c3e10d7600fe1872b56c91c837cd782985c16fca3e83f5a8b1c",
+      "bytes": 203078
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/01-pickup-layer-name.webp",
+      "target": "public/materials/neon-arena/img/lab8/01-pickup-layer-name.webp",
+      "sha256": "691062507df3089c6c2ef0dd4e08c7aa8e95b696cb746156edf993ef17bde4a9",
+      "bytes": 85026
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/02-health-pickup-physics.webp",
+      "target": "public/materials/neon-arena/img/lab8/02-health-pickup-physics.webp",
+      "sha256": "01de1f5a3c7aee997ba3ff8a50138ce9ae4ab19d2f099db6ffb60515b05663ea",
+      "bytes": 95868
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/03-health-test-output.webp",
+      "target": "public/materials/neon-arena/img/lab8/03-health-test-output.webp",
+      "sha256": "b51d676df1c08be420e5df67e868108d74118657c805af4d6d2f06ce7c2e47f1",
+      "bytes": 119616
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/04-rapid-fire-duration.webp",
+      "target": "public/materials/neon-arena/img/lab8/04-rapid-fire-duration.webp",
+      "sha256": "6fd0c8456e7257377b9ef7719e0d7ad258acfa2feaa089c90fdad1eccc0e9753",
+      "bytes": 99246
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/05-pickup-scenes-array.webp",
+      "target": "public/materials/neon-arena/img/lab8/05-pickup-scenes-array.webp",
+      "sha256": "a16aa59566c774827dfa7f91f19241ab65014ce29066ab7afce0f3d583ba99eb",
+      "bytes": 147474
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/06-enemy-drop-chance.webp",
+      "target": "public/materials/neon-arena/img/lab8/06-enemy-drop-chance.webp",
+      "sha256": "6d02361830510ab0a1a04b00286745ac8295a74a68f93d9a6407c8c798d9771c",
+      "bytes": 97858
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/schema-01-pickup-inheritance.webp",
+      "target": "public/materials/neon-arena/img/lab8/schema-01-pickup-inheritance.webp",
+      "sha256": "6a4c850dba4aa6eb798b87261ce4c45d3e6b2eb4e2f61f37620b857935bc8163",
+      "bytes": 263980
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/schema-02-heal-result.webp",
+      "target": "public/materials/neon-arena/img/lab8/schema-02-heal-result.webp",
+      "sha256": "9cf175c99cd5c083c0ec39518faec68cf7a40abcc98f555fef401a7351b9122d",
+      "bytes": 252358
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/schema-03-two-combat-timers.webp",
+      "target": "public/materials/neon-arena/img/lab8/schema-03-two-combat-timers.webp",
+      "sha256": "620d4db8384a91cc00fba7e504436b6dc498dbacdccedf5ff860c875c6efa6b3",
+      "bytes": 164004
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/schema-04-rapid-fire-refresh.webp",
+      "target": "public/materials/neon-arena/img/lab8/schema-04-rapid-fire-refresh.webp",
+      "sha256": "1ed1e732794db8cd387f7c9dddeafb8333a73c02f6ef0439897c27235219e09f",
+      "bytes": 220346
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/schema-05-drop-two-stages.webp",
+      "target": "public/materials/neon-arena/img/lab8/schema-05-drop-two-stages.webp",
+      "sha256": "e38a62ea744575b0e63e38119084eaf3a1b554a78342ebe64f9f739d22a7e153",
+      "bytes": 168968
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/schema-06-drop-list-owner.webp",
+      "target": "public/materials/neon-arena/img/lab8/schema-06-drop-list-owner.webp",
+      "sha256": "d7f4d25ac94bac2018d8aafc22131c7d29a6fa8b32fe7dbad4634ab98dcf802d",
+      "bytes": 190468
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab8/schema-07-reward-lifecycle.webp",
+      "target": "public/materials/neon-arena/img/lab8/schema-07-reward-lifecycle.webp",
+      "sha256": "f806ac335f7e80cb1e6c2be6c08d391cf7e80ad8c06daf0f975da2703d9fe102",
+      "bytes": 155400
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/01-spawner-game-manager.webp",
+      "target": "public/materials/neon-arena/img/lab9/01-spawner-game-manager.webp",
+      "sha256": "0647ffc629b8b8b3b1ffb906ccd44fda87154a66639918939ed7c83ac8682360",
+      "bytes": 147088
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/02-root-full-rect.webp",
+      "target": "public/materials/neon-arena/img/lab9/02-root-full-rect.webp",
+      "sha256": "23a8d298442ae10b045cd0b132ddbbf49872e4b1166c9ae49a8a094aaca262a2",
+      "bytes": 101534
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/03-topbar-anchors-margins.webp",
+      "target": "public/materials/neon-arena/img/lab9/03-topbar-anchors-margins.webp",
+      "sha256": "786e89577ecb9cb373d1f08a2cfb009c95ba138e2f034f7c57171496c0cff982",
+      "bytes": 97794
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/04-health-progressbar.webp",
+      "target": "public/materials/neon-arena/img/lab9/04-health-progressbar.webp",
+      "sha256": "e0ac11a282104da866e8a98ae5e2e43b8c8879a8cc49a9608766cd3c85bb712e",
+      "bytes": 95358
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/05-hud-tree-spacer.webp",
+      "target": "public/materials/neon-arena/img/lab9/05-hud-tree-spacer.webp",
+      "sha256": "00ddcf7e4f11e1b957d93cdfe600ef232228fd0a27932a0ac3558f8950242006",
+      "bytes": 95418
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/06-hud-exported-links.webp",
+      "target": "public/materials/neon-arena/img/lab9/06-hud-exported-links.webp",
+      "sha256": "21959b07a4b7b91bf48f5e36a576ad3323201d5da710b60251742e5ae7327ce6",
+      "bytes": 129172
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/07-runtime-initial-hud.webp",
+      "target": "public/materials/neon-arena/img/lab9/07-runtime-initial-hud.webp",
+      "sha256": "e63b927370f5ce7f8a6a07be059355551bb7da31513f2b6750a9b8f51d00ac42",
+      "bytes": 50490
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/08-runtime-wide-hud.webp",
+      "target": "public/materials/neon-arena/img/lab9/08-runtime-wide-hud.webp",
+      "sha256": "00706e49131f0011aea47768622d27acff831adadf35f84823d3475da9a188f9",
+      "bytes": 49082
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/schema-01-canvas-layers.webp",
+      "target": "public/materials/neon-arena/img/lab9/schema-01-canvas-layers.webp",
+      "sha256": "e63fa0660ef77fcaad3f48ac9dc184aab73c950bcacd2b2ece339f4fb7934185",
+      "bytes": 214916
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/schema-02-score-two-events.webp",
+      "target": "public/materials/neon-arena/img/lab9/schema-02-score-two-events.webp",
+      "sha256": "7608f932c9ac5bf140c5649c29174bd0b26ac171307f6bcba7fe20595171d019",
+      "bytes": 169440
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/schema-03-health-event-relay.webp",
+      "target": "public/materials/neon-arena/img/lab9/schema-03-health-event-relay.webp",
+      "sha256": "0cac235fbf3b79e280e553142424f7380b2a6107464b30c476558902291a1717",
+      "bytes": 219400
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/schema-04-containers-layout.webp",
+      "target": "public/materials/neon-arena/img/lab9/schema-04-containers-layout.webp",
+      "sha256": "9cb605be02eea8a14611fee2d3c71283c6dd2d3557d050b342d8fe0d2887c99d",
+      "bytes": 130250
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/schema-05-initial-snapshot.webp",
+      "target": "public/materials/neon-arena/img/lab9/schema-05-initial-snapshot.webp",
+      "sha256": "977dfc5ceefbb850582e5de6476c2d065d08c54b3dc410660f9e1a178b6466c3",
+      "bytes": 261164
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/img/lab9/schema-06-data-view.webp",
+      "target": "public/materials/neon-arena/img/lab9/schema-06-data-view.webp",
+      "sha256": "e0fe8c82e217639c2a31c4ca2464a38bb5f2637437723647bdd1d6e7a3cf194e",
+      "bytes": 167426
+    }
+  ],
+  "corrections": [
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №2. Стрельба и снаряды.md",
+      "from": "<PlayerProjectile>",
+      "to": "&lt;PlayerProjectile&gt;",
+      "reason": "Тип C# в заголовке экранирован от интерпретации как HTML"
+    },
+    {
+      "source": "Разработка_игровых_приложений_2027/Практическая работа №4. Система здоровья и урона.md",
+      "from": "<T>",
+      "to": "&lt;T&gt;",
+      "reason": "Тип C# в заголовке экранирован от интерпретации как HTML"
+    }
+  ],
+  "downloads": [
+    {
+      "target": "public/materials/neon-arena/downloads/neon-arena-assets.zip",
+      "sha256": "505eba32853178ca5ebe37993d7431d57792ef38863092c0082a4f62129b68ae",
+      "bytes": 3967376
+    }
+  ]
+}

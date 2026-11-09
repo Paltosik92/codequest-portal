@@ -1,0 +1,949 @@
+{
+  "courseId": "mediahub",
+  "sourceRoot": "Осуществление_интеграции_программных_модулей_2027",
+  "cover": "materials/mediahub/img/hero.png",
+  "lessons": [
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №01. Страница одной игры.md",
+      "sourceSha256": "3b62ed041260f117d3b8bf3755e584a2dd997fac81ebffe1053d8c170fd0511b",
+      "target": "src/content/lessons/mediahub/lab-01.md",
+      "sha256": "d0f4dba727f3582fdb8a577610cc679e4cd81169ea866adf6a1768548e76fc49",
+      "number": 1,
+      "slug": "mediahub/lab-01",
+      "removedComments": 0,
+      "codeBlocks": 15,
+      "images": 3,
+      "tables": 4
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №02. Магазин из пяти страниц.md",
+      "sourceSha256": "8b1756807b2e47179ff6c3301a985e3bfeb13ca0e2a808e76e20b61f4675dda1",
+      "target": "src/content/lessons/mediahub/lab-02.md",
+      "sha256": "85941796cd5a86337dcbdf8fd95efa02536c17df50d8dab503925cfa6f42de08",
+      "number": 2,
+      "slug": "mediahub/lab-02",
+      "removedComments": 0,
+      "codeBlocks": 11,
+      "images": 3,
+      "tables": 3
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №03. Фирменная тёмная тема.md",
+      "sourceSha256": "cdc6682ea85a985069c0d40c03fc5ee35fbbde5e23c130ee59f2116f5f5153d0",
+      "target": "src/content/lessons/mediahub/lab-03.md",
+      "sha256": "ba886bbcf92f0709714919dc827bc19a5695dd0da3b6baa1537fb17628e8c8c9",
+      "number": 3,
+      "slug": "mediahub/lab-03",
+      "removedComments": 0,
+      "codeBlocks": 15,
+      "images": 5,
+      "tables": 4
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №04. Сетка витрины.md",
+      "sourceSha256": "370f4728c9d0b8bde4f14eec6d788e2234489165d4fb5df7580f30fccf6f0dff",
+      "target": "src/content/lessons/mediahub/lab-04.md",
+      "sha256": "4f0de3a48fd5d667ce4b7d9efa1742261163138bb6a0198f754bae9b620a7c19",
+      "number": 4,
+      "slug": "mediahub/lab-04",
+      "removedComments": 0,
+      "codeBlocks": 14,
+      "images": 6,
+      "tables": 1
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №05. Ценники и эффекты.md",
+      "sourceSha256": "ea7c4091c7931350ecc40d86fba3a795a81806f80bae18f8f2ad6d3bd855d23c",
+      "target": "src/content/lessons/mediahub/lab-05.md",
+      "sha256": "289d72cc6dc62a2292a83554fb6e2572048e03c130036dc1242822936dce12b1",
+      "number": 5,
+      "slug": "mediahub/lab-05",
+      "removedComments": 0,
+      "codeBlocks": 13,
+      "images": 5,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №06. Адаптивность и релиз витрины.md",
+      "sourceSha256": "27389dfe593cee8a5b690447f079a528e045e1543874f1a59a940f797faa8756",
+      "target": "src/content/lessons/mediahub/lab-06.md",
+      "sha256": "e5beccc52e0b5c4e1e2f0aefff8cb03be7b3f3de8a66e2a6207b4c1632c640ab",
+      "number": 6,
+      "slug": "mediahub/lab-06",
+      "removedComments": 0,
+      "codeBlocks": 13,
+      "images": 7,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №07. Первый TypeScript.md",
+      "sourceSha256": "6f2480e9d19d57d42986910dff4dd374e82053300735a4e77bd23c9344af7216",
+      "target": "src/content/lessons/mediahub/lab-07.md",
+      "sha256": "4528f1b891e2fb117de550a6839f04df97aa778b192dd5758b8558e535ed6ed9",
+      "number": 7,
+      "slug": "mediahub/lab-07",
+      "removedComments": 0,
+      "codeBlocks": 21,
+      "images": 4,
+      "tables": 4
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №08. Игры как данные.md",
+      "sourceSha256": "75e373a4c8cef6781d7d773dee802f9ca0f1156c1dd0e0445c805dd36d1dfad9",
+      "target": "src/content/lessons/mediahub/lab-08.md",
+      "sha256": "03fb51ceb811eeacc3ac7b78ea95cf53ecbedc555296e120d82151d4dbfb5f53",
+      "number": 8,
+      "slug": "mediahub/lab-08",
+      "removedComments": 0,
+      "codeBlocks": 11,
+      "images": 4,
+      "tables": 3
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №09. Поиск, фильтры, сортировка.md",
+      "sourceSha256": "b20af69e5345134027b9a1c13097c08ffe2c97b0a12b6527ed738232ceae6f6e",
+      "target": "src/content/lessons/mediahub/lab-09.md",
+      "sha256": "00caff28fb7441d134c96722a300adf4184b6f99b7963a570cdccea27ee5fb9e",
+      "number": 9,
+      "slug": "mediahub/lab-09",
+      "removedComments": 0,
+      "codeBlocks": 17,
+      "images": 4,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №10. Страница игры по id.md",
+      "sourceSha256": "85f231964c2691974ee53fdc09a449ab5a2bbc8cb382258dff6fefae9fd9940a",
+      "target": "src/content/lessons/mediahub/lab-10.md",
+      "sha256": "76024f561814cbc8569bd96ad05b86e8c9b00880d801bbb25f033f5c15a60cab",
+      "number": 10,
+      "slug": "mediahub/lab-10",
+      "removedComments": 0,
+      "codeBlocks": 17,
+      "images": 4,
+      "tables": 1
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №11. Корзина.md",
+      "sourceSha256": "33f853c8c9b214e0174e7cec634f4800ec2e40e93025527eec41e97cc97933d4",
+      "target": "src/content/lessons/mediahub/lab-11.md",
+      "sha256": "fef25f7716bffa02368f991f9f74a78ebbb958e7a7e80c52543b602759a4e8b0",
+      "number": 11,
+      "slug": "mediahub/lab-11",
+      "removedComments": 0,
+      "codeBlocks": 19,
+      "images": 4,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №12. Распродажа.md",
+      "sourceSha256": "5dd1333e6110fca041caa01074561b3c95bb134c63295fbb27a82dcf9961162e",
+      "target": "src/content/lessons/mediahub/lab-12.md",
+      "sha256": "4371ffaec37c2c64b9c11cee177851ff377699568a07deb509cc6ffab34db5c6",
+      "number": 12,
+      "slug": "mediahub/lab-12",
+      "removedComments": 0,
+      "codeBlocks": 23,
+      "images": 5,
+      "tables": 1
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №13. Каталог из JSON.md",
+      "sourceSha256": "6dc77bd84a0bf11dd6ce6e0a0d87c38b1666ea3d6cdfe76f6371286fd5b66cff",
+      "target": "src/content/lessons/mediahub/lab-13.md",
+      "sha256": "d478beadce90f049b4476619081d8f26d0a90106ccdbfe38a4091a8ea9a54e29",
+      "number": 13,
+      "slug": "mediahub/lab-13",
+      "removedComments": 0,
+      "codeBlocks": 20,
+      "images": 5,
+      "tables": 4
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №14. Первый API.md",
+      "sourceSha256": "e2c867b2a3d4379ae3d432a9424fd10cdecb9022ac0d2024b2bcff6070483d96",
+      "target": "src/content/lessons/mediahub/lab-14.md",
+      "sha256": "a837761704a2ebf9bf2d6acdc0cce3fff277c435509232413d5b3d261854407f",
+      "number": 14,
+      "slug": "mediahub/lab-14",
+      "removedComments": 0,
+      "codeBlocks": 17,
+      "images": 5,
+      "tables": 3
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №15. Маршруты и параметры.md",
+      "sourceSha256": "d28ad8ce451b6ec5f7d5801688f694a81f4b89fb0ae553ccfb6990703e93703c",
+      "target": "src/content/lessons/mediahub/lab-15.md",
+      "sha256": "16d920077e85a48a6e1c51ec45af5c74c376e3c566f5a07de14f050d1326e310",
+      "number": 15,
+      "slug": "mediahub/lab-15",
+      "removedComments": 0,
+      "codeBlocks": 15,
+      "images": 4,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №16. Фронтенд + API.md",
+      "sourceSha256": "30c734d0ee150462f449462f3ff6f80aaa5ac13b75859308873b328fa90570f2",
+      "target": "src/content/lessons/mediahub/lab-16.md",
+      "sha256": "1f2844910cb28ca35d4dd19ea75687677d9428fe6bea7584e9d464c02b6e64ed",
+      "number": 16,
+      "slug": "mediahub/lab-16",
+      "removedComments": 0,
+      "codeBlocks": 24,
+      "images": 4,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №17. Проектируем БД магазина.md",
+      "sourceSha256": "29886c818a89fd6470d08e174f20f81b1beefca5a759d63db9d141cdccdbef9f",
+      "target": "src/content/lessons/mediahub/lab-17.md",
+      "sha256": "c272542e364eb5b646143aaee1edddc4aa2a65d97e634f0526050deedb0ef36c",
+      "number": 17,
+      "slug": "mediahub/lab-17",
+      "removedComments": 0,
+      "codeBlocks": 30,
+      "images": 4,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №18. EF Core.md",
+      "sourceSha256": "534560716a3469eb75c6b1238205402d8dfd15d847b825fef2e26f2db40b76ef",
+      "target": "src/content/lessons/mediahub/lab-18.md",
+      "sha256": "ade3235f32eb4fda622a5b49039c8ba0fa6c7ad4cdf70846a90769f8216ef6f7",
+      "number": 18,
+      "slug": "mediahub/lab-18",
+      "removedComments": 0,
+      "codeBlocks": 35,
+      "images": 3,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №19. Отзывы и рейтинг.md",
+      "sourceSha256": "7f41bd0c8703939b88194486f5c67a0a01bf9b1b8ccbe3d0b86030ae6c7ea740",
+      "target": "src/content/lessons/mediahub/lab-19.md",
+      "sha256": "59a11a5d595ec300b2bc4922322f2151c134816d4721c171eddb77431fce3efd",
+      "number": 19,
+      "slug": "mediahub/lab-19",
+      "removedComments": 0,
+      "codeBlocks": 32,
+      "images": 4,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №20. Админка — новая игра.md",
+      "sourceSha256": "7d40cf29807ceb56b44b5f624cf3f6d8caa12a374c7ef956424dbf5569ed7724",
+      "target": "src/content/lessons/mediahub/lab-20.md",
+      "sha256": "5af3776941cd463a9c11eeea0b16799430154368cb9fceb7d3bc99a50565ed3b",
+      "number": 20,
+      "slug": "mediahub/lab-20",
+      "removedComments": 0,
+      "codeBlocks": 14,
+      "images": 4,
+      "tables": 1
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №21. Админка — правка, скидки, удаление.md",
+      "sourceSha256": "eb3023658748c45956e99017b53b0dfcaf8cc02f68a26f55da5c3e0b03e97468",
+      "target": "src/content/lessons/mediahub/lab-21.md",
+      "sha256": "c7cb0bf603813dddc94746d92665e5b32c8f038d53cf589e5a38e5853df0a205",
+      "number": 21,
+      "slug": "mediahub/lab-21",
+      "removedComments": 0,
+      "codeBlocks": 16,
+      "images": 4,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №22. Оформление заказа.md",
+      "sourceSha256": "168933516c466c6e5271509c4129fb53a84d4bec777ce5551fe6124e1219ffad",
+      "target": "src/content/lessons/mediahub/lab-22.md",
+      "sha256": "5d8969d665a1ce709eb7b5f03268dc1dd15b7e0249390f7c634eaa61f67338ca",
+      "number": 22,
+      "slug": "mediahub/lab-22",
+      "removedComments": 0,
+      "codeBlocks": 25,
+      "images": 4,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №23. Похожие игры.md",
+      "sourceSha256": "631174a9e00a7e11724a95c5988308c40638e51d902bdf48e57221825ae11d11",
+      "target": "src/content/lessons/mediahub/lab-23.md",
+      "sha256": "b51d05e626025895b7cff4bfe7ea9734e43225930ae49e79922d550da36c5cfd",
+      "number": 23,
+      "slug": "mediahub/lab-23",
+      "removedComments": 0,
+      "codeBlocks": 16,
+      "images": 3,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №24. Охота на баги.md",
+      "sourceSha256": "f1eeb05adb52acb58ea2d46b9400c3421201501bc76396f1b20c729412cd3915",
+      "target": "src/content/lessons/mediahub/lab-24.md",
+      "sha256": "2f303735ab52fc7e951271d25107e4bce983abc9eb5de4ab2a1a78324310c22b",
+      "number": 24,
+      "slug": "mediahub/lab-24",
+      "removedComments": 0,
+      "codeBlocks": 12,
+      "images": 3,
+      "tables": 4
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №25. Дашборд продаж.md",
+      "sourceSha256": "5df9e889d3b7493453470d8ae32aed195c5e3fe1cf4c81e63fce1582f2acd7c7",
+      "target": "src/content/lessons/mediahub/lab-25.md",
+      "sha256": "732ec447b96adc2d09db797c6efbba6f08e45bb6318bc40ea25d3359c0786445",
+      "number": 25,
+      "slug": "mediahub/lab-25",
+      "removedComments": 0,
+      "codeBlocks": 20,
+      "images": 3,
+      "tables": 1
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №26. Работа в команде.md",
+      "sourceSha256": "4919b590a13af5c226ed03170e3b4daaa84dd67f459baa006cd512a822bde5e1",
+      "target": "src/content/lessons/mediahub/lab-26.md",
+      "sha256": "e38bcbdcc528d4523d02ffc32be3c93003d6cf943776920b8f6571603230b98f",
+      "number": 26,
+      "slug": "mediahub/lab-26",
+      "removedComments": 0,
+      "codeBlocks": 23,
+      "images": 3,
+      "tables": 1
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №27. Своя фича — проект.md",
+      "sourceSha256": "ad9d66126a1c3322f35830af7221b851d7a8687693d5c4b612ed2ed8fb26c650",
+      "target": "src/content/lessons/mediahub/lab-27.md",
+      "sha256": "c805c178f5e53010e610a6f104175fa4b45daee7f23b7f4e7dce87d4ff66dc0b",
+      "number": 27,
+      "slug": "mediahub/lab-27",
+      "removedComments": 0,
+      "codeBlocks": 5,
+      "images": 3,
+      "tables": 3
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №28. Своя фича — реализация.md",
+      "sourceSha256": "3a212236d35a116cc020ed107ef2a9eeab4e53d47b41278ecde21bd26eb4c168",
+      "target": "src/content/lessons/mediahub/lab-28.md",
+      "sha256": "484b29568490053b0edbed06d9e3a2d1b7a527dcf9fa053c4813a76e084a0e6a",
+      "number": 28,
+      "slug": "mediahub/lab-28",
+      "removedComments": 0,
+      "codeBlocks": 9,
+      "images": 3,
+      "tables": 2
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №29. Релиз.md",
+      "sourceSha256": "326f487b7d7097b5de222f641d55fe2f3332ef4ec9b91e1d0f4fce93e4c8be24",
+      "target": "src/content/lessons/mediahub/lab-29.md",
+      "sha256": "629700c94626354687c4490ff5266a8fa77cb9b13a020b8af95bc7558582140e",
+      "number": 29,
+      "slug": "mediahub/lab-29",
+      "removedComments": 0,
+      "codeBlocks": 7,
+      "images": 3,
+      "tables": 3
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №30. Демо-день.md",
+      "sourceSha256": "44a2a0b361f327d7fa07d7b5faa44462ec142501029a742ba4827c01c5d92c1b",
+      "target": "src/content/lessons/mediahub/lab-30.md",
+      "sha256": "0b3eec107929b4b85b70f7c2577bbb8b15f4724cea0e4695821bd385355b041f",
+      "number": 30,
+      "slug": "mediahub/lab-30",
+      "removedComments": 0,
+      "codeBlocks": 1,
+      "images": 2,
+      "tables": 2
+    }
+  ],
+  "assets": [
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Памятка_общего_компьютера.md",
+      "target": "public/materials/mediahub/Памятка_общего_компьютера.md",
+      "sha256": "9f523adc62c5c56daa6bcb097167d91e6047ac5366f7d53c71336a98958355b8",
+      "bytes": 2651,
+      "kind": "attachment"
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/diagrams/lab03-box-model.svg",
+      "target": "public/materials/mediahub/assets/diagrams/lab03-box-model.svg",
+      "sha256": "fcecd5372d45be3e6ef952fe75cd6523aa8c89a4de62118f40dfdb42682fab0a",
+      "bytes": 9509
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/diagrams/lab04-flex-grid.svg",
+      "target": "public/materials/mediahub/assets/diagrams/lab04-flex-grid.svg",
+      "sha256": "e3dbcf5c15e14f64aa6a7d72684d3b5e49c36172c30a444fe1fe3449ad5def49",
+      "bytes": 11009
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/diagrams/lab08-modules.svg",
+      "target": "public/materials/mediahub/assets/diagrams/lab08-modules.svg",
+      "sha256": "483de8848bdc3e2924bc59a8ac8c574fe5cb3c0e583b8beb194d19d40a6e0cf7",
+      "bytes": 9907
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/diagrams/lab14-pipeline.svg",
+      "target": "public/materials/mediahub/assets/diagrams/lab14-pipeline.svg",
+      "sha256": "31c30096d57cd800166d022d10f0d4e751ece5419de40fc9967f393394ecdb0c",
+      "bytes": 11355
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/diagrams/lab15-url.svg",
+      "target": "public/materials/mediahub/assets/diagrams/lab15-url.svg",
+      "sha256": "c851083aba3d7a53008e7d98b758e092a9b030e4057777dcf727a8caf25b78e3",
+      "bytes": 10263
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/diagrams/lab17-er.svg",
+      "target": "public/materials/mediahub/assets/diagrams/lab17-er.svg",
+      "sha256": "29a8b8b9397dd60b011f05789d9a2421b1b6f8bd14d8a17aabdd5400b66e88b0",
+      "bytes": 11517
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/diagrams/lab26-flow.svg",
+      "target": "public/materials/mediahub/assets/diagrams/lab26-flow.svg",
+      "sha256": "ab7d2a5db5c1f3a455eadf57af81373620492dbe89e52a32a23ef09ba52eba16",
+      "bytes": 10571
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/diagrams/lab27-mockup.svg",
+      "target": "public/materials/mediahub/assets/diagrams/lab27-mockup.svg",
+      "sha256": "31a779aef44f24cf8f3f30e2eb272b7fdd8b0fb09f04e00624058b33b9707775",
+      "bytes": 11447
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab01-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab01-result.png",
+      "sha256": "953ff386507aecfc5ce8ced44826c08c0a136c0b2769dfcbed442062f11625bb",
+      "bytes": 319808
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab02-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab02-result.png",
+      "sha256": "f92794b327adcba4f218a12f09e5c160125363f856657a0c716be2d77cf3c86d",
+      "bytes": 552254
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab03-accent.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab03-accent.png",
+      "sha256": "d0f61aa469d3e30109c0f9b2f78b132ee5394f3919d220fc107a585e500e00e4",
+      "bytes": 652106
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab03-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab03-result.png",
+      "sha256": "5eee980bd116d2441551781b6f970321278c3316424a4d0d976bddd54e90d798",
+      "bytes": 936774
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab04-broken-grid.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab04-broken-grid.png",
+      "sha256": "46504f1f5be50ceae8b9d8506c065868e07147a62518e092fc2de1c74c69d353",
+      "bytes": 549112
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab04-game.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab04-game.png",
+      "sha256": "c74e893355ecbd73100a8de08be4a19680cd8a3e5a41f45bb193092fd582199e",
+      "bytes": 397996
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab04-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab04-result.png",
+      "sha256": "5f14442164baddfc4db080b248efd68a48b4e12f32f5d2219df420d1f994f271",
+      "bytes": 1138141
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab05-broken-badges.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab05-broken-badges.png",
+      "sha256": "5f2052ef713f5cf2507af291cee0cf4e38cc6becbb41212ff5f018797192596a",
+      "bytes": 248198
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab05-effects.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab05-effects.gif",
+      "sha256": "c4360861c4a41edaf2af08dd5b1adb2fbf5e49cc5eef8924d28c40df7a3a2b19",
+      "bytes": 1303861
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab05-focus.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab05-focus.png",
+      "sha256": "5e0d6895a1abe143670be44c4bfbbcdea9a0347dacabeef2b9f0c94448fec544",
+      "bytes": 20561
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab06-before.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab06-before.png",
+      "sha256": "68a55925bf324c0b284d12af10a001632f6edcc895609a2c45c89cd1bfa3dc48",
+      "bytes": 436737
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab06-boss-desktop.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab06-boss-desktop.png",
+      "sha256": "d3560abfd36ada596ea800471447db884137bf9da3eb0ecbd8bf5a1d3ac51b6e",
+      "bytes": 1876863
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab06-boss-mobile.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab06-boss-mobile.png",
+      "sha256": "b527c55917d5adfc50fc2487757077b6e2f0b9808f45d1aff3a8e76b2d5aa7a6",
+      "bytes": 419945
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab06-lighthouse.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab06-lighthouse.png",
+      "sha256": "0a6df05ed1c2414979ea7eff1c7ff8670e6d5ad3f79cdeef6be84746ab28e409",
+      "bytes": 80511
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab06-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab06-result.png",
+      "sha256": "1b170c9f560c4aea05ba5e8e8f60320967663c4bf75675695b7bcc72678df5aa",
+      "bytes": 577754
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab07-clicks.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab07-clicks.gif",
+      "sha256": "39f099cb5242e24640f67a009799cb03706068a553d78dfb1fac39063c73b49a",
+      "bytes": 1706222
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab08-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab08-result.png",
+      "sha256": "d4fff11b876a4eb6612d3cb651fc7e74b769277f407b9ce6f861ee2b553c2387",
+      "bytes": 2210957
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab09-filters.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab09-filters.gif",
+      "sha256": "7194a097f3fc6f17c8c1bbb818121939669aa3645928991c2bbeb7686a775906",
+      "bytes": 1125506
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab10-game.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab10-game.gif",
+      "sha256": "6fc17b2141008da92d9568d5bc21af4fb38c5912e08681d44406136db666c39c",
+      "bytes": 1174999
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab10-notfound.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab10-notfound.png",
+      "sha256": "85c931b44745a19839bf8dff476424080a573334ab31c37862b83264a4cfb57c",
+      "bytes": 136795
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab11-cart.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab11-cart.gif",
+      "sha256": "d6a845957cbc3bd168222efade5d9fab4b0d469f42cfe2ee84f96dbc70a2b5ab",
+      "bytes": 810958
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab11-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab11-result.png",
+      "sha256": "da5a363daf6868d809dba9cfdf6a0d5c1315476dcd59e53465bc2e3504c76518",
+      "bytes": 134225
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab12-library.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab12-library.png",
+      "sha256": "ce694bc75041c73644631231d9120fb41770d3c099ea4188906891fbb1b6c8fd",
+      "bytes": 519025
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab12-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab12-result.png",
+      "sha256": "3f106e6a563fb629d6ba859915f64dc57488f5ccb3cf20400c164e983cb10dc6",
+      "bytes": 1057142
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab12-sale.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab12-sale.gif",
+      "sha256": "e008210a9e4fcc19efea01fe25c7506bd0c531f9f64966850646431c61c13338",
+      "bytes": 824655
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab13-error.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab13-error.png",
+      "sha256": "81722297d6466b142210330c78856b1eb60cd81315d18d9be3debc2c3f3b0ab0",
+      "bytes": 385364
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab13-loading.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab13-loading.gif",
+      "sha256": "8d72a9618ece31f393a1bab84f4b88e9328e7bf948aa552e1eacce33d322b5ea",
+      "bytes": 1127646
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab13-skeleton.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab13-skeleton.png",
+      "sha256": "6c1f6b891f903297d0e056ff52905e7d9187728dee711ddaa60cd9c783aecbe2",
+      "bytes": 106934
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab14-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab14-result.png",
+      "sha256": "586e6bf5c40367ea6100bb3dfa834569140332e2f2bb889714fe8468dc57dc23",
+      "bytes": 125749
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab14-terminal.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab14-terminal.png",
+      "sha256": "8d77ce88319164c55ad4255432459bf07233dedda437ecff7fa5b3841a08b032",
+      "bytes": 58784
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab15-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab15-result.png",
+      "sha256": "81b01a0abc67e6f9cbbc41f7493f5a567faef23e9aea27f543fcd2df0199ff57",
+      "bytes": 99882
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab16-api.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab16-api.gif",
+      "sha256": "1d445253f59b110f001632358c06a1b8106ffbce74a914e6dc61b5b06d6bb263",
+      "bytes": 800096
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab16-bug.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab16-bug.png",
+      "sha256": "7317b39e5c23b4b42e1bd5080501525b98ca98cb5ef5fde866e652f8a7d40848",
+      "bytes": 91543
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab17-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab17-result.png",
+      "sha256": "9517090c04012fdf3f76e7bfceba9a6b14595e3c15d78095e578952ba42a30cc",
+      "bytes": 74312
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab18-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab18-result.png",
+      "sha256": "942e96249c862abd0478a1302576c32f55f49f8e015bc415b6093d2913a9b394",
+      "bytes": 80219
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab19-result.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab19-result.png",
+      "sha256": "c2514ec927a6e17aaeee358e1b3bd9c990e528c569fb2f046fb88b4e78e421ca",
+      "bytes": 116299
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab19-review.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab19-review.gif",
+      "sha256": "e26e8d5881aadc8e86cc5c193ef4be2b04ed101b82d54a1cb2b4432c34407df6",
+      "bytes": 449529
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab20-admin.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab20-admin.gif",
+      "sha256": "e6d817f5bcfc1c85d200956d17121791d7fbc1a184884ec7847381d78e9e420d",
+      "bytes": 293527
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab20-error.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab20-error.png",
+      "sha256": "9328a8678dccfdc66f09e7da1782692da2cd7d50c9564c977ceaad2849b94f8f",
+      "bytes": 101889
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab21-dialog.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab21-dialog.png",
+      "sha256": "9c5a6935a9fc41be4610783f6f9f57020e5eeadfc57568892efa35443ff41dbd",
+      "bytes": 147233
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab21-discount.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab21-discount.gif",
+      "sha256": "4169afd0a3378e6d7f1f5f114b7c5202ba99bccf95b6ba7f8762d704229d0d83",
+      "bytes": 555471
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab22-checkout.gif",
+      "target": "public/materials/mediahub/assets/screenshots/lab22-checkout.gif",
+      "sha256": "ee12c46dc19217ffe5a1f1e1ff3d6a7d2e66aab8c6cda7046c2a3081a0a81a58",
+      "bytes": 151889
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab22-conflict.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab22-conflict.png",
+      "sha256": "400dd39c44ca41a0eba18b65b1166ad8525f19d03a54718da23d76d194ec58ca",
+      "bytes": 88426
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab23-similar.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab23-similar.png",
+      "sha256": "07979b9516a457e80b50a815c648a42764f50ee5f7585fa25d6f914f765fea9e",
+      "bytes": 751474
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab24-review.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab24-review.png",
+      "sha256": "48476d43542500be1d9b650a3f8f1e914c2ec7a2b44b9fe2f14cd2b8522a464e",
+      "bytes": 72103
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab25-stats.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab25-stats.png",
+      "sha256": "2badb9cfc02518ad1c4e5de529c3d1c2aea11ec7186498a9457cee8d132cdd8f",
+      "bytes": 164602
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab28-filter.png",
+      "target": "public/materials/mediahub/assets/screenshots/lab28-filter.png",
+      "sha256": "f52d2471b6797bb5c3df23962ee369440503651f198cb0374c23072693b399d4",
+      "bytes": 601920
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/screenshots/lab29-readme.jpg",
+      "target": "public/materials/mediahub/assets/screenshots/lab29-readme.jpg",
+      "sha256": "4bf7f2d3804dd06d9b9327a3d28e421bc3bcf703cb72ea068ce2df3be6e10d44",
+      "bytes": 124980
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/anya.png",
+      "target": "public/materials/mediahub/assets/tickets/anya.png",
+      "sha256": "1222b99a51634adcd9ed923cafb70ed5def5cfec0bedf115140864e3856c7978",
+      "bytes": 377928
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/gosha.png",
+      "target": "public/materials/mediahub/assets/tickets/gosha.png",
+      "sha256": "688f4a05d11460b80bf20b989551aba92194c6eb59193a50f3524cba4edf74d2",
+      "bytes": 359561
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-001.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-001.png",
+      "sha256": "30386e89a18d545546a76453619d95aa91c1d104d46e860c741fa30eea43751e",
+      "bytes": 1658521
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-002.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-002.png",
+      "sha256": "33a23b6021d1ac618ea482b5bf4c12bdf414a7428ec29c6661965294bc007213",
+      "bytes": 1749926
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-003.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-003.png",
+      "sha256": "d57da2163e653373ce381d0c9b0d5ecb510b4f16cf7d8a99b3dc4e36aeb5ed71",
+      "bytes": 1791268
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-004.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-004.png",
+      "sha256": "bb9e781a9640c3e98b3b820f9a77d704a3564aad3d84a4d5524514ed58c004bc",
+      "bytes": 1778536
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-005.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-005.png",
+      "sha256": "21b8c3d62ebc7b0720e79fb87c7f1ab7008f022cb7b9c94f8ef0e14672e4f872",
+      "bytes": 1809886
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-006.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-006.png",
+      "sha256": "a6dc7eb87f9609cfc2f381dbc4215b1b525ab4d8a2386ec680ea3ad0cfc83028",
+      "bytes": 1826106
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-007.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-007.png",
+      "sha256": "d11d06a50695d439f9b3c65e11d20a3999658c1864a28aace4e5afbae6ba1ebc",
+      "bytes": 1804047
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-008.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-008.png",
+      "sha256": "2239df38f3b46f394a02845fe02e2965992c8220511508e8b60d8a17da78fb19",
+      "bytes": 1755192
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-009.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-009.png",
+      "sha256": "6319d50164bfc0419270676bd0c991aaeef727ccf69e154f0b11e9cf02d27482",
+      "bytes": 1737001
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-010.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-010.png",
+      "sha256": "41cc6fc96719eb7cf7134e2fc4987387fb65470253cb2be8448dfbf5ce98483e",
+      "bytes": 1679295
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-011.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-011.png",
+      "sha256": "69fa80eee9058015be05b7419dd49359d3e734ae8ed7044a7d81a5fcb627bd8c",
+      "bytes": 1790997
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-012.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-012.png",
+      "sha256": "b46542161227a7ee7db04ea8da27d67ec909b829122698a15f8effa204de46b1",
+      "bytes": 2116981
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-013.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-013.png",
+      "sha256": "b22e37e5f9add39e091b85c81d192f801ea1c82ed17e4054932d93e3899e7bcc",
+      "bytes": 1749818
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-014.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-014.png",
+      "sha256": "f74f69a80e810bd8714c6aef86cf7361959c9cd846f89597be8adad53f8ca8b1",
+      "bytes": 1679370
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-015.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-015.png",
+      "sha256": "93925f9ec4fff27f00c3a5f21620aa92b3132aff75f95d9c81dcc3a64fb019b5",
+      "bytes": 1780389
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-016.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-016.png",
+      "sha256": "35e49404c255d872fa735aa0ee5b6cbcc5d47c8eacba8d6cc8fe8e18449a4141",
+      "bytes": 1744697
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-017.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-017.png",
+      "sha256": "17f532e33f823e0f1c74dbda858c76a3f41109a19dc7ae8e9fd2a3d51b087a19",
+      "bytes": 1769008
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-018.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-018.png",
+      "sha256": "440ed54e4a54d4e5e458a6685e581591dad41c125445d5e13e77f0b1cd862371",
+      "bytes": 1817232
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-019.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-019.png",
+      "sha256": "9461e63e5dcb430487bbd60d16beb272853fe0de00dca5dabe995aef51f034fd",
+      "bytes": 2118118
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-020.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-020.png",
+      "sha256": "9e5cb8d8b7963239931ca80e5d54386630195bf5aabba5908f9df7e184a342a7",
+      "bytes": 1736828
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-021.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-021.png",
+      "sha256": "117162ba79132bfb78b305929a28fd80a271e82cbd90766c7b5f5eb45d92bf3b",
+      "bytes": 1750969
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-022.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-022.png",
+      "sha256": "00c2176c84f1a1bcb12463c748b078e7b64931791c4b74785ce37bfdae249025",
+      "bytes": 1768211
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-023.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-023.png",
+      "sha256": "9a7954281390fae604878cd541c92bb896a7238dde31845761da4b636e837d9f",
+      "bytes": 1742305
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-024.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-024.png",
+      "sha256": "1374bf83ec22d35d2c4fd8d0ba2089961a4f35654750acd37b5bff358437437f",
+      "bytes": 1857898
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-025.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-025.png",
+      "sha256": "dd925ea5a35419e3e035c9c7e8708c1392f4e2bd75305e0b5c461750d8d38342",
+      "bytes": 1680172
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-026.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-026.png",
+      "sha256": "5d763621b7bf2a0e2867a6613d869c5f7c6926d50987fe08af8fd8a808c7db2d",
+      "bytes": 1757822
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-027.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-027.png",
+      "sha256": "2ede3ba90af30c2a3ffb1ff4f7f581c38d5aa8cb73c36e6b7616619390d56d85",
+      "bytes": 1916564
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-028.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-028.png",
+      "sha256": "088d063cac32e92ea7f025c57ea1d728643933006ee10186c0e446b5b2c08a6b",
+      "bytes": 1940707
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-029.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-029.png",
+      "sha256": "8a414a1f130865bbb5a6742ae89d79bba046e479928f617afae4a89e25637f07",
+      "bytes": 1944455
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/assets/tickets/pix-030.png",
+      "target": "public/materials/mediahub/assets/tickets/pix-030.png",
+      "sha256": "9367caa80c074659fc5555f0c675af701df986d486dd7d3c4871c040340dc7bb",
+      "bytes": 1803608
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/img/hero.png",
+      "target": "public/materials/mediahub/img/hero.png",
+      "sha256": "b6ff5463b52e01ebe1072fc8662a07678b792d973a262d2be379d123a7dde8a0",
+      "bytes": 2718096
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/materials/demo-day-feedback.md",
+      "target": "public/materials/mediahub/materials/demo-day-feedback.md",
+      "sha256": "6aa1aa7bd055699471220b00de95ae26e0b13e2a6fd321a30a08dee3970f238b",
+      "bytes": 952,
+      "kind": "attachment"
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/materials/feature-template.md",
+      "target": "public/materials/mediahub/materials/feature-template.md",
+      "sha256": "8d3359d3851a09c2dd5307beed12fcdf6a53de94fa18b9d12915b829624c9c1c",
+      "bytes": 3233,
+      "kind": "attachment"
+    },
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/setup/Настройка_ноутбука_к_работе_07.md",
+      "target": "public/materials/mediahub/setup/Настройка_ноутбука_к_работе_07.md",
+      "sha256": "129b6fa6e0bc546f6d9ba2c3c89c4edfd4dbf32cf1a6cdf3a8a246aafb6f4eff",
+      "bytes": 3155,
+      "kind": "attachment"
+    }
+  ],
+  "corrections": [],
+  "downloads": [
+    {
+      "target": "public/materials/mediahub/downloads/pixelport-images.zip",
+      "sha256": "046dc4fdc29108afd770e600e5db9dad17ee945bf3472c6bb0be80dd137c6e8c",
+      "bytes": 43174453
+    },
+    {
+      "target": "public/materials/mediahub/downloads/pixelport-screenshots.zip",
+      "sha256": "06b84e97002719d996521fe97594389e7dec94a5ce4484f312814f954b3e3340",
+      "bytes": 67060122
+    },
+    {
+      "target": "public/materials/mediahub/downloads/pixelport-materials.zip",
+      "sha256": "8baa47f6a8f739129fb5152a639803d79d89f28f1251c9e8a3972bade779d9cd",
+      "bytes": 17443
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "codequest-portal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "font:build": "node scripts/build-pixel-font.mjs",
+    "check": "astro check",
+    "build": "astro build",
+    "preview": "astro preview",
+    "verify:links": "node scripts/verify-links.mjs",
+    "verify:sources": "node scripts/source-inventory.mjs verify",
+    "verify:source": "node scripts/audit-source.mjs",
+    "test:browser": "node scripts/browser-qa.mjs",
+    "import:guild": "node scripts/import-course.mjs content-map/guild-of-heroes.json",
+    "test:guild": "node scripts/guild-browser-qa.mjs",
+    "import:neon": "node scripts/import-course.mjs content-map/neon-arena.json",
+    "test:neon": "node scripts/course-browser-qa.mjs neon-arena",
+    "import:mobile": "node scripts/import-course.mjs content-map/mobile-lab.json",
+    "test:mobile": "node scripts/course-browser-qa.mjs mobile-lab",
+    "import:mediahub": "node scripts/import-course.mjs content-map/mediahub.json",
+    "test:mediahub": "node scripts/course-browser-qa.mjs mediahub",
+    "import:desktop": "node scripts/import-course.mjs content-map/desktop-forge.json",
+    "test:desktop": "node scripts/course-browser-qa.mjs desktop-forge"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "7.3.6",
+    "astro": "7.4.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@axe-core/playwright": "4.14.0",
+    "playwright": "1.65.0",
+    "typescript": "6.0.3",
+    "unified": "11.0.5",
+    "remark-parse": "11.0.0",
+    "remark-gfm": "4.0.1",
+    "remark-stringify": "11.0.0"
+  }
+}

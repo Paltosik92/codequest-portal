@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CourseCard from '../components/CourseCard.astro';
+import Icon from '../components/Icon.astro';
+import PixelWorld from '../components/PixelWorld.astro';
+import { publishedCourses } from '../data/courses';
+import { courseUrl } from '../lib/paths';
+const firstCourse = publishedCourses[0];
+---
+<BaseLayout>
+  <section class="hero container">
+    <div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> ТВОЙ СЛЕДУЮЩИЙ УРОВЕНЬ</div>
+      <h1>От первой<br/>строки кода<br/>до <span class="highlight">собственного проекта<span class="text-cursor" aria-hidden="true">_</span></span></h1>
+      <p class="hero-description">Игры, приложения и веб-сервисы.<br/>Выбирай направление — и учись создавать то, что интересно тебе.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#courses">Выбрать свой курс <Icon name="arrow"/></a><a class="text-link" href="#approach">Как устроена практика <span aria-hidden="true">↗</span></a></div>
+      <div class="hero-note"><span class="tiny-brackets">{ '{ }' }</span> Меньше абстракций. Больше собственного кода.</div>
+    </div>
+    <div class="hero-visual">
+      <div class="quest-window">
+        <div class="quest-toolbar"><span>ТВОЙ ПЕРВЫЙ ПРОЕКТ</span><span aria-hidden="true">■ ■ ×</span></div>
+        <PixelWorld/>
+        <div class="quest-caption"><span>У каждого разработчика есть точка старта.</span><strong>Твоя — прямо здесь.</strong><div class="quest-track"><span>Идея</span><i aria-hidden="true">→</i><span>Практика</span><i aria-hidden="true">→</i><span>Проект</span></div></div>
+      </div>
+      {firstCourse && <a class="quest-link" href={courseUrl(firstCourse.id)}><span><small>Твой первый курс</small><strong>{firstCourse.title}</strong></span><Icon name="arrow" size={28}/></a>}
+    </div>
+  </section>
+  <div class="discipline-strip"><div class="container"><span>СОЗДАВАЙ С CODEQUEST</span><span>ООП</span><i>✦</i><span>Desktop</span><i>✦</i><span>Мобильные приложения</span><i>✦</i><span>Игры</span><i>✦</i><span>Веб-сервисы</span></div></div>
+  <section class="catalog container section-space" id="courses">
+    <div class="section-heading"><div><div class="eyebrow">КАТАЛОГ КУРСОВ</div><h2>Выбери свой квест<span class="brand-dot">.</span></h2></div><p>Одно направление — свой проект.<br/>Каждая практика приближает к результату.</p></div>
+    <div class="catalog-controls"><div class="filter-list" role="group" aria-label="Фильтр направлений" hidden><button class="filter active" aria-pressed="true" data-filter="all">Все направления <span>{publishedCourses.length}</span></button>{publishedCourses.map(c => <button class="filter" aria-pressed="false" data-filter={c.id}>{c.category === 'Основы ООП' ? 'ООП' : c.category.replace(' разработка', '')}</button>)}</div><span class="catalog-status">Практические курсы · Свой темп</span></div>
+    <div class="course-grid">{publishedCourses.map((course, index) => <div class="course-grid-item" data-course={course.id}><CourseCard course={course} index={index}/></div>)}
+      <div class="next-course-card"><span class="next-course-symbol">+</span><span class="eyebrow">ПРОДОЛЖЕНИЕ СЛЕДУЕТ</span><h3>Новые миры<br/>впереди.</h3><p>Библиотека растёт вместе<br/>с учебными проектами.</p><a class="text-link" href="#approach">Узнать о подходе <Icon name="arrow" size={18}/></a></div>
+    </div>
+  </section>
+  <section class="approach-section" id="approach"><div class="container section-space"><div class="section-heading"><div><div class="eyebrow">ОТ ЗНАНИЯ К ДЕЙСТВИЮ</div><h2>Не просто читать.<br/><span class="muted-heading">Брать и делать.</span></h2></div><p>CodeQuest — личная библиотека практических курсов. Здесь теория появляется тогда, когда помогает сделать следующий шаг.</p></div>
+    <div class="approach-grid"><article><span class="step-number">01 /</span><Icon name="grid" size={30}/><h3>Выбери направление</h3><p>Начни с того, что хочется создать: свою игру, мобильное приложение или веб-сервис.</p></article><article><span class="step-number">02 /</span><Icon name="code" size={30}/><h3>Разберись на практике</h3><p>Пиши код, проверяй результат и возвращайся к объяснениям, когда они нужны.</p></article><article><span class="step-number">03 /</span><Icon name="check" size={30}/><h3>Собери свой проект</h3><p>Каждая работа развивает предыдущую. В конце получается приложение, которое можно показать.</p></article></div>
+  </div></section>
+</BaseLayout>
+<script>
+  const filters = document.querySelector<HTMLElement>('.filter-list');
+  if (filters) {
+    filters.hidden = false;
+    filters.querySelectorAll<HTMLButtonElement>('button').forEach(button => button.addEventListener('click', () => {
+      filters.querySelectorAll('button').forEach(item => { item.classList.remove('active'); item.setAttribute('aria-pressed', 'false'); });
+      button.classList.add('active'); button.setAttribute('aria-pressed', 'true');
+      document.querySelectorAll<HTMLElement>('.course-grid-item').forEach(item => { item.hidden = button.dataset.filter !== 'all' && button.dataset.filter !== item.dataset.course; });
+      const next = document.querySelector<HTMLElement>('.next-course-card');
+      if (next) next.hidden = button.dataset.filter !== 'all';
+    }));
+  }
+</script>

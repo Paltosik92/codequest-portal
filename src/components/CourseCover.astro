@@ -1,0 +1,30 @@
+---
+import type { Course } from '../data/courses';
+import { url } from '../lib/paths';
+interface Props { course: Course; large?: boolean; }
+const { course, large = false } = Astro.props;
+---
+<div class:list={['course-cover', `cover-${course.cover}`, { 'cover-large': large, 'has-image': !!course.image }]} data-fit={course.imageFit || 'cover'} aria-hidden="true">
+  {course.image ? <img src={url(course.image)} alt="" loading={large ? 'eager' : 'lazy'} fetchpriority={large ? 'high' : 'auto'} width="1672" height="941"/> : <>
+    <div class="cover-grain"></div>
+    {course.cover === 'arena' && <div class="arena-art">
+      <div class="arena-grid"></div><div class="arena-ring ring-one"></div><div class="arena-ring ring-two"></div>
+      <div class="arena-player"><i></i><b></b></div><span class="arena-enemy enemy-one"></span><span class="arena-enemy enemy-two"></span><span class="arena-enemy enemy-three"></span>
+      <div class="arena-beam"></div><div class="art-label">NEON ARENA <span>TOP-DOWN / 2D</span></div><span class="crosshair">+</span>
+    </div>}
+    {course.cover === 'mobile' && <div class="mobile-art">
+      <div class="phone phone-back"><div class="phone-notch"></div><div class="mini-snake"><i></i><i></i><i></i><i></i><b></b></div><span>SNAKE</span></div>
+      <div class="phone phone-front"><div class="phone-notch"></div><div class="phone-heading">GameBox<span>Выбирай. Играй.</span></div><div class="phone-tile tile-tic">× <b>○</b></div><div class="phone-small-tiles"><span>↗</span><span>▦</span></div><div class="phone-nav">⌂ <span>◇</span> ⋯</div></div>
+      <span class="floating-chip mobile-chip">&lt; / &gt;</span>
+    </div>}
+    {course.cover === 'guild' && <div class="guild-art">
+      <div class="guild-moon"></div><div class="guild-mountain mountain-back"></div><div class="guild-mountain mountain-front"></div><div class="castle"><i></i><b></b><i></i></div><div class="guild-road"></div><div class="guild-sword"><i></i></div><span class="guild-stars">✦</span><div class="art-label">GUILD OF HEROES <span>ТВОЯ ИСТОРИЯ НА C#</span></div>
+    </div>}
+    {course.cover === 'desktop' && <div class="desktop-art">
+      <div class="desktop-shadow-window"></div><div class="desktop-window"><div class="window-toolbar"><i></i><i></i><i></i><span>My workspace</span></div><div class="desktop-inner"><div class="desktop-sidebar"><b></b><i></i><i></i><i></i><i></i></div><div class="desktop-body"><strong>Make it yours.</strong><div class="desktop-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="desktop-lines"><i></i><i></i></div></div></div></div><span class="floating-chip desktop-chip">{ '{ }' }</span>
+    </div>}
+    {course.cover === 'web' && <div class="web-art">
+      <div class="browser-window"><div class="window-toolbar"><i></i><i></i><i></i><span>pixelport / store</span></div><div class="web-body"><div class="web-nav">PIXELPORT <span>Store · Library</span></div><div class="web-banner"><span>YOUR NEXT<br/>ADVENTURE.</span><b>↗</b></div><div class="web-posters"><i></i><i></i><i></i></div></div></div><span class="floating-chip web-chip">TS</span>
+    </div>}
+  </>}
+</div>

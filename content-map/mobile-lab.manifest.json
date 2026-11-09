@@ -1,0 +1,687 @@
+{
+  "courseId": "mobile-lab",
+  "sourceRoot": "Разработка_мобильных_приложений_2027",
+  "cover": "materials/mobile-lab/img/lab14/comic-01-bit-release-day.webp",
+  "lessons": [
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №1. GameBox открыт — собираем игровую полку.md",
+      "sourceSha256": "f6458b40273477008b483731581572ede552d5a59834a6cc9dd792040483ee44",
+      "target": "src/content/lessons/mobile-lab/lab-01.md",
+      "sha256": "7a502731a85a348bcf50022e2e1263be6e033d8abcc7d98b7d5531075e819fc8",
+      "number": 1,
+      "slug": "mobile-lab/lab-01",
+      "removedComments": 0,
+      "codeBlocks": 47,
+      "images": 6,
+      "tables": 6
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №2. Первый ход — крестики-нолики на одном экране.md",
+      "sourceSha256": "1ffc8b2ae5dab68ef596491f7649d5f34d05323b437a97bf9b187f9b38eee4b3",
+      "target": "src/content/lessons/mobile-lab/lab-02.md",
+      "sha256": "cc291e7104e6133d07e745a5df55a13c5503fe4e48be7724d3701ebe3a20471e",
+      "number": 2,
+      "slug": "mobile-lab/lab-02",
+      "removedComments": 0,
+      "codeBlocks": 55,
+      "images": 6,
+      "tables": 12
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №3. Партия окончена — победа, ничья и честный рестарт.md",
+      "sourceSha256": "ae0202acb2fd5743f7b9cbbf1b848ee2bba626a915d616af61fd8580a6b894a7",
+      "target": "src/content/lessons/mobile-lab/lab-03.md",
+      "sha256": "4faa5784fcf9f46bee8cac56ebd492be437a00b80e05523526904c42489af445",
+      "number": 3,
+      "slug": "mobile-lab/lab-03",
+      "removedComments": 0,
+      "codeBlocks": 52,
+      "images": 6,
+      "tables": 9
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №4. Соперник в кармане — компьютер и история побед.md",
+      "sourceSha256": "788425ff90888ce3e71bf179a0e93018c975b4f1d41e580d2067718b43656b4c",
+      "target": "src/content/lessons/mobile-lab/lab-04.md",
+      "sha256": "a246253d1848ffe3165f6f3fd73ecfc558201e835c6f958a2fdc93b0ebad9a20",
+      "number": 4,
+      "slug": "mobile-lab/lab-04",
+      "removedComments": 0,
+      "codeBlocks": 35,
+      "images": 6,
+      "tables": 5
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №5. Змейка оживает — запускаем игровой цикл.md",
+      "sourceSha256": "6607a65982c430aa106945ebbaec69df5b996a2485cdc47d85c04cae7f93dfcc",
+      "target": "src/content/lessons/mobile-lab/lab-05.md",
+      "sha256": "d222ee20d6c5eed113795c8aee7209632fe00054d745162b1eedee2c4e5b0247",
+      "number": 5,
+      "slug": "mobile-lab/lab-05",
+      "removedComments": 0,
+      "codeBlocks": 35,
+      "images": 7,
+      "tables": 11
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №6. Охота за яблоками — еда, рост и очки.md",
+      "sourceSha256": "51ec7b394772097fbd7368d969dcc0488c02b05d62c3c2343d116b3379d891c0",
+      "target": "src/content/lessons/mobile-lab/lab-06.md",
+      "sha256": "6ef6559af6cbc884790be459555be752b1c3c9a05db570ddfb2a4d5e9581fb43",
+      "number": 6,
+      "slug": "mobile-lab/lab-06",
+      "removedComments": 0,
+      "codeBlocks": 42,
+      "images": 6,
+      "tables": 7
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №7. Одна ошибка — конец игры — столкновения и рекорд.md",
+      "sourceSha256": "076275073e07046f39c6a874323a72b85438167ad0e6f84c9a738d19873aed03",
+      "target": "src/content/lessons/mobile-lab/lab-07.md",
+      "sha256": "cc53d1f28b0c328f071e9525026ff0baea01d45b0f1743d26c808c7c6e6f3cfd",
+      "number": 7,
+      "slug": "mobile-lab/lab-07",
+      "removedComments": 0,
+      "codeBlocks": 38,
+      "images": 5,
+      "tables": 5
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №8. Змейка в кармане — свайпы, пауза и проверка на телефоне.md",
+      "sourceSha256": "e965127004b12d6daf58ebcbb4c78131f499aa5728af091aab3b61cb03f79b52",
+      "target": "src/content/lessons/mobile-lab/lab-08.md",
+      "sha256": "5f912a3c5167c362a6b847661432c1e955571918ea892774ef4d44cd82e127d2",
+      "number": 8,
+      "slug": "mobile-lab/lab-08",
+      "removedComments": 0,
+      "codeBlocks": 44,
+      "images": 6,
+      "tables": 5
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №9. Радар включён — два поля и видимые состояния.md",
+      "sourceSha256": "301188a54f473f83ea1c3dba4e62988ed3d34ccf194dd2c67d9d1a483a9a2a8c",
+      "target": "src/content/lessons/mobile-lab/lab-09.md",
+      "sha256": "a7aa4975fe785acab4ff953dece283c659e823e04f7efc4bdf128b209c4bdf79",
+      "number": 9,
+      "slug": "mobile-lab/lab-09",
+      "removedComments": 0,
+      "codeBlocks": 30,
+      "images": 6,
+      "tables": 7
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №10. Флот на позиции — размещаем корабли вручную.md",
+      "sourceSha256": "71871df3bbb82b827e605788e8881f47a7708ce305ecd30157a3224fd7fdfb95",
+      "target": "src/content/lessons/mobile-lab/lab-10.md",
+      "sha256": "36c1cb8379e6ff83ea5af8f2d10ddcac02f6e60879b0539882ead7afb0942180",
+      "number": 10,
+      "slug": "mobile-lab/lab-10",
+      "removedComments": 0,
+      "codeBlocks": 29,
+      "images": 6,
+      "tables": 7
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №11. Один клик — целый флот — автоматическая расстановка.md",
+      "sourceSha256": "20983df93e23dea2f532e36585dd2c8e2b11a0bf00aa6ffdd46a874dcef6bc0f",
+      "target": "src/content/lessons/mobile-lab/lab-11.md",
+      "sha256": "c4bc8f425b37649ec04f3ff043ee19782522b388af8ac593bd98502afdc4b9de",
+      "number": 11,
+      "slug": "mobile-lab/lab-11",
+      "removedComments": 0,
+      "codeBlocks": 29,
+      "images": 5,
+      "tables": 5
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №12. Есть попадание — первая полная морская битва.md",
+      "sourceSha256": "e3c451afed75db9bbdc354f449903511ba29a7d7b6c8678c6c7790aef38276e0",
+      "target": "src/content/lessons/mobile-lab/lab-12.md",
+      "sha256": "5d3577b7b4e9b81626f7021663ca9977fe1e6bd4a666350890e1a3dbc93a611c",
+      "number": 12,
+      "slug": "mobile-lab/lab-12",
+      "removedComments": 0,
+      "removedEditorialItems": 1,
+      "codeBlocks": 38,
+      "images": 6,
+      "tables": 5
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №13. Компьютер помнит — ищем и добиваем корабль.md",
+      "sourceSha256": "901412009a4c0851e9cbe1a4ccb2f26a84ea1f57e117873c611117f9cdf6d055",
+      "target": "src/content/lessons/mobile-lab/lab-13.md",
+      "sha256": "3060fff0df3adb2273340bd8fc514f43d21dc10f47be3aecb219d8cd1542acfb",
+      "number": 13,
+      "slug": "mobile-lab/lab-13",
+      "removedComments": 0,
+      "removedEditorialItems": 1,
+      "codeBlocks": 37,
+      "images": 6,
+      "tables": 6
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №14. GameBox Release Day — выпускаем свою игровую коллекцию.md",
+      "sourceSha256": "a1176cd881157b5315f799c8cf3ff32c398afc1167071df6143fad5a499fdb57",
+      "target": "src/content/lessons/mobile-lab/lab-14.md",
+      "sha256": "6b97d578661dbd3e9df1c609cfb32804d6827b1d9828871c6b6bf59495acc330",
+      "number": 14,
+      "slug": "mobile-lab/lab-14",
+      "removedComments": 0,
+      "codeBlocks": 42,
+      "images": 5,
+      "tables": 9
+    }
+  ],
+  "assets": [
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab1/comic-01-bit-opens-box.webp",
+      "target": "public/materials/mobile-lab/img/lab1/comic-01-bit-opens-box.webp",
+      "sha256": "35be6a58614c4a1d24cba81a0cde7e4505730120dc02c4b5fd7803ddc4c53dfd",
+      "bytes": 137386
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab1/meme-01-three-buttons-one-screen.webp",
+      "target": "public/materials/mobile-lab/img/lab1/meme-01-three-buttons-one-screen.webp",
+      "sha256": "d6808521072d76f1e420ca60480376c4f4e67aaa08773e36f48995084dc748c5",
+      "bytes": 157736
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab1/schema-01-project-map.webp",
+      "target": "public/materials/mobile-lab/img/lab1/schema-01-project-map.webp",
+      "sha256": "24423548a1cdf019dc1ead433398d1a02965c760297d582f1aa5367b02f17d5a",
+      "bytes": 141344
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab1/schema-02-navigation.webp",
+      "target": "public/materials/mobile-lab/img/lab1/schema-02-navigation.webp",
+      "sha256": "d3f1195b431c1cc5353582309c835f4e412e98a89b513b0240fb4a9167a32c41",
+      "bytes": 112380
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab1/schema-03-one-theme-many-screens.webp",
+      "target": "public/materials/mobile-lab/img/lab1/schema-03-one-theme-many-screens.webp",
+      "sha256": "9d1dc78e7328b7760239c53982c670fcd37e2f063a269a10b6a753eeaa3ed9dc",
+      "bytes": 135110
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab1/ui-01-game-shelf.webp",
+      "target": "public/materials/mobile-lab/img/lab1/ui-01-game-shelf.webp",
+      "sha256": "fade290c41bb2b160fe6be2e17a33e04d9053f078df108dddc8a71d3fae06ed4",
+      "bytes": 72156
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab10/comic-01-overlapping-fleet.webp",
+      "target": "public/materials/mobile-lab/img/lab10/comic-01-overlapping-fleet.webp",
+      "sha256": "5a1bed0768ffab4a7906e3bb176221d091c97e2b572b7d3d7a59076aa5fcf575",
+      "bytes": 160440
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab10/meme-01-diagonal-touch.webp",
+      "target": "public/materials/mobile-lab/img/lab10/meme-01-diagonal-touch.webp",
+      "sha256": "d68669c69a18542da5830e85340212a229ffa5b2367f119d90f0574eeadd3200",
+      "bytes": 119454
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab10/schema-01-ship-candidate.webp",
+      "target": "public/materials/mobile-lab/img/lab10/schema-01-ship-candidate.webp",
+      "sha256": "ecf0899f789fa174e4037a331894dba7bf05585269fcc97a0034f1dcaf8552bf",
+      "bytes": 132040
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab10/schema-02-placement-halo.webp",
+      "target": "public/materials/mobile-lab/img/lab10/schema-02-placement-halo.webp",
+      "sha256": "5a13625cf79d4635d880150debf2947459cac60700d3d9cc78d6574f4f31a112",
+      "bytes": 126622
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab10/schema-03-atomic-placement.webp",
+      "target": "public/materials/mobile-lab/img/lab10/schema-03-atomic-placement.webp",
+      "sha256": "71e351b1807cd83fbbb8829abf53ce83b0189e76bce9ee15c505fc39a6452c6b",
+      "bytes": 174594
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab10/ui-01-manual-placement.webp",
+      "target": "public/materials/mobile-lab/img/lab10/ui-01-manual-placement.webp",
+      "sha256": "bede12603b5301ed38f8f0daed47a6360f6b227edab3e05e03f365e44d3d86f8",
+      "bytes": 92986
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab11/comic-01-random-everywhere.webp",
+      "target": "public/materials/mobile-lab/img/lab11/comic-01-random-everywhere.webp",
+      "sha256": "20b83b403164ab7100e8437941bff3edda48ed9bc6eef999667929885355ec0a",
+      "bytes": 237514
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab11/schema-01-random-valid-candidate.webp",
+      "target": "public/materials/mobile-lab/img/lab11/schema-01-random-valid-candidate.webp",
+      "sha256": "93c18140dc498462672e94e0ffa4fe091d07a16aa6f68b86f956fd144c455d6f",
+      "bytes": 246536
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab11/schema-02-bounded-retry.webp",
+      "target": "public/materials/mobile-lab/img/lab11/schema-02-bounded-retry.webp",
+      "sha256": "37007089a04c23243fc1e4d5688373992fa9b616c7309be37a7b2bee652e157d",
+      "bytes": 161900
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab11/schema-03-temporary-board.webp",
+      "target": "public/materials/mobile-lab/img/lab11/schema-03-temporary-board.webp",
+      "sha256": "094d81b97ddca64ba97a25aac5b4940b5e8cde2ea012bc111ef64916acb0f5f2",
+      "bytes": 207446
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab11/ui-01-generated-fleet.webp",
+      "target": "public/materials/mobile-lab/img/lab11/ui-01-generated-fleet.webp",
+      "sha256": "f5f48d3c12833427097aba6fcc37633a76b8479fe1b0d849d4fe7ea7310e9245",
+      "bytes": 94546
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab12/comic-01-fire-button.webp",
+      "target": "public/materials/mobile-lab/img/lab12/comic-01-fire-button.webp",
+      "sha256": "71e7c4b301295bcd424915c5cc3d681e0849e412387ef5a6120c0be1b85aee80",
+      "bytes": 202942
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab12/schema-01-shot-result.webp",
+      "target": "public/materials/mobile-lab/img/lab12/schema-01-shot-result.webp",
+      "sha256": "ac4310809b09a69b10dd3d796fa64d3c2cea29dee5d789e3faf7b1a60d56048c",
+      "bytes": 124418
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab12/schema-02-turn-flow.webp",
+      "target": "public/materials/mobile-lab/img/lab12/schema-02-turn-flow.webp",
+      "sha256": "3f87977049734b3bf3bb1d7c2caad6e770532e8eee8fc8db682b4f1a6b14fdbf",
+      "bytes": 128124
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab12/schema-03-sunk-excluded.webp",
+      "target": "public/materials/mobile-lab/img/lab12/schema-03-sunk-excluded.webp",
+      "sha256": "b2a33ff1a000a1e7fe68fb6ab3d88eea751a39a98bedfb3f8a244b3b8c3edfe3",
+      "bytes": 180202
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab12/schema-04-ai-delay.webp",
+      "target": "public/materials/mobile-lab/img/lab12/schema-04-ai-delay.webp",
+      "sha256": "19c507d1b190d158b6cfb1cc6108f65c9efff8c42afb8ef254254c2893183a1d",
+      "bytes": 142996
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab12/ui-01-first-battle.webp",
+      "target": "public/materials/mobile-lab/img/lab12/ui-01-first-battle.webp",
+      "sha256": "0e60abf4d5ec222d3b3536d2ecc2176f45415e20163beb5d2912f025b5f82ad5",
+      "bytes": 93796
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab13/comic-01-ai-finally-remembers.webp",
+      "target": "public/materials/mobile-lab/img/lab13/comic-01-ai-finally-remembers.webp",
+      "sha256": "0d8188e734040d5053590042433980760bef7a9839f4ee9230f815a83138b76e",
+      "bytes": 205622
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab13/meme-01-same-shot-again.webp",
+      "target": "public/materials/mobile-lab/img/lab13/meme-01-same-shot-again.webp",
+      "sha256": "e00b64f89dcacd099276c93fd7ff240dfef7de4a1f390501bd7832de5c4c1119",
+      "bytes": 136438
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab13/schema-01-ai-modes.webp",
+      "target": "public/materials/mobile-lab/img/lab13/schema-01-ai-modes.webp",
+      "sha256": "b44b35f9806bb072958c817030a9fd59d8ccc894b7b2bc103a22cc34ff015bc3",
+      "bytes": 131778
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab13/schema-02-neighbor-queue.webp",
+      "target": "public/materials/mobile-lab/img/lab13/schema-02-neighbor-queue.webp",
+      "sha256": "05441bdda205629d6e72d9f46170d645fff4ac98fb90b8f990e8caf2f603edd9",
+      "bytes": 177134
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab13/schema-03-two-ends.webp",
+      "target": "public/materials/mobile-lab/img/lab13/schema-03-two-ends.webp",
+      "sha256": "7897ffe701ebd399087bff64aad7cc416b9371ce0065d37728426fa2aed28042",
+      "bytes": 149670
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab13/schema-04-knowledge-boundary.webp",
+      "target": "public/materials/mobile-lab/img/lab13/schema-04-knowledge-boundary.webp",
+      "sha256": "31b1c7e672a7a0e695b3f78a3e6d42ec0e139330138c73a56d9957fa5e1c75c2",
+      "bytes": 201030
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab14/comic-01-bit-release-day.webp",
+      "target": "public/materials/mobile-lab/img/lab14/comic-01-bit-release-day.webp",
+      "sha256": "8326ff1a087b6513d1590a77ec971855e9eb04fc23e8406a8de7d51a5e303cb3",
+      "bytes": 201920
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab14/meme-01-build-is-not-release.webp",
+      "target": "public/materials/mobile-lab/img/lab14/meme-01-build-is-not-release.webp",
+      "sha256": "f454d4231079dd4c1d18c51bf67dbf21803be82ad1000d4bf90e8b22672f6934",
+      "bytes": 100024
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab14/schema-01-release-path.webp",
+      "target": "public/materials/mobile-lab/img/lab14/schema-01-release-path.webp",
+      "sha256": "3fa47ca44d1d11ad1e1614ddc1a2205e2c4af5e48130a21f5c5b08664374c599",
+      "bytes": 110862
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab14/schema-02-bug-report.webp",
+      "target": "public/materials/mobile-lab/img/lab14/schema-02-bug-report.webp",
+      "sha256": "90ef805fc7aab07207f1359929fcd85e99d3d7fdff0ae32bbe11feffd4d105f6",
+      "bytes": 149196
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab14/ui-01-gamebox-release.webp",
+      "target": "public/materials/mobile-lab/img/lab14/ui-01-gamebox-release.webp",
+      "sha256": "1183eb4e37e06f7109170f1d5632f89c7fd1729ca0068656ed77278781aa1041",
+      "bytes": 113428
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab2/comic-01-bit-first-board.webp",
+      "target": "public/materials/mobile-lab/img/lab2/comic-01-bit-first-board.webp",
+      "sha256": "2de91bf65605a061428cd73c4945b10fa33cbdafe9fa2cb4ddcb41024f51cfb0",
+      "bytes": 139914
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab2/meme-01-double-move.webp",
+      "target": "public/materials/mobile-lab/img/lab2/meme-01-double-move.webp",
+      "sha256": "c18d2c07d2ec51f1cecad1d7fdf6d7bc64c8efc4fc17d3315ff00189c4225b18",
+      "bytes": 106286
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab2/schema-01-tap-to-state.webp",
+      "target": "public/materials/mobile-lab/img/lab2/schema-01-tap-to-state.webp",
+      "sha256": "78de7cdc843d22d2760fa8c7a8b83a5963a600ab2a79689558a5b41623f9c155",
+      "bytes": 77258
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab2/schema-02-list-to-grid.webp",
+      "target": "public/materials/mobile-lab/img/lab2/schema-02-list-to-grid.webp",
+      "sha256": "8bbd16633785d8ebf47b80185ca574913f3e9c3a3e092abc3dba2df8f907c3ee",
+      "bytes": 83570
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab2/schema-03-valid-invalid-move.webp",
+      "target": "public/materials/mobile-lab/img/lab2/schema-03-valid-invalid-move.webp",
+      "sha256": "9c384324d349a4c488b7ffbd5a0ee2986c4bdce2b796363e392acb4c463f61ba",
+      "bytes": 100548
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab2/ui-01-first-moves.webp",
+      "target": "public/materials/mobile-lab/img/lab2/ui-01-first-moves.webp",
+      "sha256": "fceeb80a5eb36bd0cab9c49f3f787690a3f18ac206589c0d8c792e3d31ba6cfe",
+      "bytes": 56192
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab3/comic-01-bit-sees-a-winner.webp",
+      "target": "public/materials/mobile-lab/img/lab3/comic-01-bit-sees-a-winner.webp",
+      "sha256": "087873eed7623723918eb4d80930adcbfe6e57454c04cddf8f5f1148aaf9ed55",
+      "bytes": 144506
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab3/meme-01-game-already-over.webp",
+      "target": "public/materials/mobile-lab/img/lab3/meme-01-game-already-over.webp",
+      "sha256": "3607b1cee19e72bf7a46848b07268051c90e7ce943371f66429d1c110950f7e6",
+      "bytes": 145608
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab3/schema-01-winning-lines.webp",
+      "target": "public/materials/mobile-lab/img/lab3/schema-01-winning-lines.webp",
+      "sha256": "2939f38841b538acf7bd8ceccce9028b8b0cdcad18b94feb359848ef375b0010",
+      "bytes": 98828
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab3/schema-02-game-phases.webp",
+      "target": "public/materials/mobile-lab/img/lab3/schema-02-game-phases.webp",
+      "sha256": "36ea8734288483daacb8709b6f0d1fcea8e38e981c74885bbf2ec89c350d526f",
+      "bytes": 80824
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab3/schema-03-move-result-order.webp",
+      "target": "public/materials/mobile-lab/img/lab3/schema-03-move-result-order.webp",
+      "sha256": "89eebd59a09ed970129d46c62fd89b9f132d85b550b77ddd65a7e4fb31fe01e9",
+      "bytes": 104728
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab3/ui-01-finished-game.webp",
+      "target": "public/materials/mobile-lab/img/lab3/ui-01-finished-game.webp",
+      "sha256": "ec044e7ff9a3fbcac6e408eb71dfc7c47f29357075c3dac2d1c4a634cbbe6abc",
+      "bytes": 65068
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab4/comic-01-no-second-player.webp",
+      "target": "public/materials/mobile-lab/img/lab4/comic-01-no-second-player.webp",
+      "sha256": "842363dd91404ffa567b4b2e0478c8d661c673c161e9603f207b1da1899c6c3c",
+      "bytes": 135898
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab4/schema-01-ai-priorities.webp",
+      "target": "public/materials/mobile-lab/img/lab4/schema-01-ai-priorities.webp",
+      "sha256": "29dc4406256d5eb63da2829b1facfc5fcd9c8d358984fd5cd9f5c3223ba84329",
+      "bytes": 103924
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab4/schema-02-record-once.webp",
+      "target": "public/materials/mobile-lab/img/lab4/schema-02-record-once.webp",
+      "sha256": "2139225379ceb986ec84e64a88122ae09d5f88f04c650dba90ee0690124e6af2",
+      "bytes": 76882
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab4/schema-03-free-cells-random.webp",
+      "target": "public/materials/mobile-lab/img/lab4/schema-03-free-cells-random.webp",
+      "sha256": "95a7fdb751368679fb442984ee6deda988b7efe3095cb27d99b865ce4b20e87d",
+      "bytes": 67596
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab4/schema-04-stale-ai.webp",
+      "target": "public/materials/mobile-lab/img/lab4/schema-04-stale-ai.webp",
+      "sha256": "3b14f46846bfad5fa56f6e4deab14027a4ecae70c2f4ab47b924ca6cb62cf103",
+      "bytes": 71838
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab4/ui-01-opponent-and-stats.webp",
+      "target": "public/materials/mobile-lab/img/lab4/ui-01-opponent-and-stats.webp",
+      "sha256": "6ac413e62775a7b2fc2e0ffb71a6e00359d3596bcb76fbbc959a4317fa76d58a",
+      "bytes": 86200
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab5/comic-01-snake-card-awakes.webp",
+      "target": "public/materials/mobile-lab/img/lab5/comic-01-snake-card-awakes.webp",
+      "sha256": "d0809d5afda75d671d4510c476263bf413fa4bce07a6b599b65e3679fc5b0e2a",
+      "bytes": 128834
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab5/meme-01-two-start-buttons.webp",
+      "target": "public/materials/mobile-lab/img/lab5/meme-01-two-start-buttons.webp",
+      "sha256": "92612456f0e6bad03924e753aad9e1963490d88dcb4847199f607eb41f0d7e9b",
+      "bytes": 141494
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab5/schema-01-coordinates.webp",
+      "target": "public/materials/mobile-lab/img/lab5/schema-01-coordinates.webp",
+      "sha256": "36d0e3a2780fc96e7c5f54455f190afdf0fd2191e1fc70aa0f17a697fb419b82",
+      "bytes": 104004
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab5/schema-02-game-loop.webp",
+      "target": "public/materials/mobile-lab/img/lab5/schema-02-game-loop.webp",
+      "sha256": "a3e4dbba62219c65e99a89383089d9a330a26dfd38c629d2b949c4917f322a27",
+      "bytes": 96920
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab5/schema-03-head-and-tail.webp",
+      "target": "public/materials/mobile-lab/img/lab5/schema-03-head-and-tail.webp",
+      "sha256": "b0731dc94bdd1df0034748423904f83ad4ff919edbd082af9d33fd9e3bdf8b6e",
+      "bytes": 101026
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab5/schema-04-one-turn-per-tick.webp",
+      "target": "public/materials/mobile-lab/img/lab5/schema-04-one-turn-per-tick.webp",
+      "sha256": "c0325581a5f4423dcf9b4719acb3c083b78f034de83afd9b031cbb9f99592cbc",
+      "bytes": 95848
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab5/ui-01-moving-snake.webp",
+      "target": "public/materials/mobile-lab/img/lab5/ui-01-moving-snake.webp",
+      "sha256": "0c811e678ce3bcf28d681b3fc949d8f116e6fba56028d07bfd96cbcaa8bf530b",
+      "bytes": 56684
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab6/comic-01-snake-needs-goal.webp",
+      "target": "public/materials/mobile-lab/img/lab6/comic-01-snake-needs-goal.webp",
+      "sha256": "f471f4d7e2a931484edb69138b81182412c4704e411f0985d6690df58cd5268a",
+      "bytes": 101256
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab6/meme-01-apple-inside-snake.webp",
+      "target": "public/materials/mobile-lab/img/lab6/meme-01-apple-inside-snake.webp",
+      "sha256": "d1b0b9797c348170cf24e1ed045a32c1f11a8e1342b7cf6b6ab88e64096caed5",
+      "bytes": 198468
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab6/schema-01-growth-step.webp",
+      "target": "public/materials/mobile-lab/img/lab6/schema-01-growth-step.webp",
+      "sha256": "0c67fdebb0731dde8de1117ce49db5e62e9aea47f843d4eaa326b77e9141c274",
+      "bytes": 126320
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab6/schema-02-free-cells.webp",
+      "target": "public/materials/mobile-lab/img/lab6/schema-02-free-cells.webp",
+      "sha256": "ca1b31de7a640b44d906ea5e0cd66a92c2db10a70ef94ed8a5efcc2c65bfcb38",
+      "bytes": 86684
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab6/schema-03-score-event.webp",
+      "target": "public/materials/mobile-lab/img/lab6/schema-03-score-event.webp",
+      "sha256": "263a1f6c5373b5e02334bfc5cd762f381bf0ae466c1e9f79a1a6d44930a344e0",
+      "bytes": 95828
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab6/ui-01-food-and-score.webp",
+      "target": "public/materials/mobile-lab/img/lab6/ui-01-food-and-score.webp",
+      "sha256": "226f88c57ca1a5eb87602de63a347bbfa0538e2e0046eaf0320d7d7324529d4b",
+      "bytes": 51130
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab7/comic-01-first-crash.webp",
+      "target": "public/materials/mobile-lab/img/lab7/comic-01-first-crash.webp",
+      "sha256": "8fe2ab143b59ec427ef46c79300f4b722eb7db64ecd71cf05db34b31698b7ff7",
+      "bytes": 110046
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab7/schema-01-collision-order.webp",
+      "target": "public/materials/mobile-lab/img/lab7/schema-01-collision-order.webp",
+      "sha256": "1ecdfb8158eda777f09efd3cdd9608cb83c03868ea3bd44a3cb5fc403c6974ee",
+      "bytes": 115292
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab7/schema-02-vacating-tail.webp",
+      "target": "public/materials/mobile-lab/img/lab7/schema-02-vacating-tail.webp",
+      "sha256": "f3462a88535d0af458da077dc4da24dd1581fea77a7e195fafb1dca44b0671de",
+      "bytes": 202020
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab7/schema-03-record-once.webp",
+      "target": "public/materials/mobile-lab/img/lab7/schema-03-record-once.webp",
+      "sha256": "855afa6032442dd00e3e837e41d3feab5677b9eb845a081e4bd4a5a8fd155a90",
+      "bytes": 61042
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab7/ui-01-game-over-record.webp",
+      "target": "public/materials/mobile-lab/img/lab7/ui-01-game-over-record.webp",
+      "sha256": "1056763b7ad26fc42f8e13ef15abfae6dfa2636a3a95ad2884e9b51102707be0",
+      "bytes": 66854
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab8/comic-01-two-timers.webp",
+      "target": "public/materials/mobile-lab/img/lab8/comic-01-two-timers.webp",
+      "sha256": "705af7e6f67aafaf33261e4be451ba4e01047139e4edd0a793d33457ad88bdba",
+      "bytes": 155394
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab8/schema-01-swipe-direction.webp",
+      "target": "public/materials/mobile-lab/img/lab8/schema-01-swipe-direction.webp",
+      "sha256": "6338e037d6c567ddf15ca7cfe509f3ee7e2ae12b5b6a6b8272075648c3c5b33e",
+      "bytes": 110140
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab8/schema-02-pause-timer.webp",
+      "target": "public/materials/mobile-lab/img/lab8/schema-02-pause-timer.webp",
+      "sha256": "584d8bcf8d9c676bf7e6a03f4ee8f56ff11b222179b4207201b5ec7d44cadd41",
+      "bytes": 86416
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab8/schema-03-speed-limit.webp",
+      "target": "public/materials/mobile-lab/img/lab8/schema-03-speed-limit.webp",
+      "sha256": "2d585a73a3f68c214a3629db480a15c4f08bb44b7f9e69cd5ea19c2ade8c4c4b",
+      "bytes": 108976
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab8/schema-04-debug-vs-release.webp",
+      "target": "public/materials/mobile-lab/img/lab8/schema-04-debug-vs-release.webp",
+      "sha256": "a00467bd6ea89015ee60eca121fb980e696150caefe38eb763ce96188a069e54",
+      "bytes": 96746
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab8/ui-01-phone-controls.webp",
+      "target": "public/materials/mobile-lab/img/lab8/ui-01-phone-controls.webp",
+      "sha256": "65aaa3e6fca4c40ef6ced1a15d7be28763b015efc530a2de3c606874f914cd8a",
+      "bytes": 66196
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab9/comic-01-third-game-opens.webp",
+      "target": "public/materials/mobile-lab/img/lab9/comic-01-third-game-opens.webp",
+      "sha256": "ceca59412991501f17f7357f90fe37ca03801a4618138b5a6217fa61b6bc834d",
+      "bytes": 198800
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab9/meme-01-enemy-fleet-visible.webp",
+      "target": "public/materials/mobile-lab/img/lab9/meme-01-enemy-fleet-visible.webp",
+      "sha256": "9b2359c34a150f364fcff345e5cbbd6813a6b3e3b4cfe6816caf5b1113719f01",
+      "bytes": 125794
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab9/schema-01-model-relations.webp",
+      "target": "public/materials/mobile-lab/img/lab9/schema-01-model-relations.webp",
+      "sha256": "5f3b2f410c17a14d26edb7474409981ceecf98a610eac062c928e98046bbcdad",
+      "bytes": 87042
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab9/schema-02-cell-visibility.webp",
+      "target": "public/materials/mobile-lab/img/lab9/schema-02-cell-visibility.webp",
+      "sha256": "194bc7a9495c891e79af976e7f0332844755415330d56d9fa660af142440adbc",
+      "bytes": 83304
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab9/schema-03-index-to-coordinate.webp",
+      "target": "public/materials/mobile-lab/img/lab9/schema-03-index-to-coordinate.webp",
+      "sha256": "5215d7da1f0a56736e5caa2f9bd25dd98c3695af2f254a649753206fa9ada3b1",
+      "bytes": 83656
+    },
+    {
+      "source": "Разработка_мобильных_приложений_2027/img/lab9/ui-01-two-board-tabs.webp",
+      "target": "public/materials/mobile-lab/img/lab9/ui-01-two-board-tabs.webp",
+      "sha256": "9d72f183205458e41ed9986541dec974deb8df97d0d921d2b95d27d9a9f6ab35",
+      "bytes": 101882
+    }
+  ],
+  "corrections": [
+    {
+      "source": "Разработка_мобильных_приложений_2027/Практическая работа №12. Есть попадание — первая полная морская битва.md",
+      "from": "<GridPosition>",
+      "to": "&lt;GridPosition&gt;",
+      "reason": "Обобщённый тип в тексте экранирован от интерпретации как HTML",
+      "context": "tableCell"
+    }
+  ],
+  "downloads": [
+    {
+      "target": "public/materials/mobile-lab/downloads/android-sdk-setup.md",
+      "sha256": "2be8baa3f9e05f99481da577d57b50b43ca52aee98b6dce53b97fcfe3b81b06e",
+      "bytes": 20323
+    }
+  ]
+}

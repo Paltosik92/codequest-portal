@@ -1,0 +1,56 @@
+name: Deploy CodeQuest to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Configure deployment URL
+        id: config
+        shell: bash
+        env:
+          CUSTOM_SITE: ${{ vars.SITE_URL }}
+          CUSTOM_BASE: ${{ vars.BASE_PATH }}
+        run: |
+          owner="${GITHUB_REPOSITORY_OWNER,,}"
+          repository="${GITHUB_REPOSITORY#*/}"
+          if [[ "${repository,,}" == "${owner}.github.io" ]]; then
+            default_base="/"
+          else
+            default_base="/${repository}"
+          fi
+          echo "site=${CUSTOM_SITE:-https://${owner}.github.io}" >> "$GITHUB_OUTPUT"
+          echo "base=${CUSTOM_BASE:-${default_base}}" >> "$GITHUB_OUTPUT"
+      - name: Install, check, build and upload
+        uses: withastro/action@v6
+        with:
+          node-version: 24
+          package-manager: npm
+          build-cmd: npm run check && npm run build && npm run verify:links
+        env:
+          SITE_URL: ${{ steps.config.outputs.site }}
+          BASE_PATH: ${{ steps.config.outputs.base }}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5

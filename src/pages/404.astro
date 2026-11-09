@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { url } from '../lib/paths';
+---
+<BaseLayout title="Страница не найдена — CodeQuest"><section class="container section-space"><div class="eyebrow">404 / ПУТЬ НЕ НАЙДЕН</div><h1 style="font-size:clamp(2.5rem,6vw,5rem);margin-block:24px">Этот квест пока<br/>не существует.</h1><p style="margin-bottom:30px">Проверь адрес или выбери направление из каталога.</p><a class="button button-primary" href={url('#courses')}>Вернуться к курсам →</a></section></BaseLayout>

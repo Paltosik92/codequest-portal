@@ -1,0 +1,15 @@
+---
+import { url } from '../lib/paths';
+import Icon from './Icon.astro';
+const { current = '' } = Astro.props;
+---
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href={url()} aria-label="CodeQuest — на главную"><span class="brand-mark"><Icon name="code" size={23}/></span><span>CODE<span class="brand-light">QUEST</span><span class="brand-dot">.</span></span></a>
+    <nav aria-label="Основная навигация">
+      <a href={url('#courses')} aria-current={current === 'courses' ? 'page' : undefined}>Курсы</a>
+      <a href={url('#approach')}>Подход</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Включить светлую тему" title="Сменить тему" hidden><span class="theme-sun"><Icon name="sun"/></span><span class="theme-moon"><Icon name="moon"/></span></button>
+  </div>
+</header>

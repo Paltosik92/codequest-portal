@@ -1,0 +1,2027 @@
+{
+  "courseId": "guild-of-heroes",
+  "sourceRoot": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев",
+  "cover": "materials/guild-of-heroes/img/start-poster-01-team_v3.webp",
+  "lessons": [
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №1. Классы, объекты и конструкторы.md",
+      "sourceSha256": "d1f1326f58ebcb36b439f7a7e791f0c30f003e98ffd13eb8d852399c8d9245f3",
+      "target": "src/content/lessons/guild-of-heroes/lab-01.md",
+      "sha256": "2681922e96815e3d0b4ccccc9673ef5f8453d604e9fb4ba06ee3020566697939",
+      "number": 1,
+      "slug": "guild-of-heroes/lab-01",
+      "removedComments": 0,
+      "codeBlocks": 126,
+      "images": 19,
+      "tables": 0
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №2. Методы и состояние объекта.md",
+      "sourceSha256": "cdcf0b2398f7c36fbb11c70c920766f19da396f5412ff86ce1da6ebcc61712ce",
+      "target": "src/content/lessons/guild-of-heroes/lab-02.md",
+      "sha256": "0e52f097379a3814c9b03550ca9399ba09526ed7eb3d2d67c1c2c9494610c0bf",
+      "number": 2,
+      "slug": "guild-of-heroes/lab-02",
+      "removedComments": 0,
+      "codeBlocks": 57,
+      "images": 20,
+      "tables": 3
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №3. Свойства и инкапсуляция.md",
+      "sourceSha256": "d243f207cacad4db028837f117d537a91d717c82afa8f0d634d171d88f299214",
+      "target": "src/content/lessons/guild-of-heroes/lab-03.md",
+      "sha256": "fdd5fd5aad73b8198164433b268667f0a3b49c3d81db5f3cb49fe3326507a88e",
+      "number": 3,
+      "slug": "guild-of-heroes/lab-03",
+      "removedComments": 0,
+      "codeBlocks": 47,
+      "images": 25,
+      "tables": 6
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №4. Перекличка у водосборника.md",
+      "sourceSha256": "8abb959cc0f4a8014eb2ebc4985403d112f46bd6b6379e5c1ae727e456afc2bf",
+      "target": "src/content/lessons/guild-of-heroes/lab-04.md",
+      "sha256": "a758090bd0ef88d3a637d88026a9798009112d3d8c1a08a850d4f7d0e66e7069",
+      "number": 4,
+      "slug": "guild-of-heroes/lab-04",
+      "removedComments": 0,
+      "codeBlocks": 33,
+      "images": 13,
+      "tables": 7
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №5. Список у ворот.md",
+      "sourceSha256": "6759d98c323783196eb84a75422ef05913f8afce5baad8bd661f7f3e7263e45c",
+      "target": "src/content/lessons/guild-of-heroes/lab-05.md",
+      "sha256": "3dee9b366488bd6ec722cb7faf983562ffa9938319cb924d34b38d2d3e45dc15",
+      "number": 5,
+      "slug": "guild-of-heroes/lab-05",
+      "removedComments": 0,
+      "codeBlocks": 30,
+      "images": 11,
+      "tables": 7
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №6. Поплавок, который не вернулся.md",
+      "sourceSha256": "40bc49d9ddebc5bda83198f0eba47dea2f556a25de863236ca1ba9b27116a332",
+      "target": "src/content/lessons/guild-of-heroes/lab-06.md",
+      "sha256": "14cbeccefa67c59b31bb92213d024f372221abec08b472212353d1d00415689d",
+      "number": 6,
+      "slug": "guild-of-heroes/lab-06",
+      "removedComments": 0,
+      "codeBlocks": 31,
+      "images": 12,
+      "tables": 2
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №7. Две смены одного мастера.md",
+      "sourceSha256": "f99d56bd8f9102be51eaf1a92f38e90aca78e1782006405f14cfd8e4f0215f8e",
+      "target": "src/content/lessons/guild-of-heroes/lab-07.md",
+      "sha256": "431da649924b7a3e1a36f34e30279f5173f9feeb00a58057a9c4f1f9974d4c5b",
+      "number": 7,
+      "slug": "guild-of-heroes/lab-07",
+      "removedComments": 0,
+      "codeBlocks": 36,
+      "images": 10,
+      "tables": 4
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №8. Сухой канал под полным резервуаром.md",
+      "sourceSha256": "182005e35ac9f3f6ebe77f4c9399e91106b09a028b673b41ec780884f9fc03f6",
+      "target": "src/content/lessons/guild-of-heroes/lab-08.md",
+      "sha256": "44eca04ce3d98a74c5d42e177c101ce377a2ad8c2dae4996a6a80edcef29d1a9",
+      "number": 8,
+      "slug": "guild-of-heroes/lab-08",
+      "removedComments": 2,
+      "codeBlocks": 28,
+      "images": 11,
+      "tables": 2
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №9. Окно приёма.md",
+      "sourceSha256": "016b475e0a56d485633c029d924593a9eda922d3926d531e92b7482d26247ee5",
+      "target": "src/content/lessons/guild-of-heroes/lab-09.md",
+      "sha256": "960a142bc8e83f66d6bb3bdf5ce9e8a60615c57844e6f93fa7cac3410f433161",
+      "number": 9,
+      "slug": "guild-of-heroes/lab-09",
+      "removedComments": 1,
+      "codeBlocks": 23,
+      "images": 11,
+      "tables": 1
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №10. Устав гильдии.md",
+      "sourceSha256": "de9589f45b6a1026a1f7090d1929c098b217f6f3c6d59fc22b9bab4ede848324",
+      "target": "src/content/lessons/guild-of-heroes/lab-10.md",
+      "sha256": "eb03f77a0fd1b2dd6158f5865630f49fa0bec83fd36a50c0f34a7a21d5749936",
+      "number": 10,
+      "slug": "guild-of-heroes/lab-10",
+      "removedComments": 1,
+      "codeBlocks": 31,
+      "images": 10,
+      "tables": 6
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №11. Работа по специальности.md",
+      "sourceSha256": "1fdc9767b76044edb4abdafaf11657f7d0edf0d1ad174ca320b5b0bb4c493d2a",
+      "target": "src/content/lessons/guild-of-heroes/lab-11.md",
+      "sha256": "f1b0a5af1ed033363bb02120724ce02bdd13bcf67dc0c202ff23fbb5516f8e07",
+      "number": 11,
+      "slug": "guild-of-heroes/lab-11",
+      "removedComments": 1,
+      "codeBlocks": 33,
+      "images": 10,
+      "tables": 6
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №12. Три способа пройти заслон.md",
+      "sourceSha256": "76f22352ab3844b09ec6f2cbb1956d440cdede56b053b837b64db31f4f0c9c8e",
+      "target": "src/content/lessons/guild-of-heroes/lab-12.md",
+      "sha256": "beeee6abdef98101e3d2ae97c84ea6bf968ae2270cc6722fc57d0d4d5c703708",
+      "number": 12,
+      "slug": "guild-of-heroes/lab-12",
+      "removedComments": 2,
+      "codeBlocks": 30,
+      "images": 11,
+      "tables": 4
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №13. В отряде нет лишних.md",
+      "sourceSha256": "ff916348a807c9197da10a4af05b4357ac49ee64d6b1a7213cf61e3e2c84a284",
+      "target": "src/content/lessons/guild-of-heroes/lab-13.md",
+      "sha256": "e8751da508fbae203eead76364aac68fa59a78909aa7b851f7874d7b65f1d299",
+      "number": 13,
+      "slug": "guild-of-heroes/lab-13",
+      "removedComments": 2,
+      "codeBlocks": 33,
+      "images": 11,
+      "tables": 6
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №14. Насос не записывается в герои.md",
+      "sourceSha256": "7f8297c78805bd050255305c95b6679cbd161b8aa4a51ec38749c96a3f2e69a6",
+      "target": "src/content/lessons/guild-of-heroes/lab-14.md",
+      "sha256": "6c9b78ac6cbab5e08f1740bfe6382bf745e858455d76b7487a1413e683d7036f",
+      "number": 14,
+      "slug": "guild-of-heroes/lab-14",
+      "removedComments": 4,
+      "codeBlocks": 29,
+      "images": 12,
+      "tables": 4
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №15. Два журнала одной экспедиции.md",
+      "sourceSha256": "84aad22eba5ab630074296861c92d62bb320d18f1db96b67cf4df80871489558",
+      "target": "src/content/lessons/guild-of-heroes/lab-15.md",
+      "sha256": "10652dabb526c05b791f26350b6b1eb81ff469d91948e944ab9b646bed07244d",
+      "number": 15,
+      "slug": "guild-of-heroes/lab-15",
+      "removedComments": 0,
+      "codeBlocks": 28,
+      "images": 10,
+      "tables": 5
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №16. Накладная на минус шесть.md",
+      "sourceSha256": "3fa9e665e5d25c0f02b94914378362ea5b43b3dede34105d033f35a7613f0bc1",
+      "target": "src/content/lessons/guild-of-heroes/lab-16.md",
+      "sha256": "ed13366e4db7b0ad7a83ec93d7f9e0e92909fb215f9f4c57c6519989e2b9bcd4",
+      "number": 16,
+      "slug": "guild-of-heroes/lab-16",
+      "removedComments": 0,
+      "codeBlocks": 28,
+      "images": 10,
+      "tables": 4
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №17. Кого пропускает правило.md",
+      "sourceSha256": "22871d724d51a2b318980d3425d32fb6f9c4153a0fc37192cb7ee4ef78c5bb4f",
+      "target": "src/content/lessons/guild-of-heroes/lab-17.md",
+      "sha256": "050af4edea3ac9599757c26404a04f23ef87e647628c0cd1b8608837c6f958f8",
+      "number": 17,
+      "slug": "guild-of-heroes/lab-17",
+      "removedComments": 0,
+      "codeBlocks": 32,
+      "images": 11,
+      "tables": 3
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №18. Об этом должны узнать все.md",
+      "sourceSha256": "c79aa9c78e6c805b57a3913c1d8f19c0901e0f151d5c6fe96c3e01b4d44d1cab",
+      "target": "src/content/lessons/guild-of-heroes/lab-18.md",
+      "sha256": "ec78e7094ee0c7ceeddbc3d896bdf4c214424e81826b56b6cd6b8d9fb9021ff4",
+      "number": 18,
+      "slug": "guild-of-heroes/lab-18",
+      "removedComments": 0,
+      "codeBlocks": 28,
+      "images": 10,
+      "tables": 2
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №19. След медных уплотнений.md",
+      "sourceSha256": "e7b907950729fea262b1958a70980ce1a52482a76cf4444bc4ca95197577a5ad",
+      "target": "src/content/lessons/guild-of-heroes/lab-19.md",
+      "sha256": "acb984ce9b1a21d1843966140c0f478ea9db00a2ce59b403b848224e97629867",
+      "number": 19,
+      "slug": "guild-of-heroes/lab-19",
+      "removedComments": 0,
+      "codeBlocks": 31,
+      "images": 9,
+      "tables": 2
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №20. Два Сергея и одна подпись.md",
+      "sourceSha256": "b83768954a4bb0570bf26a18b29b88a9f64758022047902ba049b84eca5c69f3",
+      "target": "src/content/lessons/guild-of-heroes/lab-20.md",
+      "sha256": "c78291728c1a59351ddc15e33f51b48b6104de75413feed4ff15a604e0d63997",
+      "number": 20,
+      "slug": "guild-of-heroes/lab-20",
+      "removedComments": 0,
+      "codeBlocks": 28,
+      "images": 10,
+      "tables": 3
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №21. Штаб на втором этаже.md",
+      "sourceSha256": "e088144ef34cf9148ca504b2187b6ec382d0c0842cd88f569eae0262a485a071",
+      "target": "src/content/lessons/guild-of-heroes/lab-21.md",
+      "sha256": "7ff058b9be804d9813745a6e63381c6f81de3abf7ba88efb02b6d0d0839efa17",
+      "number": 21,
+      "slug": "guild-of-heroes/lab-21",
+      "removedComments": 0,
+      "codeBlocks": 36,
+      "images": 10,
+      "tables": 3
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №22. Копия до рассвета.md",
+      "sourceSha256": "f0f2a427e8d94d4065973c03706c47d10c9ce558f9b1f0e0b94464fe5eef574c",
+      "target": "src/content/lessons/guild-of-heroes/lab-22.md",
+      "sha256": "b57cdc4709a09ae92ecf35c6f8c8ea28a19d3f54f38ec5a137d95daf52f144cc",
+      "number": 22,
+      "slug": "guild-of-heroes/lab-22",
+      "removedComments": 0,
+      "codeBlocks": 36,
+      "images": 10,
+      "tables": 3
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №23. Те же люди после перезапуска.md",
+      "sourceSha256": "7fdd9db8e09f69e08b9ae5bb986b607f426a8d36f335f7248a919431c5b0075a",
+      "target": "src/content/lessons/guild-of-heroes/lab-23.md",
+      "sha256": "1277f78b83cce88b5ade913ec945667b9cb0c72bf1bd16e1c08fb4eb26591f2f",
+      "number": 23,
+      "slug": "guild-of-heroes/lab-23",
+      "removedComments": 0,
+      "codeBlocks": 28,
+      "images": 11,
+      "tables": 2
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №24. Седьмой колокол.md",
+      "sourceSha256": "c838a13be39e147c88f5fc0d0b371a67346c8267c19845ad6473b305bc176267",
+      "target": "src/content/lessons/guild-of-heroes/lab-24.md",
+      "sha256": "d0ef1099196f7350aba8b2d2cdadbaab8120c679d1c6c44f721f96e1c3b26678",
+      "number": 24,
+      "slug": "guild-of-heroes/lab-24",
+      "removedComments": 0,
+      "codeBlocks": 25,
+      "images": 10,
+      "tables": 2
+    }
+  ],
+  "assets": [
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/01-roll-call.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/01-roll-call.webp",
+      "sha256": "2e925fa918f10692cd0649dc56e9d01a27f739e37cbf62a1a09bd22d920f12cf",
+      "bytes": 297282
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/02-double-entry.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/02-double-entry.webp",
+      "sha256": "aa7d77ed4b7aef1c6d0c7ffc3cd696c6af8252acaa58b37a94f168a34ac25740",
+      "bytes": 368714
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/03-blue-stamp.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/03-blue-stamp.webp",
+      "sha256": "6a5600feef0e84e1c347b936a05c22ae6734c05ee47d9aa1a935b7100564090d",
+      "bytes": 281196
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/epic-i-a-water-below.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/epic-i-a-water-below.webp",
+      "sha256": "843fc54eff91038cc70ca79402dab7eeaf156e7757cf73bcdef7a40f78719737",
+      "bytes": 619162
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/meme-01-count-not-index.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/meme-01-count-not-index.webp",
+      "sha256": "91cae5c089cd3541fe641f09cb96bc23d1286e6f15db6ee0f5b3aa08192317c0",
+      "bytes": 355174
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/meme-02-created-not-added.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/meme-02-created-not-added.webp",
+      "sha256": "ccc9430b9c2e429e1b4587885b49c9f28715efc0a5267a4aab00e3da843f52f2",
+      "bytes": 260968
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/schema-01-list-references.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/schema-01-list-references.webp",
+      "sha256": "85066169682eee236bb1fc60374756ba053576c35b72ea88cc2ce8601d124e9a",
+      "bytes": 69706
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/schema-02-index-boundary.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/schema-02-index-boundary.webp",
+      "sha256": "dd59b86e3a4022efb900c867fdbe52be287dd05265a2c4bb3d8e0c2b158348e1",
+      "bytes": 64376
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/schema-03-guild-owns-list.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/schema-03-guild-owns-list.webp",
+      "sha256": "5ed1f7e0945bd3484ec334bdc99054b10e0e81afea1d39dd43d9b6805e49558c",
+      "bytes": 98558
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/schema-04-foreach-current.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/schema-04-foreach-current.webp",
+      "sha256": "33fd98928113d4ec2f0a34fa962da97880bd79d88c727fc2df579e27361eb3d0",
+      "bytes": 113774
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/schema-05-duplicate-references.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/schema-05-duplicate-references.webp",
+      "sha256": "201890f6003b9fe52e268ca020381ce383d62a722764dedae417fc09f0b18a5e",
+      "bytes": 89068
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/schema-06-reference-or-new.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/schema-06-reference-or-new.webp",
+      "sha256": "4a524987f9ff5cdaf4aa8da7559c2f3a900235764f93e4df9407b6b6e8392d6c",
+      "bytes": 114352
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab04/schema-07-strongest-trace.webp",
+      "target": "public/materials/guild-of-heroes/img/lab04/schema-07-strongest-trace.webp",
+      "sha256": "8e348cd0f6d6fad8a685a38b8ff0ec255e3cb853ba94747d1dec53062ab79d3a",
+      "bytes": 108538
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/01-gate-list.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/01-gate-list.webp",
+      "sha256": "d4683585208407943d95bb8b92421ba73b6036592a642289e27e8492a35a77b9",
+      "bytes": 408810
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/02-two-cards.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/02-two-cards.webp",
+      "sha256": "aaf705e5b4eb821adc7a8f07a6c476148787a5d85fa3c385326f6e2d30438a31",
+      "bytes": 454414
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/03-missing-float.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/03-missing-float.webp",
+      "sha256": "e0d429c367f4334ab0f213013c27e7c64cf13f135e3abd59667b0352bd4bbc5f",
+      "bytes": 461156
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/meme-01-null-chair.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/meme-01-null-chair.webp",
+      "sha256": "d35cc5c74c85a6b663ad789dc8f51e0becb3dbc33b307a04c10957a027aca4ff",
+      "bytes": 321078
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/meme-02-early-return.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/meme-02-early-return.webp",
+      "sha256": "1b0f346b51b664e2fb73139f26a8a1ffb7f1fbfd991b253864ba7d9f196b6047",
+      "bytes": 328072
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/schema-01-closed-roster.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/schema-01-closed-roster.webp",
+      "sha256": "ff7dbb3675c26744a81c5f04f8649de316a1277615b41701d574da463cea1340",
+      "bytes": 92508
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/schema-02-search-or-null.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/schema-02-search-or-null.webp",
+      "sha256": "fc4c1e9270fb5c89f3f8fe6266bae6c98dc73aede43a5e5c4df1ce74b33fdcfb",
+      "bytes": 134234
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/schema-03-copy-not-clone.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/schema-03-copy-not-clone.webp",
+      "sha256": "85f44a0c1869c48842700cf81e36d804803d6b84e6257fae96617198769602ac",
+      "bytes": 84822
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/schema-04-safe-result.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/schema-04-safe-result.webp",
+      "sha256": "7a1e56f8e02b690cb5c677c7b52d684cc188171e1ae2a2722f659b8bffc09298",
+      "bytes": 104646
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/schema-05-add-remove.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/schema-05-add-remove.webp",
+      "sha256": "87ce92e3277fb5c651a4744e15383628677fd04a5041a01cc90b53f9f9d4ddad",
+      "bytes": 121286
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab05/schema-06-snapshot-after-remove.webp",
+      "target": "public/materials/guild-of-heroes/img/lab05/schema-06-snapshot-after-remove.webp",
+      "sha256": "0779678ff0e0fed02d8c7e20a7cdaa51ce3298b693540d10f7bec8efbcc3b42b",
+      "bytes": 125714
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/01-ticket-101.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/01-ticket-101.webp",
+      "sha256": "3827b70d5411993b9451a2e1f68c38faedd626557be9d5b3e6bc696ace56e891",
+      "bytes": 401568
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/02-thread-not-copy.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/02-thread-not-copy.webp",
+      "sha256": "3949e4ed4bb6607372fa082bfa800d8de5ccf0e096a58fd8f7f3c6eb5fd3c1c4",
+      "bytes": 390496
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/03-second-ticket.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/03-second-ticket.webp",
+      "sha256": "f4fe26f91d28f9b9571c13ee8b809bcf6e124375a7cd91834deb185d6b718cf1",
+      "bytes": 374570
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/epic-i-b-water-flows.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/epic-i-b-water-flows.webp",
+      "sha256": "c2a2dcc697483f62fe88cdd107690f22f3fbec0b4f82944f9d6c2c9c950921bd",
+      "bytes": 500950
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/meme-01-reward-first.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/meme-01-reward-first.webp",
+      "sha256": "4f03446f6e85c982ac62904b3e173e40ad96aee76170c98ebe5436989a701252",
+      "bytes": 383890
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/meme-02-paper-double.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/meme-02-paper-double.webp",
+      "sha256": "76da17c42ae08058865acd7e7b37cf4ecc0d0a0f9737386b4a7045b41f11379f",
+      "bytes": 378270
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/schema-01-quest-reference.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/schema-01-quest-reference.webp",
+      "sha256": "6147df3c9c9c1c6d07b540e94ea00036d322f8b5cea5e9b6f8669515effbf310",
+      "bytes": 97390
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/schema-02-call-chain.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/schema-02-call-chain.webp",
+      "sha256": "ea44a6c6c17f71c7b93a01f60b3967e7917452cc9c9e0c198d36deeba129f6f5",
+      "bytes": 92334
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/schema-03-checks-before-change.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/schema-03-checks-before-change.webp",
+      "sha256": "29d53edfcfeed0c4efb5812c27a1f05170e8ffe670c768c1a97b22beb942cd3f",
+      "bytes": 84248
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/schema-04-readonly-reference.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/schema-04-readonly-reference.webp",
+      "sha256": "92eb9a331944f8c2a81eef87e8052a8f140f695335f573bb274bf8b7ce2a6917",
+      "bytes": 130446
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/schema-05-failure-state.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/schema-05-failure-state.webp",
+      "sha256": "f47e1de2981cdf9df9eca138d71d704836a80da77729f4fda7ddac9f0d50fee4",
+      "bytes": 130164
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab06/schema-06-experience-capacity.webp",
+      "target": "public/materials/guild-of-heroes/img/lab06/schema-06-experience-capacity.webp",
+      "sha256": "18e70c86776b6e304ae22245e9810405a7b4fe46e86fdeceff13699623e81a9d",
+      "bytes": 133984
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/01-two-tickets.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/01-two-tickets.webp",
+      "sha256": "fd93ae2f0118e4b3262aaa6765163ac28dc31c156d47e266b3c68f940b039081",
+      "bytes": 408030
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/02-hospital-pump.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/02-hospital-pump.webp",
+      "sha256": "9b08abe3e5550079a54a0d0a23324afa438b49267b83dbe145ca56d4cd772fc3",
+      "bytes": 428912
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/03-slash-mark.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/03-slash-mark.webp",
+      "sha256": "afb447ed939894b8be45ab5f0fa39be77882f3768d000f595bd3e24b6a517d0c",
+      "bytes": 353894
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/meme-01-both-stamps.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/meme-01-both-stamps.webp",
+      "sha256": "7df9229204935aa94e675b115af2e6345ddf644d9cda7f9c9384adb29285687a",
+      "bytes": 395268
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/meme-02-chained-to-done.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/meme-02-chained-to-done.webp",
+      "sha256": "251086cae4ce805c6329109cc53eb2f63e9b3c7cc20bde6d816f91abacadd6aa",
+      "bytes": 394238
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/schema-01-status-transitions.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/schema-01-status-transitions.webp",
+      "sha256": "e62d281fac2174abadead4d4bb3b9d39b15cb54c8187b89c58f48cef651900ea",
+      "bytes": 88068
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/schema-02-busy-computed.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/schema-02-busy-computed.webp",
+      "sha256": "38a32d2b4664c333679607b8c30de0a3dd6b3e88708eeebb5060c517376389e1",
+      "bytes": 91170
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/schema-03-sergey-day.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/schema-03-sergey-day.webp",
+      "sha256": "d027aacaea1077ed5ec1121f0703cf2e94a4a72f9a712704efee39e4b8f1c5f6",
+      "bytes": 98348
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/schema-04-history-vs-busy.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/schema-04-history-vs-busy.webp",
+      "sha256": "7395c2727094b20d470a106e4ad03cf4967d307d5255d52cb8a2d2b7f229b71f",
+      "bytes": 133032
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab07/schema-05-check-before-assign.webp",
+      "target": "public/materials/guild-of-heroes/img/lab07/schema-05-check-before-assign.webp",
+      "sha256": "67beed16b547407af20cf5ebceba38d345566e348c4c9daa172736b9589fb2c0",
+      "bytes": 139848
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/01-dry-channel.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/01-dry-channel.webp",
+      "sha256": "a392b2744854081ea8822a91a68eaf0fbe6edf3a2769269c0302ac324d82c8e8",
+      "bytes": 479554
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/02-seventh-rod-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/02-seventh-rod-v2.webp",
+      "sha256": "8ecda1b5bc78a93f2be111a1620c9cde6693d87c0aabb2e646e207a4b3891c42",
+      "bytes": 736504
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/03-locked-storeroom.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/03-locked-storeroom.webp",
+      "sha256": "25e8a630f459c1e56f446032d490669c1afac8a63a7e187836b1d18ef86bf394",
+      "bytes": 355228
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/epic-ii-a-dry-channel-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/epic-ii-a-dry-channel-v2.webp",
+      "sha256": "4145cdc2c42e23d1093e9922c3aad4abc4f99b56323735e78b5695f6a15b7244",
+      "bytes": 768470
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/meme-01-lunch-entry.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/meme-01-lunch-entry.webp",
+      "sha256": "81fd6aa6de607e7f3c940e393dbc1aacb142ef7171fa385f03055d369d297520",
+      "bytes": 313554
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/meme-02-one-journal.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/meme-02-one-journal.webp",
+      "sha256": "b0eac5469537d7b7ed9f52d80a163307e360e9cd1f47010dd9cf4fcf7b33bf6f",
+      "bytes": 370746
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/schema-01-has-vs-owns.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/schema-01-has-vs-owns.webp",
+      "sha256": "bf49ec0a950e6c4323e0bfe049ed42d7073920d2b5ea185f8c796444ca24cf31",
+      "bytes": 105266
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/schema-02-board-registry.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/schema-02-board-registry.webp",
+      "sha256": "a16910d406fa6bf3973edc8c843addc45d7b5759b8d124bed0a21b89cbe8da89",
+      "bytes": 85098
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/schema-03-what-remains.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/schema-03-what-remains.webp",
+      "sha256": "f728567f221cfdc4ae351235b59b79b97fed0caaebb61e2365bb07eed856cbc5",
+      "bytes": 100096
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/schema-04-shared-hero-own-journals.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/schema-04-shared-hero-own-journals.webp",
+      "sha256": "99e430fcf6220b25d025ebd5e6f10237235f65d9075f671f917db5625b8c7dfa",
+      "bytes": 117630
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab08/schema-05-copy-boundary.webp",
+      "target": "public/materials/guild-of-heroes/img/lab08/schema-05-copy-boundary.webp",
+      "sha256": "f7a7c7abfb7e526a9933f06708ef9788c0ac3d270f35bbb37a99ab34a6e61429",
+      "bytes": 122440
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/01-window-opens.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/01-window-opens.webp",
+      "sha256": "430b72102a53111db5bc434febadbf8b391525c578ca11b8dfb612a559034f36",
+      "bytes": 357738
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/02-one-hundred-five.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/02-one-hundred-five.webp",
+      "sha256": "7a2d0964de0b47cba33b644b10874b94b723986bd89aaa190238ab3c108f9812",
+      "bytes": 368786
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/03-he-knew-the-route.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/03-he-knew-the-route.webp",
+      "sha256": "e67b76707ac9922681ee310cffb10c3c941359d0befd58590c338bf8e1ed8e68",
+      "bytes": 363826
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/epic-ii-b-anton-offer-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/epic-ii-b-anton-offer-v2.webp",
+      "sha256": "40ecd580c2015e766997c5a3a2d6e4925b0739f4f72905e9043c877496965801",
+      "bytes": 583934
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/meme-01-parse-faint.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/meme-01-parse-faint.webp",
+      "sha256": "3dcfdaf412e7dd285f7c6cf659a4e11ddd2e420ba90272741dce4ebe567924b3",
+      "bytes": 270628
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/meme-02-exit-door.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/meme-02-exit-door.webp",
+      "sha256": "dbe1e82e99404359818e3fd35b3f8bf6a3554a639da13f6d9108d500f342b7d8",
+      "bytes": 300648
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/schema-01-console-loop.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/schema-01-console-loop.webp",
+      "sha256": "6f62cfed807204a57ad90d0dc01b24ed667a3920186ef9e857eda846acb2db3b",
+      "bytes": 99016
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/schema-02-boundary.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/schema-02-boundary.webp",
+      "sha256": "e12d41acca4d13a9739d5d94d4206e1f3f24b99eeaaa3c3f1a50f11875b19f8a",
+      "bytes": 101206
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/schema-03-break-vs-flag.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/schema-03-break-vs-flag.webp",
+      "sha256": "25495d72fcb3397007ad283488a1bde9bc986ef0f2618d03de327ef0acea55ca",
+      "bytes": 80444
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/schema-04-input-path.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/schema-04-input-path.webp",
+      "sha256": "051554e608f0e86153e10604a79408eba32a42152a4f24b7463ada7b5143d72e",
+      "bytes": 130566
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab09/schema-05-world-outside-loop.webp",
+      "target": "public/materials/guild-of-heroes/img/lab09/schema-05-world-outside-loop.webp",
+      "sha256": "ee520b80b2ec3dfc4dff7bab6753288b0ee50afc76fc62a3ea049d8af4665f2e",
+      "bytes": 129664
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_1.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_1.webp",
+      "sha256": "1d8e755d9ae0684572b68798d3fa29ec11a382b9efd4db4bb7bd2163e511cdfc",
+      "bytes": 399026
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_10.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_10.webp",
+      "sha256": "d14c2ca9b1ba6a42cfe5d67d66c192fed3f25ee5d48f874069c661070154c522",
+      "bytes": 361104
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_11.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_11.webp",
+      "sha256": "5ac4dd57ad09111c1ede9ef480584ae72182b8bd0863478c923c2bb4b0562b93",
+      "bytes": 397546
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_12.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_12.webp",
+      "sha256": "7983f7bf09bcc2f90a084459be717d5aaf94ff75a5c5cb7008a8f43caff3b368",
+      "bytes": 390304
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_13.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_13.webp",
+      "sha256": "8ebf031243f7d22f1c49352d554d394b5bf2b461e60bf2b7a4fb2cb2650e75cb",
+      "bytes": 369914
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_15a.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_15a.webp",
+      "sha256": "ecccf27c180516d2f63f0d92f4f696edaf54ac51cdc6e291c5d07ef36f98e701",
+      "bytes": 342024
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_15b.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_15b.webp",
+      "sha256": "0366db11646a01067fab9d795fa9d159f456648153e425325c4e7c3f830be484",
+      "bytes": 389044
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_15c.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_15c.webp",
+      "sha256": "fc689cd47883a1d21811ec0dc026d3f3d264657d7c6be5938db744a959dd95ad",
+      "bytes": 375366
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_16.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_16.webp",
+      "sha256": "43359fb4702247053aa1dd31a427d510958be24e709c8339b76c45644ad8533e",
+      "bytes": 359768
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_17.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_17.webp",
+      "sha256": "efce111df8f7e6e2fbf122e35063e8f5e1ae97fc2498f585c7f24debf5469469",
+      "bytes": 449084
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_2.webp",
+      "sha256": "f65e0a50d14dc56101008b1f4de7d7f2ec2eaba2e9ce2105db4017adc89d6da9",
+      "bytes": 366854
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_2b.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_2b.webp",
+      "sha256": "b2ee282e55952f6703d1353853d0ad32e7e79a205a6ee5a7f2f4cab265655c9e",
+      "bytes": 303662
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_3.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_3.webp",
+      "sha256": "a68464fb361561b72a0b9d132fc195be99f5c6ac3b5751d0a51628c74a08317e",
+      "bytes": 339408
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_4.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_4.webp",
+      "sha256": "45c12366318431de2af33159f995dc830ae28e7aeccbdcbf703058ae4cccd6eb",
+      "bytes": 392794
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_5.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_5.webp",
+      "sha256": "16907dcc17d9cb4323c46e18b7f881b808c8a6f097de3e88626c3ce072d5d7d4",
+      "bytes": 398550
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_6.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_6.webp",
+      "sha256": "ff7f714694a6f80fdd1005c63beca305c25e95e3d20d3c9c6406baad79447cb7",
+      "bytes": 399432
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_7.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_7.webp",
+      "sha256": "fe412bbbe0dc79f11d589df0af93195b7cf3e6a6285162f7600a9a8a2ccb4942",
+      "bytes": 302356
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab1/1_OOP_9.webp",
+      "target": "public/materials/guild-of-heroes/img/lab1/1_OOP_9.webp",
+      "sha256": "8d4cd210b7a5fc0aa1ecf7083ada68e5708b9e580658c2e3597532a1481cfe92",
+      "bytes": 379404
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/01-the-charter.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/01-the-charter.webp",
+      "sha256": "cadbc02cb20191fea62465aa10228ea1e44ba09de7a0407d2d8627706d603bb9",
+      "bytes": 396556
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/02-level-two.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/02-level-two.webp",
+      "sha256": "c5b40dcc585637fde67b6299fdd595251e8bc4c7d6b63b1b507240010a7376f3",
+      "bytes": 400632
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/03-list-without-the-rod-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/03-list-without-the-rod-v2.webp",
+      "sha256": "cef3151a4471328a7d96443ca7a581f297a1f69ada045dd1953d9db2ceb67f85",
+      "bytes": 535822
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/meme-01-shared-piggy-bank.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/meme-01-shared-piggy-bank.webp",
+      "sha256": "2318b01029efdf495f4bcdf0b08de475b4be22063a9456c00fd6611d89ac096c",
+      "bytes": 380846
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/meme-02-level-zero.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/meme-02-level-zero.webp",
+      "sha256": "f3a4c1bb40ca2ca94093ea20720eca2d21e73676a68706948a195b0ad62e3a29",
+      "bytes": 300308
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/schema-01-object-vs-class.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/schema-01-object-vs-class.webp",
+      "sha256": "657acabb88e5455eee0ba2825969605e8d85ec4a5afa4ac4621a422fed840e5c",
+      "bytes": 85608
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/schema-02-program-in-three-lines.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/schema-02-program-in-three-lines.webp",
+      "sha256": "0f4bf194c27208047a8ce802899e2a66836a554e56fea6b135e3574beddad095",
+      "bytes": 89032
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/schema-03-two-worlds.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/schema-03-two-worlds.webp",
+      "sha256": "0fa3f7f33cb6d9f8522c97300f80d545a99b314db14cdae4acfbe7e014487f06",
+      "bytes": 75492
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/schema-04-readonly-reference.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/schema-04-readonly-reference.webp",
+      "sha256": "37cae2c1b81e219d4f404ab6c9a7cfa26f666c04fc9c195a42958758084f58c9",
+      "bytes": 121064
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab10/schema-05-level-boundaries.webp",
+      "target": "public/materials/guild-of-heroes/img/lab10/schema-05-level-boundaries.webp",
+      "sha256": "4791fb3da57f4437cf3320e59998d0c4b70007629c3b024c7b8e0d1e4ef8edd7",
+      "bytes": 94242
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/01-at-the-door.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/01-at-the-door.webp",
+      "sha256": "85823ab9869e3ae933274eb4098c4b8c29ce394d5db46bf80586b6668b1de359",
+      "bytes": 530346
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/02-read-not-break-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/02-read-not-break-v2.webp",
+      "sha256": "ec9b65e70f84ad3748e29dbdac27c63dc76556d5264a16bd8c6177526f69b296",
+      "bytes": 687478
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/03-three-obstacles.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/03-three-obstacles.webp",
+      "sha256": "0dc23645357cc764c112a8a23212945fe0c95ab865a4d105ba8822a7b53c9438",
+      "bytes": 399396
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/meme-01-copy-paste-classes.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/meme-01-copy-paste-classes.webp",
+      "sha256": "a25d630a55a08d79911f2dff4ba24e4da65b9628c0f74474e190bd8d1320f286",
+      "bytes": 322600
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/meme-02-two-health-bars.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/meme-02-two-health-bars.webp",
+      "sha256": "fccff4b15107083e92c3deabaea5140fbd3a45839113c3821fc05a502b3f36d5",
+      "bytes": 306188
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/schema-01-constructor-chain.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/schema-01-constructor-chain.webp",
+      "sha256": "05cae5745559a335f5cfdd6d5d1aea7bfc06d75a4ca3773db74e7c2c06899c6f",
+      "bytes": 89210
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/schema-02-inheritance-tree.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/schema-02-inheritance-tree.webp",
+      "sha256": "f9ec9816677b851a602fa6aa59e3578c4e68449a4cb8c34b427a2d3f687e4b3a",
+      "bytes": 83106
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/schema-03-variable-type.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/schema-03-variable-type.webp",
+      "sha256": "1e54c1d1126e8e60d35a3e1756f08f4bedae2ffd5e62bf432c7143be70b22850",
+      "bytes": 90822
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/schema-04-inherited-state.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/schema-04-inherited-state.webp",
+      "sha256": "9ad1019f77fe79e0a983fc8266bdfc3b53f95b6e46b08d4fc3ee247d4c6a8f45",
+      "bytes": 105706
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab11/schema-05-hidden-health.webp",
+      "target": "public/materials/guild-of-heroes/img/lab11/schema-05-hidden-health.webp",
+      "sha256": "dcde37a2fbfb6d0f0c3b216085ba01e813a94fbc2d60408525ede9f753be97d4",
+      "bytes": 100784
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/01-the-barrier.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/01-the-barrier.webp",
+      "sha256": "ba1dfcd526d4ab0c22a7a923edcb92bd2453ce9f6899ba4a833cf5b0083813da",
+      "bytes": 499284
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/02-eldar-at-the-crates-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/02-eldar-at-the-crates-v2.webp",
+      "sha256": "b38ffcb8ae65ef43a9461604d5e20e71d3ceb1b3cc64d3d232ce4ff726a7580a",
+      "bytes": 489374
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/03-sergey-one.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/03-sergey-one.webp",
+      "sha256": "d5fff55fd79166be55d7e71b06748455789821183f9d3dbd8c7cb673f3fcb6c9",
+      "bytes": 360416
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/epic-iii-a-three-ways-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/epic-iii-a-three-ways-v2.webp",
+      "sha256": "a1d5501630250e1de363e8b0c7070d89ed9e74468b99447f5e81d9e17efd4deb",
+      "bytes": 684892
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/meme-01-lost-override.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/meme-01-lost-override.webp",
+      "sha256": "193c741147d68de48004e1dcf59dd9c38e4d63e09844a87888515129ccb7e4b8",
+      "bytes": 402268
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/meme-02-reward-per-view.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/meme-02-reward-per-view.webp",
+      "sha256": "81edfe40e3b11f08f605246f43d81b369b28e0e8277f4b6390a4e74831bb2ce3",
+      "bytes": 343940
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/schema-01-one-call-many-answers.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/schema-01-one-call-many-answers.webp",
+      "sha256": "a346a353a8195ae6517bbe72f4e1a188b1a8ddbb02758b08c750a86437e8f087",
+      "bytes": 83964
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/schema-02-variable-vs-object.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/schema-02-variable-vs-object.webp",
+      "sha256": "a3f5119c071c6e2e3aad2e6614304d1489a0214e9aefb602d4533714d89ab0a9",
+      "bytes": 95382
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/schema-03-barrier-sheet.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/schema-03-barrier-sheet.webp",
+      "sha256": "514bd144b81933ce46f3328c54370e1ea6687545b960027221351631652ee87e",
+      "bytes": 90036
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/schema-04-pure-query.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/schema-04-pure-query.webp",
+      "sha256": "3e2ed3f5dc20580dfefe7f98a376f711bdc8ac4b3bea00b0c2bf80dd1feda209",
+      "bytes": 103674
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab12/schema-05-report-scope.webp",
+      "target": "public/materials/guild-of-heroes/img/lab12/schema-05-report-scope.webp",
+      "sha256": "9c80d05fdbfc50445c40a19116630f143ad9713e6d820ae1694abf6c48aae2d9",
+      "bytes": 108774
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/01-not-just-a-hero.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/01-not-just-a-hero.webp",
+      "sha256": "c3a1efdce2989085a8a8642877ec3555e93edbb397946ef9515e0ab6ef1daa96",
+      "bytes": 402266
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/02-locked-rod.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/02-locked-rod.webp",
+      "sha256": "fdb3d404150f9c9e708f25568442e869fb93a99d02578ee33ef2dcf52e9d34f7",
+      "bytes": 485274
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/03-red-thread-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/03-red-thread-v2.webp",
+      "sha256": "4b9b35141288c4fb60df1894a308a38a27ec56acaf63127aa40d629eec72b64f",
+      "bytes": 575846
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/epic-iii-b-no-one-extra-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/epic-iii-b-no-one-extra-v2.webp",
+      "sha256": "861dc639c757793fce7fe8c0c21952e0ac890756462f59df3662a4d89937b9bd",
+      "bytes": 702662
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/meme-01-abstract-chair.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/meme-01-abstract-chair.webp",
+      "sha256": "7200f596021c4908f0b3a731c551246433cf0ed05bf4ce7731f45d29730b9429",
+      "bytes": 404358
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/meme-02-training-fifteen.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/meme-02-training-fifteen.webp",
+      "sha256": "ae2feb6473a8551f4d3efc7d96ba70c908c357c5f5cf63add30944137cef5150",
+      "bytes": 363352
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/schema-01-access-levels.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/schema-01-access-levels.webp",
+      "sha256": "31b4a2d1eda61cbef6cbbcfdcaeb32307674a911a165e95e1f4220c78d178598",
+      "bytes": 78486
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/schema-02-four-roles.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/schema-02-four-roles.webp",
+      "sha256": "793fb8ddde4d0ea18ca617c065dcfbf7ed1a05fdafd6bdf4e9372f7916acafee",
+      "bytes": 89188
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/schema-03-abstract-contract.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/schema-03-abstract-contract.webp",
+      "sha256": "8b154d16d9921f7447a2d58fa36b92ef3b5ebc75dae1eca151b736cf3264eda4",
+      "bytes": 88244
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/schema-04-abstract-construction.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/schema-04-abstract-construction.webp",
+      "sha256": "ab65e3db6374699a4781f7c97c19e4fd29709ddd303b37761ace0ef97d713622",
+      "bytes": 119590
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab13/schema-05-training-invariant.webp",
+      "target": "public/materials/guild-of-heroes/img/lab13/schema-05-training-invariant.webp",
+      "sha256": "cad98ea39221857a9e09eae928491e78a94ba3af1e639d9ae144259afd2c665a",
+      "bytes": 115048
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/01-pump-on-cart.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/01-pump-on-cart.webp",
+      "sha256": "df3ebbc1a64f905ccdf73fa1891d3b0c4965a4e6280bc6517cf140665a7a6446",
+      "bytes": 453772
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/02-before-the-pressure-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/02-before-the-pressure-v2.webp",
+      "sha256": "1e415d4cabdf248da1b6c7b72cb8dcc2db79344954d4db7146c5171e08fcfc1c",
+      "bytes": 428984
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/03-the-crates-open-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/03-the-crates-open-v2.webp",
+      "sha256": "f0845ac3802dc9544c5f8ef35bcf8822fcaf6268011950c5ed5b146b1256656d",
+      "bytes": 528004
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/04-water-at-hospital-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/04-water-at-hospital-v2.webp",
+      "sha256": "4c756f64485c10c75cbe6ef08c1d08f7fa1213f2e7fed83b7b719720be8fe7d0",
+      "bytes": 437984
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/epic-iv-a-night-bypass-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/epic-iv-a-night-bypass-v2.webp",
+      "sha256": "7fe7a95e56ecdcbe60ab37398869132129b3fa5977a436459b696b5e9d4e2f40",
+      "bytes": 598302
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/meme-01-pump-hero-card.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/meme-01-pump-hero-card.webp",
+      "sha256": "bbaa6bda2a0fda19e92a9721e94e9b965760d0a3339e0b270748275ae7bc10cb",
+      "bytes": 366146
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/meme-02-not-a-hero.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/meme-02-not-a-hero.webp",
+      "sha256": "bff28ad8bd2385de916ab2034746fca518a972eff526adc7d318c09006654025",
+      "bytes": 365910
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/schema-01-one-interface-two-families.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/schema-01-one-interface-two-families.webp",
+      "sha256": "2eaed895e084820254a84f122a38014b0200213ad9fe0477e0f0ce06e1281fd5",
+      "bytes": 91992
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/schema-02-complete-with-challenge.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/schema-02-complete-with-challenge.webp",
+      "sha256": "12fc7f6b1d87d707c87f501ae4235fe407209d11d0bfd65926ea84b60fdc5661",
+      "bytes": 89222
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/schema-03-views-of-one-object.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/schema-03-views-of-one-object.webp",
+      "sha256": "17f892d8c4f89dcff7a2c652a94f62c2c594c28f2c86dd56840ca53812362e68",
+      "bytes": 68084
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/schema-04-contribution-and-reward.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/schema-04-contribution-and-reward.webp",
+      "sha256": "507749bb7b1432b0fb6c3c0327d844690ada1f96ffd29037dbce94581a4be65c",
+      "bytes": 124846
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab14/schema-05-foreach-interface.webp",
+      "target": "public/materials/guild-of-heroes/img/lab14/schema-05-foreach-interface.webp",
+      "sha256": "b0b113044186cbf0b962cee371d980e8233e37637138b3abf697b96eb70f509a",
+      "bytes": 131088
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/01-two-stacks.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/01-two-stacks.webp",
+      "sha256": "60fecff910451d8da81c58fd28f86e05483837d3a3a6fce431e8ea7b9ed9c66f",
+      "bytes": 444534
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/02-two-notebooks.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/02-two-notebooks.webp",
+      "sha256": "2efc19bf82a4254d623bb564b62e37b5f60f982649c55d04bd78693229398a63",
+      "bytes": 439062
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/03-forty-two.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/03-forty-two.webp",
+      "sha256": "446a56996a50e2563b55993b86d68aa66fa016be2020166d4f7a60f04643703a",
+      "bytes": 365018
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/meme-01-object-bag.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/meme-01-object-bag.webp",
+      "sha256": "57140cab511b0c60c6d2677dc9eb059446857bcc01e98fb05fe3278db5b459be",
+      "bytes": 324304
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/meme-02-one-notebook.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/meme-02-one-notebook.webp",
+      "sha256": "c72d15b57230fe52bb3fbc526d824a208f1785b8d7e5143c4c0657728218c6c7",
+      "bytes": 328586
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/schema-01-one-class-many-types.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/schema-01-one-class-many-types.webp",
+      "sha256": "31e29eef55d1763d974740178afc8d580fa6bedee38e677a85bfbab6b259affd",
+      "bytes": 81114
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/schema-02-last-of-any-list.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/schema-02-last-of-any-list.webp",
+      "sha256": "de8bf7b6450d5a781ba24a8fd7e61924bba6b847f1fb3eebd22a520a168ba854",
+      "bytes": 72990
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/schema-03-bag-vs-boxes.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/schema-03-bag-vs-boxes.webp",
+      "sha256": "e27ea7d4b3557536b3fb0ffb936cfa1eb88ed35cbaebba2ce923c1ba0aed1750",
+      "bytes": 80616
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/schema-04-validation-boundaries.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/schema-04-validation-boundaries.webp",
+      "sha256": "1a98c1aebf3f09ad6ac8e43e9b9b977284c014fac95896caaa578391bc033568",
+      "bytes": 120270
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab15/schema-05-list-copy-and-entries.webp",
+      "target": "public/materials/guild-of-heroes/img/lab15/schema-05-list-copy-and-entries.webp",
+      "sha256": "40a8a70501df0a7057ac60c27e2b1e436d5787ed13e67890d3ef5f862f6250a7",
+      "bytes": 112278
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/01-minus-six.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/01-minus-six.webp",
+      "sha256": "245cf91bb9b4bc5540cbb0aa41b4686be21f19882a2c40ebcf749f1bf72de594",
+      "bytes": 364618
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/02-blue-note.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/02-blue-note.webp",
+      "sha256": "72eab0c67c72e9a31fd4f9da6f22784058b1bfbf65b735fed6ba285d5a70bf66",
+      "bytes": 437238
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/03-he-is-with-me.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/03-he-is-with-me.webp",
+      "sha256": "992e092b0e6e55c0739d6d17cf45a1cce1333241951dc96779ae8857e3fcb291",
+      "bytes": 405518
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/meme-01-minus-six-to-one.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/meme-01-minus-six-to-one.webp",
+      "sha256": "b376d7e403b2627e5fd8bdfb2e228daa8f16218b037ab893497ab7005fcd80f7",
+      "bytes": 320334
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/meme-02-carpet.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/meme-02-carpet.webp",
+      "sha256": "f78b67c3d20e83314014903dadd1534f0671afe08fe7176278979201266170bc",
+      "bytes": 385452
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/schema-01-exception-path.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/schema-01-exception-path.webp",
+      "sha256": "a9f8f5db76bd9fabaf57edd6130ac33fd2a8e007742e5f4669ad8169e002af6c",
+      "bytes": 79874
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/schema-02-who-checks-what.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/schema-02-who-checks-what.webp",
+      "sha256": "87cca047a670c35e48d16a13e5bb30d6c9fe38d4f0b516111d44cc1ae922112a",
+      "bytes": 69156
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/schema-03-two-kinds-of-no.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/schema-03-two-kinds-of-no.webp",
+      "sha256": "608607477089bfed8ecab541ea2d033d95908736083e46c221ec267b55f9f47a",
+      "bytes": 78590
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/schema-04-catch-types.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/schema-04-catch-types.webp",
+      "sha256": "b334054dd1df8d832ab8a203c49d3ee47946da5e1db3eab367d36dc2defc8247",
+      "bytes": 86956
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab16/schema-05-create-before-add.webp",
+      "target": "public/materials/guild-of-heroes/img/lab16/schema-05-create-before-add.webp",
+      "sha256": "d1348f07c1c35b901c93a4a7b451e62d3d463982134d3b8cd884dc81180e7f75",
+      "bytes": 115846
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/01-the-rule-paper.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/01-the-rule-paper.webp",
+      "sha256": "01e9cdee46c9377db64609daf3207aee56b43b903bbb0c58a0d29c43c0cd58cf",
+      "bytes": 424160
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/02-three-lists.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/02-three-lists.webp",
+      "sha256": "ac06a349abe41f030a9f9601e0e922e4944cb1dd053fc23c9fa3c50678e73068",
+      "bytes": 369390
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/03-veras-copy.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/03-veras-copy.webp",
+      "sha256": "fb594a789c5c78708ef6605e990d880ca7c54b8b6e17374787b32303a9ace5ab",
+      "bytes": 373808
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/epic-iv-b-the-rule.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/epic-iv-b-the-rule.webp",
+      "sha256": "00487926f02379097d683b1d04d2e2c5ab920d321b8c642525e318493424e55a",
+      "bytes": 461940
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/meme-01-or-gate.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/meme-01-or-gate.webp",
+      "sha256": "f9ddbb5097f0f74428c247b6ad07690729fe110d9d9c3c6c59e254755acc5625",
+      "bytes": 449092
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/meme-02-pass-for-everyone.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/meme-02-pass-for-everyone.webp",
+      "sha256": "1e39372cb0c177233fec1d41f05d9d825d9e23ef09cc4c4b964c37d0600dfcee",
+      "bytes": 352524
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/schema-01-method-delegate-lambda.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/schema-01-method-delegate-lambda.webp",
+      "sha256": "687c0d9c1128db420cb3df313bd3b0125aececa1ea55688f007f112cd6db9670",
+      "bytes": 84850
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/schema-02-select-with-any-rule.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/schema-02-select-with-any-rule.webp",
+      "sha256": "e72c6105dc5568304b662f351911d23660870ef7bece95a5bb176896117c1b52",
+      "bytes": 74770
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/schema-03-captured-variable.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/schema-03-captured-variable.webp",
+      "sha256": "90c60aa2acf51e57e38043c652866de230442dff47959a0a44899baa833018d7",
+      "bytes": 69452
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/schema-04-select-and-apply.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/schema-04-select-and-apply.webp",
+      "sha256": "2ea29372c62437181d53e507f9e9f27ebcbb1f86c1ce72c62bc339400e32b1c4",
+      "bytes": 127292
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab17/schema-05-and-or-check.webp",
+      "target": "public/materials/guild-of-heroes/img/lab17/schema-05-and-or-check.webp",
+      "sha256": "a1faf4dc207a5288c0eaaf6ed485fd63bc650a32a3529acdc08699b622cec61a",
+      "bytes": 79632
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/01-two-copies.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/01-two-copies.webp",
+      "sha256": "0d99b7985c44b2ba20ad0c4e3af14fe79aa5a463e1f10f5901bfdda24b91fc07",
+      "bytes": 475308
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/02-ninas-words.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/02-ninas-words.webp",
+      "sha256": "1c27fd1d076883ec123ab18148678ab4eb93c5db2f81ec586db106f9f8700c26",
+      "bytes": 440256
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/03-untied-rope.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/03-untied-rope.webp",
+      "sha256": "0a3ba1db51937354512dbccf750ad39042f8c3d795da3af92621d6e3f0dc1b5a",
+      "bytes": 413994
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/meme-01-five-rings.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/meme-01-five-rings.webp",
+      "sha256": "0246e9cc9288e1dce1422b948d66b271d9589a751ce4fa0270aa25c7f1422c12",
+      "bytes": 363672
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/meme-02-ring-before-done.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/meme-02-ring-before-done.webp",
+      "sha256": "3d4d9db526fc8daee86d9ace7383bbb71cecdd8c884b5aaffff6689815d06061",
+      "bytes": 425964
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/schema-01-publisher-subscribers.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/schema-01-publisher-subscribers.webp",
+      "sha256": "e5597ae954265e39359712c1f82603e6e9f980a75519c864a883c9745ba06655",
+      "bytes": 91366
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/schema-02-wiring-in-setup.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/schema-02-wiring-in-setup.webp",
+      "sha256": "d880e25b32b5892f0527929f7cbf29e268e318e667f731f404e1c33ff83efe46",
+      "bytes": 79110
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/schema-03-subscribe-unsubscribe.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/schema-03-subscribe-unsubscribe.webp",
+      "sha256": "04895b90e066b0708a2db0c8b828a0cb712493b50b4172359d2c4873c51295da",
+      "bytes": 52978
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/schema-04-success-before-notice.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/schema-04-success-before-notice.webp",
+      "sha256": "fb25528668aa8ee10b28aaf82b3bccb25cbe687633e3aa90538a987d22f18649",
+      "bytes": 140444
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab18/schema-05-nested-events.webp",
+      "target": "public/materials/guild-of-heroes/img/lab18/schema-05-nested-events.webp",
+      "sha256": "9000f2d801f2e7387998e570d30735191bc2221856737931801778e40638a1d0",
+      "bytes": 106350
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab19/01-rain-and-ledger.webp",
+      "target": "public/materials/guild-of-heroes/img/lab19/01-rain-and-ledger.webp",
+      "sha256": "f6bf869e6eaebee66ea1200c9b97e2611e093a1a35f023ba8c207db15e49521b",
+      "bytes": 463826
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab19/02-grey-figure-in-rain.webp",
+      "target": "public/materials/guild-of-heroes/img/lab19/02-grey-figure-in-rain.webp",
+      "sha256": "07168d9028119c2ce1909068929b4018b73f64171fed90144da294b5159bcc02",
+      "bytes": 453692
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab19/03-blue-marks.webp",
+      "target": "public/materials/guild-of-heroes/img/lab19/03-blue-marks.webp",
+      "sha256": "8c749680ec03e1349978bccd46bce7c9cc176f200e6c058295026c9a34c21571",
+      "bytes": 442146
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab19/meme-01-second-orderby.webp",
+      "target": "public/materials/guild-of-heroes/img/lab19/meme-01-second-orderby.webp",
+      "sha256": "fbc458a549d335e4f8cdf932497abe10f63cae7829fbf939c2ba04c0614d6c49",
+      "bytes": 462636
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab19/meme-02-day-fourteen-first.webp",
+      "target": "public/materials/guild-of-heroes/img/lab19/meme-02-day-fourteen-first.webp",
+      "sha256": "0ca249bf87fd3a2ed466c3ac77ac7fb907fc0799ba4779fb5ea3f8b2e881054d",
+      "bytes": 301498
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab19/schema-01-query-pipeline.webp",
+      "target": "public/materials/guild-of-heroes/img/lab19/schema-01-query-pipeline.webp",
+      "sha256": "22b221d07f9070871ae3e95c28f4232b96af7e0f1576ebd294d913a2478855ee",
+      "bytes": 67694
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab19/schema-02-shortage-timeline.webp",
+      "target": "public/materials/guild-of-heroes/img/lab19/schema-02-shortage-timeline.webp",
+      "sha256": "b905b1b6c9e16f77d14a119283389c7fcd52aab4f76aa7d793b0d6b8e1e81392",
+      "bytes": 59348
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab19/schema-03-query-vs-snapshot.webp",
+      "target": "public/materials/guild-of-heroes/img/lab19/schema-03-query-vs-snapshot.webp",
+      "sha256": "278f946bd297db1b780d3343c2127837860cf94eb0c7cff8c5e7d2b84c421415",
+      "bytes": 62728
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab19/schema-04-received-vs-missing.webp",
+      "target": "public/materials/guild-of-heroes/img/lab19/schema-04-received-vs-missing.webp",
+      "sha256": "5a05e277335f9b93820da929a0fda61fa34f7f851ff16a000fa50f1fc8c8c36e",
+      "bytes": 80850
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/00_lab2_start.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/00_lab2_start.webp",
+      "sha256": "a2f8e39649523f71b6c154fffb2426831e974599138e1f03fb79c638b13a10a2",
+      "bytes": 407782
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/01-stop-micromanaging-hero-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/01-stop-micromanaging-hero-v2.webp",
+      "sha256": "708bcfd7878babfdde1d0934681236934c4a4398e6a29380d2f83404a30d8d24",
+      "bytes": 392668
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/02-state-and-behavior.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/02-state-and-behavior.webp",
+      "sha256": "f3f6dd72ddc3a7a5f46a38099885b3a699bbac7c0b06f5d986254131ba174950",
+      "bytes": 412658
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/04-method-anatomy.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/04-method-anatomy.webp",
+      "sha256": "f9e68a3836f0d70872cdcc9ba46b446ce89bc3ef0473c2733e8a5cc620cd089f",
+      "bytes": 423404
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/05-who-called-it-gets-it.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/05-who-called-it-gets-it.webp",
+      "sha256": "9feda9961dd54ec92776bd76e79c9da33f47616cfc5cb30fb9929a63c7df675f",
+      "bytes": 452946
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/06-damage-cannot-go-below-zero-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/06-damage-cannot-go-below-zero-v2.webp",
+      "sha256": "0ca6c93817891ce24f91192d21a6732e3fc7847cef4a2ff8d31e73bdc39f929b",
+      "bytes": 404416
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/07-return-means-exit.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/07-return-means-exit.webp",
+      "sha256": "f28ba9189a3df5ee9ed4ed795a8195d8af3cc2d2b44430e4492d8ea5adcdbd8f",
+      "bytes": 433918
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/09-experience-adds-up.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/09-experience-adds-up.webp",
+      "sha256": "1e5731ef4e6b31bb68cc9f2028d46386a5a81afcda4e8e41dcb0eb28ebac013e",
+      "bytes": 441318
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/10-methods-can-answer-questions-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/10-methods-can-answer-questions-v2.webp",
+      "sha256": "3052ac2f6c1411b36bbbe7204029cf5eb68f223cc1595ed6dbb73d61cc1b1dc4",
+      "bytes": 354472
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/14-return-info-dont-print-it-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/14-return-info-dont-print-it-v2.webp",
+      "sha256": "aa69fea0959060bee4988cb541c770369d5021982135c79a9237648d862e106b",
+      "bytes": 379958
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/18-you-can-still-break-the-object-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/18-you-can-still-break-the-object-v2.webp",
+      "sha256": "e62fe281b80b2023b77465ed0b2b99a4ffab5b24160ff7e01fed8911af18c5dc",
+      "bytes": 393236
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/meme-01-stop-doing-everything-yourself.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/meme-01-stop-doing-everything-yourself.webp",
+      "sha256": "ccdce5b61b97f341a02806c7b8ae0db7c47816ef1ea9635b8a19f37df071ee38",
+      "bytes": 358742
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/meme-02-hero-learned-a-method.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/meme-02-hero-learned-a-method.webp",
+      "sha256": "9839d972fcef1e3356e620e05196c7f60cd585d1290cb81f7c70642185f42849",
+      "bytes": 368374
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/meme-03-negative-damage-heals.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/meme-03-negative-damage-heals.webp",
+      "sha256": "64944aeb1bb9dd8655299c0ef866998a9d60b7fe5814c3ac4eab6370febdc0c8",
+      "bytes": 364134
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/meme-04-return-says-no.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/meme-04-return-says-no.webp",
+      "sha256": "9f5297d79e9ee10c74758e21aa4eb86182e0d7f7f19391811e1d7a3aa6f352da",
+      "bytes": 371950
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/meme-05-artem-tested-production.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/meme-05-artem-tested-production.webp",
+      "sha256": "e08b4908b37fd189a4d0383106d14840f72ee351aed1ffc2843099a17e6d75ca",
+      "bytes": 425626
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/meme-06-xp-farming.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/meme-06-xp-farming.webp",
+      "sha256": "37201c33b206480c3b9749b6ad26c586561be046d3f1d73836c810a8375256db",
+      "bytes": 423214
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/meme-07-is-alive-check.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/meme-07-is-alive-check.webp",
+      "sha256": "cfdd5c12322f9b46c5eacd9d61f0ccdd43f604408664209011c8172b89f21110",
+      "bytes": 375536
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/meme-08-getinfo-does-not-print.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/meme-08-getinfo-does-not-print.webp",
+      "sha256": "70a89084007a8c0173099e25af6cde21ddeda44ed9fb16deb4ddbca8f1a8ca35",
+      "bytes": 403850
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab2/schema-01-scenario-trace.webp",
+      "target": "public/materials/guild-of-heroes/img/lab2/schema-01-scenario-trace.webp",
+      "sha256": "590cfcdd38735070e52d9e7453cbf68f7bd9fa6af051ded5502a23d5b2f90ab3",
+      "bytes": 134474
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/01-two-sergeys.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/01-two-sergeys.webp",
+      "sha256": "d0a2a0a948e323147038a10f99ecdb59b4a5fa9ae0742c370538c5c759c52fc9",
+      "bytes": 407632
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/02-thirty-years.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/02-thirty-years.webp",
+      "sha256": "d98979a1acb1c8d17be342d4a7a5a807333ffdb6c6695c162b2758c82e0c0da2",
+      "bytes": 359774
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/03-the-bell-swings.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/03-the-bell-swings.webp",
+      "sha256": "d80ea36bc38204abc0cc5e418bd7090372c18f78d4ea2c6efb5908278d7a1d44",
+      "bytes": 385060
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/epic-v-concession-bell.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/epic-v-concession-bell.webp",
+      "sha256": "14f8b5adbf0b6f9d1dd070cacb7819d0ca7b39d08dfe84986895d4aababfacbb",
+      "bytes": 502926
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/meme-01-two-number-fours.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/meme-01-two-number-fours.webp",
+      "sha256": "6824014723010a5951722415c0a8292afe6c2eedeaa77d6e53895f1888c6d64d",
+      "bytes": 313086
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/meme-02-position-is-not-id.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/meme-02-position-is-not-id.webp",
+      "sha256": "4242e48bf07116367e251f8eb664e99f3bc9655af5da29c4073c1345acf97b85",
+      "bytes": 414074
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/schema-01-reference-position-key.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/schema-01-reference-position-key.webp",
+      "sha256": "770b2bca4acaf438053890ba03540c107f345549fd3ddf4a6332b3e1fdeb330f",
+      "bytes": 79306
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/schema-02-find-by-id-and-name.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/schema-02-find-by-id-and-name.webp",
+      "sha256": "ed0337ec50eb1d382aedde0bf990bd00b06ba73b4b783ed24b407d1bc7852113",
+      "bytes": 87214
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/schema-03-comparer-and-copy.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/schema-03-comparer-and-copy.webp",
+      "sha256": "ea7966423f9276f5fab2a8971b724ce48a271decbd238a8059c46e7501525bc6",
+      "bytes": 82720
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab20/schema-04-copy-shares-heroes.webp",
+      "target": "public/materials/guild-of-heroes/img/lab20/schema-04-copy-shares-heroes.webp",
+      "sha256": "6765b2cbbafd3995303f4f2e2024f90547108a93ec0e6b3c7db2680598c2ca8d",
+      "bytes": 97614
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/01-flooded-hall.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/01-flooded-hall.webp",
+      "sha256": "7517d4d7ad510374e0df63a8f5151084afdfecbcf4ada5091c28d7d3942e1654",
+      "bytes": 456768
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/02-table-taken-apart.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/02-table-taken-apart.webp",
+      "sha256": "3f4da7b2cd1dc75af635e158b7d87de8df308aa9c5152a515db428c4518beaf4",
+      "bytes": 433906
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/03-village-carries-archive.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/03-village-carries-archive.webp",
+      "sha256": "0369ec7c1c493529ce822d0253babfab48f3a3c8da3f24819d0da386800de715",
+      "bytes": 526108
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/meme-01-model-or-models.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/meme-01-model-or-models.webp",
+      "sha256": "93a8852bee98278c1d5bbe829e5d911818efe926c01034e6d8022512dfadcbee",
+      "bytes": 315004
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/meme-02-bell-in-the-archive.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/meme-02-bell-in-the-archive.webp",
+      "sha256": "554fe9a1f1d6bdb6b95f144e5c05b5eaf0d4d7ef3d239bddb4c47974e467ebff",
+      "bytes": 451466
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/schema-01-three-rooms.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/schema-01-three-rooms.webp",
+      "sha256": "364a59f7cdc213295d3565a8b8f57ef008ad5a4799c7f54047e19a3d808cb2b0",
+      "bytes": 90934
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/schema-02-dependency-direction.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/schema-02-dependency-direction.webp",
+      "sha256": "15352ce59b8f6fd549dfecccc9d07fac30d18cd7424de8ade52426c13c8ef363",
+      "bytes": 88880
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/schema-03-board-and-membership.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/schema-03-board-and-membership.webp",
+      "sha256": "6a8363c51229fc09cd9d7d234057b289135d218565997b5921b7d47416d5495d",
+      "bytes": 91260
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/schema-04-folder-namespace-using.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/schema-04-folder-namespace-using.webp",
+      "sha256": "919b5763d206932bc54d0f72d3f6354e5b45215fc3cbe839161e94d065a4eb44",
+      "bytes": 113934
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab21/schema-05-world-and-bell.webp",
+      "target": "public/materials/guild-of-heroes/img/lab21/schema-05-world-and-bell.webp",
+      "sha256": "c0247bd1135651a8ced87e1bda0c2ba1c7df58f5e9143e159caedec3738b3c63",
+      "bytes": 132506
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/01-storm-and-wet-journal.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/01-storm-and-wet-journal.webp",
+      "sha256": "1cf541ec642919ae56598135cd7d602debec023fbd4d95770e54f9de8217fef8",
+      "bytes": 454126
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/02-elena-saves-snapshot.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/02-elena-saves-snapshot.webp",
+      "sha256": "bbffd82a277860efd914972aa2b20fe2b76d6af8a743ff4218ccb0cfeebcfa92",
+      "bytes": 352780
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/03-grey-figure-at-window.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/03-grey-figure-at-window.webp",
+      "sha256": "f9d169408b9094622269e73fd20e07e0fa71302cb2dd5c25f41ee470630b332d",
+      "bytes": 435216
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/meme-01-five-empty-frames.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/meme-01-five-empty-frames.webp",
+      "sha256": "7dc08d62d3b0a19e0414ee3ec2994835c5cf58609736ecbd297cd9a5ac17a679",
+      "bytes": 347038
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/meme-02-five-sergeys.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/meme-02-five-sergeys.webp",
+      "sha256": "6a93a9b028a51200ca46945fd8bb0d385165ab365ad301609b0b7b6fc3d88639",
+      "bytes": 411920
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/schema-01-file-path-exceptions.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/schema-01-file-path-exceptions.webp",
+      "sha256": "14138ca047bc4f01f957fc7a0abc5bea234de6ed77decec19ddb9843ca0be713",
+      "bytes": 85296
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/schema-02-object-vs-dto.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/schema-02-object-vs-dto.webp",
+      "sha256": "f4c3a777a323b8fe551223bc50b69e38c6ae4ff18e35fab8b70887f634da276f",
+      "bytes": 82454
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/schema-03-save-pipeline.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/schema-03-save-pipeline.webp",
+      "sha256": "f83a3906b553377db0de7fd4cc7a2585c89749e1121f9e0702180671b73186ca",
+      "bytes": 73226
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/schema-04-one-hero-many-ids.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/schema-04-one-hero-many-ids.webp",
+      "sha256": "42e4288319ef9b2cad99b1a253cfb00be4a60289b6512e55f9f2bd9ca3a35f8e",
+      "bytes": 126276
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab22/schema-05-two-save-results.webp",
+      "target": "public/materials/guild-of-heroes/img/lab22/schema-05-two-save-results.webp",
+      "sha256": "2ed7ab1b914285b1935963b6133056ab224a269d754ec371d52f12f8158c5012",
+      "bytes": 109154
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/01-dark-guild-morning.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/01-dark-guild-morning.webp",
+      "sha256": "e453cab5bd3030ab826b6e2a3095778ab419997dbd3c9c752101708cc3276495",
+      "bytes": 417712
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/02-blue-marks-uphill.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/02-blue-marks-uphill.webp",
+      "sha256": "364a2be043b974af63cb7aef660666a2f8e26db32d2b02a28ec5330dcff59c12",
+      "bytes": 502114
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/03-third-bell.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/03-third-bell.webp",
+      "sha256": "dab9a1c4754cdce29d69d1b721a5a22b62e9da69573611fc373f70c2d9501871",
+      "bytes": 395792
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/04-dam-threshold-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/04-dam-threshold-v2.webp",
+      "sha256": "b17008f04427ba8b73e300880c3ab296dde5270cede88fec719251c486d86850",
+      "bytes": 356992
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/epic-vi-a-grey-guide.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/epic-vi-a-grey-guide.webp",
+      "sha256": "96a302d199444129db19daaaeb6e3be593dc274c8498e3dd8931f616e6b09b41",
+      "bytes": 485260
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/meme-01-many-sergeys.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/meme-01-many-sergeys.webp",
+      "sha256": "3b8239b35d2032cade09739e33ed68f297647fdd82b2feb6ec81199dc85e4175",
+      "bytes": 364522
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/meme-02-almost-everything.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/meme-02-almost-everything.webp",
+      "sha256": "115915a4b89aa40350d239e7dcce66ebd4a1e2020c74b2f857624404b0b6c803",
+      "bytes": 334832
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/schema-01-trust-no-file.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/schema-01-trust-no-file.webp",
+      "sha256": "800015b5c412cb86bf4767add79ba47a2dfe68005d519a9e6e8a3f29c0c909d8",
+      "bytes": 83294
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/schema-02-restore-order.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/schema-02-restore-order.webp",
+      "sha256": "93668a96e12bd6de5549972c9d484aaf6e21e512e73ab5b3eac0baa7a94b5ba7",
+      "bytes": 83594
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/schema-03-all-or-nothing.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/schema-03-all-or-nothing.webp",
+      "sha256": "6c1569feea6f51b61d9a1e6729d153ec47a737f1fe56e9acc2d893db322c735c",
+      "bytes": 73308
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab23/schema-04-disk-and-data-boundaries.webp",
+      "target": "public/materials/guild-of-heroes/img/lab23/schema-04-disk-and-data-boundaries.webp",
+      "sha256": "620e9d8e4a0ec67d6149c52215ef11e597170c15757d8659f9e10b29cad53dc4",
+      "bytes": 118686
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/01-at-the-seventh-lever.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/01-at-the-seventh-lever.webp",
+      "sha256": "2d86636eb2ec45ee659d89854efbb0b5d7b85c7d31fc1e5435ada829bb31aeb6",
+      "bytes": 598704
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/02-seal-and-lever.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/02-seal-and-lever.webp",
+      "sha256": "43b2da9d4f4fb3e0a9304df6e8a50c7ea4b000feecfd0d0b899e6253c736a794",
+      "bytes": 514894
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/03-epilogue-at-the-sign.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/03-epilogue-at-the-sign.webp",
+      "sha256": "ae9f72b5c6ebfa66d2ff9a90efe78e84d387d5efe4abee4fba22626ebee95dcd",
+      "bytes": 508158
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/epic-vi-b-seventh-bell.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/epic-vi-b-seventh-bell.webp",
+      "sha256": "0c3d432d87c652dee5e0eb29ced78ff4cbd92f9130a9650023584b7a3222094c",
+      "bytes": 561154
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/meme-01-signal-too-early.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/meme-01-signal-too-early.webp",
+      "sha256": "d1a6ab957c1e60413fac937b3eb9c466024e7932a47d75ad0886212a3b7d02cc",
+      "bytes": 471290
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/meme-02-team-that-remembers.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/meme-02-team-that-remembers.webp",
+      "sha256": "022fc3cb885c709168a455d3216193491b074499c19a426c37086264c02d973b",
+      "bytes": 401320
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/schema-01-route-stage.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/schema-01-route-stage.webp",
+      "sha256": "c153d9af133b5c6d38b8d1ef96c7452fb17bf62233bf6581e6b6e504c70fe450",
+      "bytes": 78198
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/schema-02-route-across-restart.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/schema-02-route-across-restart.webp",
+      "sha256": "6a85cf44cf1dcea561d9fa0079a06091c4c12459ee6628e8f3f97e02a96a0a89",
+      "bytes": 88480
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/schema-03-course-map.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/schema-03-course-map.webp",
+      "sha256": "e467c4aa727717cd0dbb8e67220acfd381ef94c61f008df7d5b19aa1edc54566",
+      "bytes": 99166
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab24/schema-04-try-pass-outcomes.webp",
+      "target": "public/materials/guild-of-heroes/img/lab24/schema-04-try-pass-outcomes.webp",
+      "sha256": "614b516ea7b5ff7b501745e473a1750044080c0bbada72d419cccb4951e739ec",
+      "bytes": 167656
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/01-guild-after-pr2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/01-guild-after-pr2.webp",
+      "sha256": "c313669a45fc5629ff1a6a7c7f05811d5f73264a86a052bb2733e87fbbcd0cba",
+      "bytes": 472308
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/02-alexander-arrives.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/02-alexander-arrives.webp",
+      "sha256": "a2229d122bea5be672cd3796fcc912cb283e81d7f933d6868b06770249118b3d",
+      "bytes": 503886
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/04-controlled-access-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/04-controlled-access-v2.webp",
+      "sha256": "ec682da63325f7291e84d32fe85aea24826b4cb3ca0fd8d4f758fcda37ecced2",
+      "bytes": 456910
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/07-too-many-records.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/07-too-many-records.webp",
+      "sha256": "6589d013d0684e0c453f44fd7d56e00bf2c8521762d93393a76b78c973954fc7",
+      "bytes": 447782
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/meme-01-alexander-5000-health.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/meme-01-alexander-5000-health.webp",
+      "sha256": "a491bda55fb828a69eb8ffef6ad4bc89249be506e8412b7a730e64a18873dd54",
+      "bytes": 456750
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/meme-02-property-fixed-nothing.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/meme-02-property-fixed-nothing.webp",
+      "sha256": "234d3cb5b8c9a06f90c38b21b2c060830cb6967e62495b68d2b1de567ef18a33",
+      "bytes": 373928
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/meme-03-private-set-security-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/meme-03-private-set-security-v2.webp",
+      "sha256": "4b8f2d603d0804639f7dbd02ba4dadb76f940e16c6267e0b75a23d6de82fdfa8",
+      "bytes": 400230
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/meme-04-artem-max-health.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/meme-04-artem-max-health.webp",
+      "sha256": "5eaaaa5c09c88e9545edc310041efdf5bf9f62e5168512550bd76d349f1e64d6",
+      "bytes": 498182
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/meme-05-alexander-heal-5000.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/meme-05-alexander-heal-5000.webp",
+      "sha256": "accd9bc92a8ad87586975fe7a3402868f81a6658e03f46c2e938cc9d0e312cc3",
+      "bytes": 492360
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/meme-06-alexander-name-spaces-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/meme-06-alexander-name-spaces-v2.webp",
+      "sha256": "77ef19c1385e70a6959db804aefcb22e862a8c86863cafefdf01943143cde1c1",
+      "bytes": 350694
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/meme-07-getter-infinite-mirror.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/meme-07-getter-infinite-mirror.webp",
+      "sha256": "9629ffc6881b64fd07a1d7e474811a9ac8049d09b47fa75d9554efa52820e638",
+      "bytes": 384092
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/meme-08-xp-billionaire-v2.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/meme-08-xp-billionaire-v2.webp",
+      "sha256": "092126438712e389adbdfde0830f270019af17cf5935d75f44ea152d83efaf04",
+      "bytes": 391910
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/meme-09-trim-return-value.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/meme-09-trim-return-value.webp",
+      "sha256": "2f8ff601af52cccbf834f2ebbe4a676651d600a3df7201717e9b87ed0e9c7c2d",
+      "bytes": 378838
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-01-field-vs-property.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-01-field-vs-property.webp",
+      "sha256": "d5e14456a8f89ed27046eba79e537f0be5bf01a480207ce5ab4dd1dcb6d40a70",
+      "bytes": 89844
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-02-private-set-anatomy.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-02-private-set-anatomy.webp",
+      "sha256": "5c944c26f06e876141668adecd87f5682e84370694c97083fccf4d25f0d45322",
+      "bytes": 165304
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-03-health-range.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-03-health-range.webp",
+      "sha256": "1e3570ddcbd984703abb30b2751e2129ed23b8ccd8733b20224980caf34732ec",
+      "bytes": 230008
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-04-constructor-flow.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-04-constructor-flow.webp",
+      "sha256": "9c4732e38a170215b33215cd7037e2a916fd9d0871bcf503229f4340ab38470a",
+      "bytes": 153364
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-05-heal-flow.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-05-heal-flow.webp",
+      "sha256": "56424a01737bfc7610e03ff1775ec7a6484b288acfa034f1046e12d4f89ab214",
+      "bytes": 212872
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-06-independent-objects.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-06-independent-objects.webp",
+      "sha256": "ff8815d2aaad81cc2524be774eeede777e11c66be48215899063730de10e7a92",
+      "bytes": 210144
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-07-name-property-anatomy.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-07-name-property-anatomy.webp",
+      "sha256": "457e5906f8c20fbf4c4eae3514e888f1bb35f7f6099d79b45c841163b830d2ce",
+      "bytes": 127606
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-08-name-data-flow.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-08-name-data-flow.webp",
+      "sha256": "d1140e6f3ff27c4a0cf07a9e6980391d57a9f0bfa98e62dc2a53f058a3cf91be",
+      "bytes": 230314
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-09-experience-overflow.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-09-experience-overflow.webp",
+      "sha256": "19613ae4e40e5da6831adbdfb6cb7e0034bf5506958fb6a3fb25cc0c7f29840c",
+      "bytes": 241424
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-10-hero-class-map.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-10-hero-class-map.webp",
+      "sha256": "8d4eef020b9ebb1a1288b0090324e352a4c1aff2c1d1bb440bff38c46ae0bb41",
+      "bytes": 190084
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-11-domain-encapsulation.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-11-domain-encapsulation.webp",
+      "sha256": "72fc9de777ba643a737cd3c5f9219fe122dff2e222558a8719289bf0fb219f92",
+      "bytes": 258444
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/lab3/schema-12-experiment-lifecycle.webp",
+      "target": "public/materials/guild-of-heroes/img/lab3/schema-12-experiment-lifecycle.webp",
+      "sha256": "106a0c5a73302ddf2e61364b5d349a5f5f5fdd9298200d3d2a1b79a270d314d6",
+      "bytes": 138126
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/img/start-poster-01-team_v3.webp",
+      "target": "public/materials/guild-of-heroes/img/start-poster-01-team_v3.webp",
+      "sha256": "11d8d66ef453636b832834940d4bb87e9b44612b30b93ce60d8344e489ea99f8",
+      "bytes": 452604
+    }
+  ],
+  "corrections": [
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/ООП_Гильдия_героев/Практическая работа №23. Те же люди после перезапуска.md",
+      "from": "img/lab23/04-dam-threshold-v2",
+      "to": "img/lab23/04-dam-threshold-v2.webp",
+      "reason": "В исходной ссылке пропущено расширение изображения"
+    }
+  ]
+}

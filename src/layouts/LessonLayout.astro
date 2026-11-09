@@ -1,0 +1,25 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { MarkdownHeading } from 'astro';
+import BaseLayout from './BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import { publishedCourses } from '../data/courses';
+import { url, courseUrl, lessonUrl } from '../lib/paths';
+interface Props { lesson: CollectionEntry<'lessons'>; headings: MarkdownHeading[]; previous?: CollectionEntry<'lessons'>; next?: CollectionEntry<'lessons'>; }
+const { lesson, headings, previous, next } = Astro.props;
+const course = publishedCourses.find(c => c.id === lesson.data.courseId);
+const toc = headings.filter(h => h.depth === 2 || h.depth === 3);
+---
+<BaseLayout title={`${lesson.data.title} — CodeQuest`} description={lesson.data.description} current={lesson.data.demo ? 'demo' : 'courses'}>
+  <div class="container lesson-page">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки"><a href={url()}>Главная</a><span>/</span>{course && <><a href={courseUrl(course.id)}>{course.title}</a><span>/</span></>}<span aria-current="page">{lesson.data.demo ? 'Демонстрация' : `Работа №${lesson.data.number}`}</span></nav>
+    <header class="lesson-header"><div class="eyebrow"><Icon name="book" size={15}/> {lesson.data.demo ? 'ДЕМОНСТРАЦИЯ ФОРМАТА' : `${course?.title} · Практическая работа №${lesson.data.number}`}</div><h1>{lesson.data.title}</h1><p>{lesson.data.description}</p><div class="lesson-meta"><span>Markdown</span><span>Код с подсветкой</span><span>Пошаговая практика</span></div></header>
+    {lesson.data.demo && <div class="demo-disclaimer"><span class="demo-badge">ДЕМО</span><p>Нейтральный пример для проверки оформления. Эта страница не входит в программу курсов и не является реальной методичкой или решением преподавателя.</p></div>}
+    <div class="lesson-grid"><aside class="toc"><details open><summary>В этой работе <span aria-hidden="true">↕</span></summary><nav aria-label="Разделы практической работы"><ol>{toc.map(h => <li class:list={{ 'toc-sub': h.depth === 3 }}><a href={`#${h.slug}`} data-heading={h.slug}>{h.text}</a></li>)}</ol></nav></details><a class="toc-back" href={course ? courseUrl(course.id) : url('#courses')}>← {course ? 'К программе курса' : 'К направлениям'}</a></aside>
+      <div class="lesson-content"><article class="prose"><slot/></article><nav class="lesson-pagination" aria-label="Соседние работы">{previous ? <a href={lessonUrl(previous.data.slug)}><span>← Предыдущая работа</span><strong>{previous.data.title}</strong></a> : <div aria-disabled="true"><span>← Предыдущая работа</span><strong>{lesson.data.demo ? 'Это отдельная демонстрация' : 'Начало курса'}</strong></div>}{next ? <a href={lessonUrl(next.data.slug)}><span>Следующая работа →</span><strong>{next.data.title}</strong></a> : <div aria-disabled="true"><span>Следующая работа →</span><strong>{lesson.data.demo ? 'Других демо-работ пока нет' : 'Следующая работа ещё не опубликована'}</strong></div>}</nav><div class="lesson-bottom"><Icon name="code" size={18}/><span>Продолжай создавать. Шаг за шагом.</span><a href="#main">Наверх ↑</a></div></div>
+    </div>
+  </div>
+  <div class="image-dialog" role="dialog" aria-modal="true" aria-label="Просмотр иллюстрации" hidden><button type="button" class="image-close" aria-label="Закрыть иллюстрацию">×</button><img alt=""/><p></p></div>
+  <span class="sr-only" role="status" id="copy-status" aria-live="polite"></span>
+  <script src="../scripts/lesson.ts"></script>
+</BaseLayout>

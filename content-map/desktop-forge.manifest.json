@@ -1,0 +1,427 @@
+{
+  "courseId": "desktop-forge",
+  "sourceRoot": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia",
+  "cover": "materials/desktop-forge/img/lab9/catalog-final.png",
+  "lessons": [
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №1. Первое приложение Avalonia — «Карточка студента».md",
+      "sourceSha256": "25257472044314e100773f666ad861f23f0310b11bfb9e5df272d4b6abc3f397",
+      "target": "src/content/lessons/desktop-forge/lab-01.md",
+      "sha256": "2dc959ea66a7c1263443f477271f02bf56ac899831a5b0df7e51651cce710156",
+      "number": 1,
+      "slug": "desktop-forge/lab-01",
+      "removedComments": 0,
+      "codeBlocks": 134,
+      "images": 11,
+      "tables": 0
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №2. Элементы ввода — «Калькулятор заказа».md",
+      "sourceSha256": "8d9700d58ed4b769cfb7df5ac2f7e60c907452ddefebba935610c76a0056531f",
+      "target": "src/content/lessons/desktop-forge/lab-02.md",
+      "sha256": "b674a4e957e4908b9b5b1cd1a35c1994dc7d1882fbd2280a8b077ff6daf7755f",
+      "number": 2,
+      "slug": "desktop-forge/lab-02",
+      "removedComments": 0,
+      "codeBlocks": 153,
+      "images": 3,
+      "tables": 2
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №3. Компоновка интерфейса — «Настройки приложения».md",
+      "sourceSha256": "8a36baad8a14300e0af51ab825f26e74c04ad12eba4847079b63b176955b33eb",
+      "target": "src/content/lessons/desktop-forge/lab-03.md",
+      "sha256": "3dc449657b8e00f55d3cb50e0353ee1e50181f1ba7bddd8a3f204584a41fbae5",
+      "number": 3,
+      "slug": "desktop-forge/lab-03",
+      "removedComments": 0,
+      "codeBlocks": 191,
+      "images": 3,
+      "tables": 1
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №4. Стили — «Карточка персонажа».md",
+      "sourceSha256": "3dfa01bc894ed36a685bcaaf8b08a6eb8e4a99519460e3cb5e0920f443ccec14",
+      "target": "src/content/lessons/desktop-forge/lab-04.md",
+      "sha256": "6f400acb5b2f436aa7e1f3b6b4f34e78be4cd18deea3a874b8b57feea31ef9b6",
+      "number": 4,
+      "slug": "desktop-forge/lab-04",
+      "removedComments": 0,
+      "codeBlocks": 261,
+      "images": 4,
+      "tables": 1
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №5. Объекты и коллекции — «Список задач».md",
+      "sourceSha256": "1b366f74c33f399c86fa6fae580960f90fc5c1130a6a6cb179e1d863e8353fa0",
+      "target": "src/content/lessons/desktop-forge/lab-05.md",
+      "sha256": "44e6957e7ca14e3b1df7bd388b409a56b3d72c7df86737bf87707c017d4d72ed",
+      "number": 5,
+      "slug": "desktop-forge/lab-05",
+      "removedComments": 0,
+      "codeBlocks": 281,
+      "images": 5,
+      "tables": 1
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №6. Data Binding — «Редактор профиля».md",
+      "sourceSha256": "897287201b3732c74eea110e01117d233dde96f3f8a0ed24faf96dbefba13f30",
+      "target": "src/content/lessons/desktop-forge/lab-06.md",
+      "sha256": "c40c854764c9a14da69a8385b07df987e6d477accd176f5a1a37cc6a104421d7",
+      "number": 6,
+      "slug": "desktop-forge/lab-06",
+      "removedComments": 0,
+      "codeBlocks": 285,
+      "images": 4,
+      "tables": 1
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №7. Знакомство с MVVM — «Список задач 2.0».md",
+      "sourceSha256": "7b11eceb788cef22e583017a73323105e54f77a2087034a0e92e8718b41ab991",
+      "target": "src/content/lessons/desktop-forge/lab-07.md",
+      "sha256": "5b3215e6d263eeb3b95ad0edb1924d687be47ea2e8f01f4660fc66932b4d0ca3",
+      "number": 7,
+      "slug": "desktop-forge/lab-07",
+      "removedComments": 0,
+      "codeBlocks": 250,
+      "images": 2,
+      "tables": 1
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №8. Команды и CommunityToolkit.Mvvm — «Список задач 3.0».md",
+      "sourceSha256": "23d645a3db7c77b0bbf0ae83019a0f9f09014bd51f08fb0ec4c36fa991271939",
+      "target": "src/content/lessons/desktop-forge/lab-08.md",
+      "sha256": "ea2cc8db8b9375c62d75585482a814301dcd447ef12168a0e50136d05725fb35",
+      "number": 8,
+      "slug": "desktop-forge/lab-08",
+      "removedComments": 0,
+      "codeBlocks": 84,
+      "images": 3,
+      "tables": 2
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №9. Несколько представлений — «Каталог игр. Часть 1».md",
+      "sourceSha256": "6082a76e6dfd3821afd485d9e0a6b45f550a3cadbd65d97da976a43e62c1fa41",
+      "target": "src/content/lessons/desktop-forge/lab-09.md",
+      "sha256": "1ecf5377cb62eaaf1a8b61bdabb570a2392a5832f54018241405e03f897b5117",
+      "number": 9,
+      "slug": "desktop-forge/lab-09",
+      "removedComments": 0,
+      "codeBlocks": 308,
+      "images": 4,
+      "tables": 1
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №10. JSON и работа с файлами — «Каталог игр. Часть 2».md",
+      "sourceSha256": "e6fc624e44e5cb7a55a005e38925f1a0abccf42c1c154ef1810723b3c4eb816b",
+      "target": "src/content/lessons/desktop-forge/lab-10.md",
+      "sha256": "1a5c53ac04424b5c0436eeccf345248433aa8fb25d1aa346a7ff5ca29aedb7eb",
+      "number": 10,
+      "slug": "desktop-forge/lab-10",
+      "removedComments": 0,
+      "codeBlocks": 312,
+      "images": 4,
+      "tables": 1
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №11. Итоговое приложение — «Собственный каталог. Часть 1».md",
+      "sourceSha256": "5bedb72f5cb30a4434a1bb0a4885640244bad365e2cee7f360d63ac491e0feea",
+      "target": "src/content/lessons/desktop-forge/lab-11.md",
+      "sha256": "ab46f0a21fa7fa090ff89b2b70a2e802f0efe215c92ff5dc791a76dc44c037d8",
+      "number": 11,
+      "slug": "desktop-forge/lab-11",
+      "removedComments": 0,
+      "removedEditorialItems": 2,
+      "codeBlocks": 198,
+      "images": 0,
+      "tables": 3
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №12. Итоговое приложение — «Собственный каталог. Часть 2».md",
+      "sourceSha256": "ac3d1280c8d30a7bde811b8b89dfacd0d3848a4f067f16d7c1090c750979d354",
+      "target": "src/content/lessons/desktop-forge/lab-12.md",
+      "sha256": "e1efa8d4997e50ed0d4af0ad4c3e9b876faf6d22efd9fc239aefe9072470d487",
+      "number": 12,
+      "slug": "desktop-forge/lab-12",
+      "removedComments": 0,
+      "removedEditorialItems": 3,
+      "codeBlocks": 257,
+      "images": 0,
+      "tables": 2
+    }
+  ],
+  "assets": [
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/avalonia-oop-summary.png",
+      "target": "public/materials/desktop-forge/img/lab1/avalonia-oop-summary.png",
+      "sha256": "fb99674610bf64ab00c2620f0d43d35be373101776695b497807c2bc8e802403",
+      "bytes": 1592188
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/avalonia-platforms.png",
+      "target": "public/materials/desktop-forge/img/lab1/avalonia-platforms.png",
+      "sha256": "f57370cabf5615a5a0ed8ae6a60bb76466e7e04df058cb30560008638a305bd6",
+      "bytes": 1348750
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/axaml-code-behind.png",
+      "target": "public/materials/desktop-forge/img/lab1/axaml-code-behind.png",
+      "sha256": "9c6170348cc5f61f096f0a8ac359f809ee2b87dfc6c2b4e1663d8b45403b7404",
+      "bytes": 1500135
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/axaml-object.png",
+      "target": "public/materials/desktop-forge/img/lab1/axaml-object.png",
+      "sha256": "7465a7d2dccd3c8964a0bcbf525f9f714507540392e04e30384b913f5576ff62",
+      "bytes": 1477214
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/click-event-flow.png",
+      "target": "public/materials/desktop-forge/img/lab1/click-event-flow.png",
+      "sha256": "ed86879c289190d246fff9d6a5d2901bb557b28f3c0da8904a6113987325ecc1",
+      "bytes": 1515466
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/default-avalonia-window.png",
+      "target": "public/materials/desktop-forge/img/lab1/default-avalonia-window.png",
+      "sha256": "5a1673efb0cc7efb0d1a0e376786e469e0a29b27b121e02cfbed8fab67cc8d02",
+      "bytes": 9343
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/dotnet_list.png",
+      "target": "public/materials/desktop-forge/img/lab1/dotnet_list.png",
+      "sha256": "3680d3555199d32e087f5b795b869378b29ff7629bb19b34a8e0ea7702c67011",
+      "bytes": 33923
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/itog.png",
+      "target": "public/materials/desktop-forge/img/lab1/itog.png",
+      "sha256": "da85acbe6ce9c55f91b46de37b7ce1f561b4045f3cf5368ecb7df4d1f58386de",
+      "bytes": 27291
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/preview.png",
+      "target": "public/materials/desktop-forge/img/lab1/preview.png",
+      "sha256": "d80ed5ed47422e804fc50846595e7ac1dd7309e4d95ab234e04cd021402fa105",
+      "bytes": 359007
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/project-structure-vscode.png",
+      "target": "public/materials/desktop-forge/img/lab1/project-structure-vscode.png",
+      "sha256": "5c9bd5064f7cea45e5deed6ee8fb8a7fc19ddafd269817cd1cf5b4e1bf495c3d",
+      "bytes": 42864
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab1/xname-connection.png",
+      "target": "public/materials/desktop-forge/img/lab1/xname-connection.png",
+      "sha256": "490cd51940f6c45f2beee2c309b1ff125d74d759e42cb56599b38acef4a024e7",
+      "bytes": 1671108
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab10/broken-json.png",
+      "target": "public/materials/desktop-forge/img/lab10/broken-json.png",
+      "sha256": "18713f6733fa3fb1711a6f0abb0dde15852d6f12602e60132de4491d52173996",
+      "bytes": 50991
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab10/catalog-loaded.png",
+      "target": "public/materials/desktop-forge/img/lab10/catalog-loaded.png",
+      "sha256": "ca16996de842115f047b17663467a9d3f28ff5bd8fc297b4823f1d9d4fc395cc",
+      "bytes": 51146
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab10/file-controls.png",
+      "target": "public/materials/desktop-forge/img/lab10/file-controls.png",
+      "sha256": "2b3c424ad706faba2165b9a771e4b83f75cb20de80eaf4b586d37a56fce4c4d8",
+      "bytes": 49517
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab10/games-json.png",
+      "target": "public/materials/desktop-forge/img/lab10/games-json.png",
+      "sha256": "d4bb5dba742e97eaaaeea60e8e73b0ed07340b9da06d611fe1bea0b82e0334b3",
+      "bytes": 19729
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab2/order-form.png",
+      "target": "public/materials/desktop-forge/img/lab2/order-form.png",
+      "sha256": "4ba056ee91f84ced51beb3c8131431a98b4c484f4b61e51770e86d7f06e71af0",
+      "bytes": 34162
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab2/order-result.png",
+      "target": "public/materials/desktop-forge/img/lab2/order-result.png",
+      "sha256": "059bd9f7befd8b431d69a2e64b857d3f520dc95bc5751744af52dcbef647f060",
+      "bytes": 37230
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab2/validation-error.png",
+      "target": "public/materials/desktop-forge/img/lab2/validation-error.png",
+      "sha256": "419a6f23d0e23c988acbfe9ccf4a8fe8dbd0d98f2a60849c7fbe6117e9368547",
+      "bytes": 32347
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab3/settings-final.png",
+      "target": "public/materials/desktop-forge/img/lab3/settings-final.png",
+      "sha256": "532677aaca3c8f8602dbe2735683f2329d939614b0e52ddca7c5cff832587212",
+      "bytes": 48940
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab3/settings-layout.png",
+      "target": "public/materials/desktop-forge/img/lab3/settings-layout.png",
+      "sha256": "26dc413f4b193e2a793c5fec6f8a66ee95e2b20c22185746129c3ea6c6c1c2ae",
+      "bytes": 34659
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab3/settings-saved.png",
+      "target": "public/materials/desktop-forge/img/lab3/settings-saved.png",
+      "sha256": "312fdd79be1ff45d8919339a9ff20036321c1f88cd72d46da8b16dc3572fde86",
+      "bytes": 43254
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab4/button-states.png",
+      "target": "public/materials/desktop-forge/img/lab4/button-states.png",
+      "sha256": "9eeabf40034cb501ff50e29b1895a43782b1e469997c44dda70f26510fc166bf",
+      "bytes": 16202
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab4/card-updated.png",
+      "target": "public/materials/desktop-forge/img/lab4/card-updated.png",
+      "sha256": "45c28fabf27a00e20fdac59b051132a65763baa59e1c2b3ed556a09521486d7e",
+      "bytes": 34800
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab4/character-card.png",
+      "target": "public/materials/desktop-forge/img/lab4/character-card.png",
+      "sha256": "24e203b12f9671eeb9aa67b37604c738953e6c38c7f737d68cc92e55ce362175",
+      "bytes": 35671
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab4/styled-card.png",
+      "target": "public/materials/desktop-forge/img/lab4/styled-card.png",
+      "sha256": "4964eaf5a0da5ac1a814ce5f55159b04105710c1069bb2559321502ca2ed9d8f",
+      "bytes": 34732
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab5/data-template.png",
+      "target": "public/materials/desktop-forge/img/lab5/data-template.png",
+      "sha256": "7c6cfa4eceefa3a2d48632352492b93a268a3b9d42daea3aacd162e89c6bad54",
+      "bytes": 32527
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab5/empty-form.png",
+      "target": "public/materials/desktop-forge/img/lab5/empty-form.png",
+      "sha256": "bddab0157ff6d92c7b1c7fd1b380c3d456552167c96c9f5c31fb6524f2e149e7",
+      "bytes": 28248
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab5/task-deleted.png",
+      "target": "public/materials/desktop-forge/img/lab5/task-deleted.png",
+      "sha256": "47cfb47a45563028e520de32dd9c05a0bc368111399f3bd25cd962bc6be40cf7",
+      "bytes": 33092
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab5/task-list-final.png",
+      "target": "public/materials/desktop-forge/img/lab5/task-list-final.png",
+      "sha256": "1ac6c4d73b57638f4190035902e81c97a8b5c45e7dfc99aa68407bbc5d9d6fde",
+      "bytes": 40129
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab5/tasks-added.png",
+      "target": "public/materials/desktop-forge/img/lab5/tasks-added.png",
+      "sha256": "75b7adf67d02c5a58d68676aa8bbb06f36b302d76a90f203fa3f5f10cd49d04f",
+      "bytes": 36080
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab6/binding-start.png",
+      "target": "public/materials/desktop-forge/img/lab6/binding-start.png",
+      "sha256": "af5875b3659b31d09d9f815684c7350d69c7f1cab0b446be26acc5e4e085c60f",
+      "bytes": 45830
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab6/no-notification.png",
+      "target": "public/materials/desktop-forge/img/lab6/no-notification.png",
+      "sha256": "fd18714aac97099c36269c65fce51580fef88fc3d18a4f48c83d05080488f8e1",
+      "bytes": 46336
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab6/profile-final.png",
+      "target": "public/materials/desktop-forge/img/lab6/profile-final.png",
+      "sha256": "0cb7208db28d4a5512de63a65f488860baf97e043858c4e2d4c8fd5e043ad083",
+      "bytes": 48837
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab6/two-way-binding.png",
+      "target": "public/materials/desktop-forge/img/lab6/two-way-binding.png",
+      "sha256": "fca2fc61df9eec7eede06e924aeab4caf7bcb6c8250af1fcdef25829b884d513",
+      "bytes": 46154
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab7/mvvm-final.png",
+      "target": "public/materials/desktop-forge/img/lab7/mvvm-final.png",
+      "sha256": "2b1563ccdb71383e7ad5e3ae9b71d159cc382392178437b479eae6d0f3c8b83b",
+      "bytes": 42066
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab7/mvvm-start.png",
+      "target": "public/materials/desktop-forge/img/lab7/mvvm-start.png",
+      "sha256": "4d030bbdcbf74a753e042d17cc836e2d1256071b052b39681171284cbc2d2d77",
+      "bytes": 37340
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab8/commands.png",
+      "target": "public/materials/desktop-forge/img/lab8/commands.png",
+      "sha256": "d2698e6e395fa3ab68346fe78b86f13b844ba4295fd2c9196b04a2fe27ef7a0a",
+      "bytes": 42214
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab8/toolkit-final.png",
+      "target": "public/materials/desktop-forge/img/lab8/toolkit-final.png",
+      "sha256": "59e7e7ca47d5dac06f75bbb879a7142698264079596232fc2922fae28ee7e1fb",
+      "bytes": 42420
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab8/toolkit.png",
+      "target": "public/materials/desktop-forge/img/lab8/toolkit.png",
+      "sha256": "5aacaafdf2f1c20fd07f0d54c60e58c5e21495c7d56a9a4359d713dbdbb9639a",
+      "bytes": 42280
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab9/add-game.png",
+      "target": "public/materials/desktop-forge/img/lab9/add-game.png",
+      "sha256": "6dc98608026f3c8e8442a677935e35cf12190a7f6b7966180b7e57b2edbbb574",
+      "bytes": 37505
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab9/catalog-final.png",
+      "target": "public/materials/desktop-forge/img/lab9/catalog-final.png",
+      "sha256": "5602e949e957a2c70695cbe0e0dea967b6fb48d88ae882c0e48776479e2154a9",
+      "bytes": 41645
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab9/catalog-start.png",
+      "target": "public/materials/desktop-forge/img/lab9/catalog-start.png",
+      "sha256": "4e4bc2e501b59f691a2b4b825040d81398952091dd35b8b5c3df92a4bbef906b",
+      "bytes": 41867
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/img/lab9/shared-catalog.png",
+      "target": "public/materials/desktop-forge/img/lab9/shared-catalog.png",
+      "sha256": "7303cdb05b36de77ccfc8c85f5b560c7bc582e5bebae1f90237740f7f6d4207a",
+      "bytes": 45008
+    }
+  ],
+  "corrections": [
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №11. Итоговое приложение — «Собственный каталог. Часть 1».md",
+      "from": "Репозиторий `avalonia-course` и подключение к GitHub настроены в ПР №1. Новый `git init` не нужен.\n---",
+      "to": "### Репозиторий `avalonia-course` и подключение к GitHub настроены в ПР №1. Новый `git init` не нужен.",
+      "reason": "Заголовок Setext преобразован в ATX для общей иерархии страницы"
+    },
+    {
+      "source": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia/Практическая работа №12. Итоговое приложение — «Собственный каталог. Часть 2».md",
+      "from": "Работа продолжает проект `AvaloniaLab11` в том же репозитории `avalonia-course`. Новый `git init` не нужен.\n---",
+      "to": "### Работа продолжает проект `AvaloniaLab11` в том же репозитории `avalonia-course`. Новый `git init` не нужен.",
+      "reason": "Заголовок Setext преобразован в ATX для общей иерархии страницы"
+    }
+  ]
+}

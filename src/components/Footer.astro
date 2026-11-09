@@ -1,0 +1,8 @@
+---
+import { url } from '../lib/paths';
+---
+<footer class="site-footer container">
+  <div><a class="footer-brand" href={url()}>CODEQUEST<span class="brand-dot">.</span></a><p>Учись. Создавай. Проходи свой квест.</p></div>
+  <div class="footer-links"><a href={url('#courses')}>Все направления</a><a href={url('#approach')}>Обучение через практику</a><span>Практика в центре обучения</span></div>
+  <span class="footer-copy">© {new Date().getFullYear()} CodeQuest</span>
+</footer>

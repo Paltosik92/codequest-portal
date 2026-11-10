@@ -1,0 +1,3 @@
+# Imported lesson checksums must match on Windows and Linux.
+/src/content/lessons/**/*.md text eol=lf
+/content-map/*.json text eol=lf

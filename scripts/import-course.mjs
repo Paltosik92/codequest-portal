@@ -350,7 +350,7 @@ for (const lesson of [...config.lessons].sort((a, b) => a.number - b.number)) {
   };
   const text = `---\n${Object.entries(frontmatter)
     .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
-    .join('\n')}\n---\n\n${body}`;
+    .join('\n')}\n---\n\n${body}`.replace(/\r\n/g, '\n');
   const target = resolve(contentRoot, `${lesson.slug.split('/').at(-1)}.md`);
   assert(inside(contentRoot, target));
   outputs.push({

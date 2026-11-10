@@ -1,5 +1,6 @@
 import type { LearningLesson } from '../lib/learning-catalog';
 import { setupReadingTools } from './reading-tools';
+import { setupCourseMap } from './course-map';
 import {
   STORAGE_KEY,
   emptyState,
@@ -60,6 +61,7 @@ const completionButtons = Array.from(
   document.querySelectorAll<HTMLButtonElement>('[data-lesson-complete]'),
 );
 const resumePanels = Array.from(document.querySelectorAll<HTMLElement>('[data-resume-course]'));
+const courseMap = setupCourseMap(catalog);
 const readingTools = setupReadingTools(
   catalog,
   () => state,
@@ -108,6 +110,7 @@ function refresh() {
     button.textContent = completed ? '✓ Работа выполнена' : 'Отметить выполненной';
   }
   readingTools.refresh();
+  courseMap.refresh(state);
 }
 function record(): LessonProgress {
   return { completed: false, ratio: 0, anchor: '', offset: 0, updatedAt: Date.now() };

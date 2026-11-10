@@ -1,0 +1,18 @@
+---
+import { lessonUrl } from '../lib/paths';
+interface Props {
+  courseId: string;
+  lessons: { number: number; title: string; slug?: string }[];
+  groups: { title: string; from: number; to: number }[];
+}
+const { courseId, lessons, groups } = Astro.props;
+---
+<div class="curriculum-switch" data-course-view-switch hidden role="group" aria-label="Вид программы курса">
+  <button class="button button-outline" type="button" data-course-view="map" aria-controls="course-map" aria-pressed="false">Карта курса</button>
+  <button class="button button-outline" type="button" data-course-view="list" aria-controls="course-list" aria-pressed="true">Обычный список</button>
+</div>
+<div id="course-map" data-course-map={courseId} hidden>
+  <p class="map-help">Выбирай любую точку маршрута. Выполненные работы и место продолжения отмечаются автоматически.</p>
+  <div class="map-legend"><span><i class="legend-current" aria-hidden="true"></i>Текущая</span><span><i class="legend-complete" aria-hidden="true"></i>Выполнено</span><span><i aria-hidden="true"></i>Доступно</span></div>
+  {groups.map(group => <section class="map-module"><h3>{group.title}</h3><div class="quest-map-grid"><svg class="quest-map-path" aria-hidden="true"><polyline/></svg><ol>{lessons.filter(lesson => lesson.number >= group.from && lesson.number <= group.to).map(lesson => <li>{lesson.slug ? <a class="quest-map-node" href={lessonUrl(lesson.slug)} data-map-slug={lesson.slug} data-map-href={lessonUrl(lesson.slug)}><span class="map-node-number">{String(lesson.number).padStart(2, '0')}</span><strong>{lesson.title}</strong><span class="map-node-status">Доступно</span><span class="offline-mark" data-offline-mark={lesson.slug} hidden>↓ Офлайн</span></a> : <div class="quest-map-node map-node-pending"><span class="map-node-number">{String(lesson.number).padStart(2, '0')}</span><strong>{lesson.title}</strong><span class="map-node-status">Материал ещё не опубликован</span></div>}</li>)}</ol></div></section>)}
+</div>

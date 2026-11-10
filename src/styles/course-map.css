@@ -1,0 +1,151 @@
+.curriculum-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-block: 28px;
+}
+.curriculum-switch .button[aria-pressed='true'] {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+}
+.map-help {
+  margin-block: 24px;
+}
+.map-legend {
+  display: flex;
+  gap: 18px 24px;
+  flex-wrap: wrap;
+  margin-block: 24px 36px;
+  font-size: 0.9rem;
+}
+.map-legend > span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.map-legend i {
+  width: 16px;
+  height: 16px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+}
+.map-legend .legend-current {
+  border-color: var(--accent);
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.map-legend .legend-complete {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.map-module {
+  margin-top: 36px;
+}
+.map-module h3 {
+  margin-bottom: 24px;
+  font-size: 1.2rem;
+}
+.quest-map-grid {
+  position: relative;
+}
+.quest-map-grid > ol {
+  display: grid;
+  grid-template-columns: repeat(var(--map-columns, 1), minmax(0, 1fr));
+  gap: 36px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.quest-map-grid > ol > li {
+  min-width: 0;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.quest-map-path {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+}
+.quest-map-path polyline {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 4px;
+  stroke-dasharray: 8 7;
+  stroke-linecap: square;
+}
+.quest-map-node {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  padding: 24px 20px;
+  width: 100%;
+  min-height: 210px;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--shadow);
+  overflow-wrap: anywhere;
+}
+.quest-map-node strong {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.map-node-number {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--border);
+  font: 1.2rem/1 var(--font-display);
+  color: var(--text);
+  background: var(--bg);
+}
+.map-node-status {
+  display: block;
+  margin-top: auto;
+  padding-top: 8px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.quest-map-node:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+.quest-map-node[data-map-status='current'] {
+  border-color: var(--accent);
+  box-shadow: 5px 5px 0 var(--accent);
+}
+.quest-map-node[data-map-status='complete'] .map-node-number {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+}
+.quest-map-node:is([data-map-status='complete'], [data-map-status='current']) .map-node-status {
+  color: var(--accent);
+}
+.map-node-pending {
+  box-shadow: none;
+  border-style: dashed;
+}
+.offline-mark {
+  display: block;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+@media (max-width: 540px) {
+  .curriculum-switch .button {
+    width: 100%;
+  }
+  .quest-map-grid > ol {
+    gap: 28px;
+  }
+  .quest-map-node {
+    padding: 20px;
+    min-height: 170px;
+  }
+}

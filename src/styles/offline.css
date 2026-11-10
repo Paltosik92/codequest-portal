@@ -1,0 +1,67 @@
+.offline-lesson {
+  margin-block: 24px;
+}
+.offline-lesson h2 {
+  font-size: 1.15rem;
+}
+.offline-lesson .learning-actions {
+  align-items: center;
+}
+[data-offline-progress] {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin-block: 24px;
+  accent-color: var(--accent);
+}
+[data-offline-status]:not(:empty) {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.offline-list {
+  list-style: none;
+  padding: 0;
+  margin-block: 32px;
+  display: grid;
+  gap: 28px;
+}
+.offline-list > li {
+  min-width: 0;
+  padding: 28px;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--shadow);
+}
+.offline-list h2 {
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+  overflow-wrap: anywhere;
+}
+.offline-list h2 a {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 4px;
+}
+.offline-list p {
+  line-height: 1.7;
+}
+.offline-list .offline-date {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+.offline-entry {
+  margin-block: 28px;
+}
+@media (max-width: 540px) {
+  .offline-list > li {
+    padding: 20px 16px;
+  }
+  .offline-lesson .button,
+  .offline-list .button {
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+  }
+}

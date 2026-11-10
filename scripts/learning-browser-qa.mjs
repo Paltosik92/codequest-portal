@@ -173,6 +173,7 @@ try {
     'Сохранённый раздел должен оставаться рядом с местом чтения',
   );
   await page.goto(address('courses/guild-of-heroes/'));
+  await page.locator('[data-course-view="list"]').click();
   assert.equal(await page.locator('[data-completion-mark]:visible').count(), 1);
   assert.equal(await page.locator('.resume-panel').isVisible(), true);
   checks.push(

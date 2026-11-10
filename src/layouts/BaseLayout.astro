@@ -7,6 +7,8 @@ import pixelFont from '../assets/fonts/codequest-pixel.ttf?url';
 import '../styles/learning.css';
 import '../styles/reading.css';
 import '../styles/code-windows.css';
+import '../styles/course-map.css';
+import '../styles/offline.css';
 import { getLearningCatalog } from '../lib/learning-catalog';
 const learningCatalog = await getLearningCatalog();
 import { url } from '../lib/paths';
@@ -36,6 +38,7 @@ const { title = 'CodeQuest — от первой строки кода до со
     <Footer/>
     <script type="application/json" id="learning-catalog" set:html={JSON.stringify(learningCatalog).replace(/</g, '\\u003c')}/>
     <script src="../scripts/learning.ts"></script>
+    <script src="../scripts/offline.ts"></script>
     <span id="bookmark-status" class="sr-only" role="status" aria-live="polite"></span>
     <script>
       const toggle = document.querySelector<HTMLButtonElement>('.theme-toggle');

@@ -99,7 +99,13 @@ try {
         }
         for (const img of await page.locator('main img:visible').all()) {
           await img.scrollIntoViewIfNeeded();
-          await img.evaluate((element) => element.decode());
+          try {
+            await img.evaluate((element) => element.decode());
+          } catch (error) {
+            throw new Error(
+              `Не декодируется изображение ${await img.getAttribute('src')}: ${error.message}`,
+            );
+          }
         }
         await page.evaluate(() => window.scrollTo(0, 0));
         assert(

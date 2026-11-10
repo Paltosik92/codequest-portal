@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ResumePanel from '../components/ResumePanel.astro';
 import { publishedCourses } from '../data/courses';
 import { getLearningCatalog } from '../lib/learning-catalog';
-import { courseUrl } from '../lib/paths';
+import { courseUrl, url } from '../lib/paths';
 const catalog = await getLearningCatalog();
 ---
 <BaseLayout title="Мой прогресс — CodeQuest" description="Выполненные работы, сохранённое место чтения и перенос прогресса." current="progress">
@@ -12,6 +12,7 @@ const catalog = await getLearningCatalog();
     <p>Отмечай выполненные работы и возвращайся к чтению. Данные сохраняются в этом браузере. Для другого компьютера экспортируй файл и импортируй его там.</p>
     <noscript><p>Для сохранения прогресса нужен JavaScript.</p></noscript>
     <ResumePanel/>
+    <div class="offline-entry"><a class="button button-outline" href={url('offline/')}>Сохранённые работы ↓</a></div>
     <section class="learning-panel saved-bookmarks" data-bookmark-panel>
       <h2 tabindex="-1">Мои закладки <span data-bookmark-count>0</span></h2>
       <p data-bookmark-empty>Здесь появятся сохранённые разделы. В методичке нажми ☆ рядом с заголовком.</p>

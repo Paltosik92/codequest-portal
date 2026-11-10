@@ -18,6 +18,7 @@
     "test:browser": "node scripts/browser-qa.mjs",
     "test:learning": "node scripts/learning-browser-qa.mjs",
     "test:reading": "node scripts/reading-browser-qa.mjs",
+    "test:offline": "node scripts/quest-offline-browser-qa.mjs",
     "import:guild": "node scripts/import-course.mjs content-map/guild-of-heroes.json",
     "test:guild": "node scripts/guild-browser-qa.mjs",
     "import:neon": "node scripts/import-course.mjs content-map/neon-arena.json",

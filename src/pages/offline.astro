@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { url } from '../lib/paths';
+---
+<BaseLayout title="Сохранённые работы — CodeQuest" description="Практические работы CodeQuest, доступные без интернета.">
+  <div class="container utility-page" data-offline-hub>
+    <div class="eyebrow">Библиотека в рюкзаке</div><h1 tabindex="-1">Сохранённые работы</h1>
+    <p>Эти методички доступны без сети вместе с иллюстрациями и картой курса. Несохранённые страницы, архивы и внешние ссылки требуют интернета.</p>
+    <p>Копии хранятся в этом браузере. Очистка данных сайта удалит их. Удаление копии не затрагивает твой прогресс и закладки.</p>
+    <p data-offline-total role="status" aria-live="polite">Проверяем сохранённые работы…</p>
+    <p data-offline-empty hidden>Сохранённых работ пока нет. Открой методичку с интернетом и нажми «Сохранить офлайн».</p>
+    <ul class="offline-list" data-offline-list></ul>
+    <progress data-offline-progress hidden max="1" value="0" aria-label="Сохранение файлов работы"></progress>
+    <button class="button button-outline" type="button" data-offline-cancel hidden>Отменить загрузку</button>
+    <p data-offline-status role="status" aria-live="polite"></p>
+    <noscript><p>Для управления офлайн-копиями включи JavaScript.</p></noscript>
+    <a class="text-link" href={url('#courses')}>К каталогу курсов →</a>
+  </div>
+</BaseLayout>

@@ -17,8 +17,58 @@ document.querySelectorAll<HTMLElement>('.prose pre').forEach((pre) => {
   const toolbar = document.createElement('div');
   toolbar.className = 'code-toolbar';
   const language = pre.dataset.language || code.className.match(/language-(\S+)/)?.[1] || 'Код';
+  const normalizedLanguage = language.toLowerCase();
+  const shell = ['bash', 'sh', 'shell', 'zsh', 'console', 'powershell', 'ps1'].includes(
+    normalizedLanguage,
+  );
+  const plain = ['text', 'plaintext', 'txt', 'код'].includes(normalizedLanguage);
+  const names: Record<string, string> = {
+    csharp: 'C#',
+    cs: 'C#',
+    bash: 'Bash',
+    sh: 'Shell',
+    shell: 'Shell',
+    zsh: 'Zsh',
+    powershell: 'PowerShell',
+    ps1: 'PowerShell',
+    console: 'Консоль',
+    ts: 'TypeScript',
+    typescript: 'TypeScript',
+    js: 'JavaScript',
+    javascript: 'JavaScript',
+    dart: 'Dart',
+    html: 'HTML',
+    css: 'CSS',
+    xml: 'XML',
+    json: 'JSON',
+    sql: 'SQL',
+    md: 'Markdown',
+    markdown: 'Markdown',
+    yaml: 'YAML',
+    http: 'HTTP',
+    kotlin: 'Kotlin',
+    text: 'Текст',
+    plaintext: 'Текст',
+    txt: 'Текст',
+  };
+  wrapper.classList.add(
+    shell ? 'code-block--shell' : plain ? 'code-block--plain' : 'code-block--source',
+  );
+  wrapper.dataset.codeLanguage = normalizedLanguage;
+  const caption = document.createElement('div');
+  caption.className = 'code-window-caption';
+  const icon = document.createElement('span');
+  icon.className = 'code-window-icon';
+  icon.setAttribute('aria-hidden', 'true');
+  icon.textContent = shell ? '$' : plain ? '≡' : '{ }';
+  if (['powershell', 'ps1', 'console'].includes(normalizedLanguage)) icon.textContent = '>_';
   const label = document.createElement('span');
-  label.textContent = language;
+  label.className = 'code-window-title';
+  label.textContent = names[normalizedLanguage] || language;
+  const context = document.createElement('span');
+  context.className = 'code-window-context';
+  context.textContent = shell ? 'терминал' : plain ? 'фрагмент' : 'исходный код';
+  caption.append(icon, label, context);
   const button = document.createElement('button');
   button.type = 'button';
   button.textContent = 'Копировать';
@@ -43,7 +93,7 @@ document.querySelectorAll<HTMLElement>('.prose pre').forEach((pre) => {
       if (status) status.textContent = '';
     }, 2500);
   });
-  toolbar.append(label, button);
+  toolbar.append(caption, button);
   wrapper.prepend(toolbar);
   pre.setAttribute('tabindex', '0');
   pre.setAttribute(

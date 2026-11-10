@@ -5,6 +5,7 @@ export interface LessonProgress {
   anchor: string;
   offset: number;
   updatedAt: number;
+  headingTitle?: string;
 }
 export interface LearningState {
   version: 2;
@@ -71,7 +72,9 @@ export function parseState(value: unknown, known: Set<string>): LearningState {
       raw.offset > 10_000_000 ||
       !Number.isSafeInteger(raw.updatedAt) ||
       raw.updatedAt < 0 ||
-      raw.updatedAt > Date.now() + 300_000
+      raw.updatedAt > Date.now() + 300_000 ||
+      (raw.headingTitle !== undefined &&
+        (typeof raw.headingTitle !== 'string' || raw.headingTitle.length > 300))
     )
       throw new Error('В файле есть повреждённые записи.');
     state.lessons[slug] = {
@@ -80,6 +83,7 @@ export function parseState(value: unknown, known: Set<string>): LearningState {
       anchor: raw.anchor,
       offset: raw.offset,
       updatedAt: raw.updatedAt,
+      ...(raw.headingTitle ? { headingTitle: raw.headingTitle } : {}),
     };
   }
   state.lastSlug =

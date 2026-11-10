@@ -1,0 +1,15 @@
+---
+import resources from '../../content-map/neon-arena.resources.json';
+import { url } from '../lib/paths';
+interface Props { slug: string; number?: number; }
+const { slug, number } = Astro.props;
+const files = slug.startsWith('neon-arena/') && [1, 5].includes(number || 0) ? resources.files.filter(file => file.lesson === number) : [];
+---
+{files.length > 0 && <details class="lesson-resources">
+  <summary>Файлы для этой работы</summary>
+  <p><a class="text-link" href={url(resources.target.replace(/^public\//, ''))} download>Скачать спрайты и звуки Neon Arena · ZIP ↓</a></p>
+  <p>В архиве открой <code>Sprites/lab{number}/</code>. Скопируй перечисленные файлы в соответствующую папку проекта. Переименовывать их не нужно.</p>
+  <div class="resource-table"><table><caption>Файлы работы №{number}</caption><thead><tr><th scope="col">В архиве</th><th scope="col">В проекте Godot</th><th scope="col">Размер / кадры</th></tr></thead><tbody>
+    {files.map(file => <tr><td><code>{file.archive}</code></td><td><code>{/\.(wav|ogg)$/.test(file.archive) ? 'Assets/Audio/' : 'Assets/Sprites/'}{file.archive.split('/').at(-1)}</code></td><td>{'width' in file ? `${file.width}×${file.height}${'frames' in file ? ` · ${file.frames} кадр. по 96×96` : ''}` : 'Аудио'}</td></tr>)}
+  </tbody></table></div>
+</details>}

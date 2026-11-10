@@ -3,10 +3,10 @@ import { url } from '../lib/paths';
 const { slug } = Astro.props;
 ---
 <section class="learning-panel offline-lesson" data-offline-lesson={slug}>
-  <h2>Взять работу с собой</h2>
-  <p>Сохрани методичку, иллюстрации и карту курса для чтения без интернета. Архивы для скачивания и внешние сайты не включаются.</p>
-  <div class="learning-actions"><button class="button button-outline" type="button" data-offline-save disabled>Загрузка сведений…</button><button class="button button-outline" type="button" data-offline-remove hidden>Удалить копию</button><button class="button button-outline" type="button" data-offline-cancel hidden>Отменить</button><a class="text-link" href={url('offline/')}>Сохранённые работы →</a></div>
+  <h2 class="sr-only">Сохранение работы офлайн</h2>
+  <div class="learning-actions"><button class="button button-outline" type="button" data-offline-save disabled>Загрузка сведений…</button><button class="button button-outline" type="button" data-offline-retry hidden>Повторить запрос сведений</button><button class="button button-outline" type="button" data-offline-remove hidden>Удалить копию</button><button class="button button-outline" type="button" data-offline-cancel hidden>Отменить</button><a class="text-link" href={url('offline/')}>Сохранённые работы →</a></div>
   <progress data-offline-progress hidden max="1" value="0" aria-label="Сохранение файлов работы"></progress>
   <p data-offline-status role="status" aria-live="polite"></p>
+  <details class="offline-help"><summary>Что сохранится на устройстве?</summary><p>Методичка, иллюстрации и карта курса. Архивы для скачивания, внешние сайты и установленные программы не включаются.</p></details>
   <noscript><p>Для сохранения офлайн включи JavaScript.</p></noscript>
 </section>

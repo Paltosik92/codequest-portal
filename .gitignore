@@ -8,6 +8,7 @@ qa/screenshots/
 qa/browser-report.json
 qa/guild-browser-report.json
 qa/*-browser-report.json
+qa/*-browser-report-base.json
 qa/guild-source-patterns.txt
 qa/base-dist/
 qa/source-baseline.json

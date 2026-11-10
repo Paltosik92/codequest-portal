@@ -67,7 +67,7 @@
       "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №06. Адаптивность и релиз витрины.md",
       "sourceSha256": "27389dfe593cee8a5b690447f079a528e045e1543874f1a59a940f797faa8756",
       "target": "src/content/lessons/mediahub/lab-06.md",
-      "sha256": "e5beccc52e0b5c4e1e2f0aefff8cb03be7b3f3de8a66e2a6207b4c1632c640ab",
+      "sha256": "d0d1c2be947ba1744cc4e4a676f9b008d4230de09ec135da2544436cff58eb96",
       "number": 6,
       "slug": "mediahub/lab-06",
       "removedComments": 0,
@@ -928,7 +928,14 @@
       "kind": "attachment"
     }
   ],
-  "corrections": [],
+  "corrections": [
+    {
+      "source": "Осуществление_интеграции_программных_модулей_2027/Практическая работа №06. Адаптивность и релиз витрины.md",
+      "from": "командой ImageMagick из материалов курса (`materials/Промпты_для_изображений.md`, раздел 7)",
+      "to": "командой ImageMagick `magick input.png -resize \"543x>\" -quality 82 output.webp` (подставь имена своих файлов; если команда `magick` не найдена, используй предложенный выше веб-инструмент)",
+      "reason": "Проверенная студенческая инструкция вместо редакторской отсылки"
+    }
+  ],
   "downloads": [
     {
       "target": "public/materials/mediahub/downloads/pixelport-images.zip",

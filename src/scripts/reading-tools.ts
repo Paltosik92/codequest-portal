@@ -40,6 +40,7 @@ export function setupReadingTools(
     document.querySelectorAll<HTMLElement>('.prose h2[id], .prose h3[id]').forEach((heading) => {
       const title = (heading.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 300);
       if (!title || heading.id.length > 500) return;
+      heading.dataset.readingTitle = title;
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'section-bookmark';

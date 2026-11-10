@@ -114,6 +114,7 @@ if ('IntersectionObserver' in window) {
           if (active) link.setAttribute('aria-current', 'location');
           else link.removeAttribute('aria-current');
         });
+        document.dispatchEvent(new CustomEvent('codequest-heading', { detail: entry.target.id }));
       });
     },
     { rootMargin: '-100px 0px -65% 0px' },

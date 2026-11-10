@@ -101,6 +101,10 @@ function refresh() {
       panel.querySelector('[data-resume-title]')!.textContent =
         `${last.courseTitle} · ${last.title}`;
       panel.querySelector<HTMLAnchorElement>('[data-resume-link]')!.href = `${last.href}?resume=1`;
+      const section = panel.querySelector<HTMLElement>('[data-resume-section]')!;
+      const title = state.lessons[last.slug]?.headingTitle;
+      section.hidden = !title;
+      section.textContent = title ? `С раздела «${title}»` : '';
     }
   }
   for (const button of completionButtons) {
@@ -143,6 +147,48 @@ if (slug && known.has(slug)) {
   const saved = state.lessons[slug] ? { ...state.lessons[slug] } : undefined;
   let restoring =
     new URLSearchParams(location.search).get('resume') === '1' && !location.hash && !!saved;
+  const article = document.querySelector<HTMLElement>('.prose')!;
+  let canSavePosition = !saved || (!saved.anchor && !saved.ratio) || restoring;
+  const enteredSection = () => {
+    try {
+      const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (target && article.contains(target)) canSavePosition = true;
+    } catch {}
+  };
+  enteredSection();
+  window.addEventListener('hashchange', enteredSection);
+  for (const type of ['wheel', 'touchmove'] as const)
+    window.addEventListener(
+      type,
+      (event) => {
+        if (event.isTrusted) canSavePosition = true;
+      },
+      { passive: true },
+    );
+  window.addEventListener('keydown', (event) => {
+    if (
+      ['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', 'Home', 'End', ' '].includes(event.key) &&
+      !(event.target instanceof Element && event.target.closest('input,textarea,select,button'))
+    )
+      canSavePosition = true;
+  });
+  article.addEventListener('pointerdown', () => {
+    canSavePosition = true;
+  });
+  document.querySelector('[data-reading-start]')?.addEventListener('click', () => {
+    sync();
+    canSavePosition = true;
+    const current = state.lessons[slug] || record();
+    state.lessons[slug] = {
+      ...current,
+      ratio: 0,
+      anchor: '',
+      offset: 0,
+      headingTitle: '',
+      updatedAt: Date.now(),
+    };
+    persist();
+  });
   sync();
   state.lessons[slug] ??= record();
   state.lastSlug = slug;
@@ -150,7 +196,7 @@ if (slug && known.has(slug)) {
   state.lessons[slug].updatedAt = Date.now();
   persist();
   function saveReading() {
-    if (restoring) return;
+    if (restoring || !canSavePosition || article.getBoundingClientRect().top >= innerHeight) return;
     sync();
     const headings = Array.from(
       document.querySelectorAll<HTMLElement>('.prose h2[id], .prose h3[id]'),
@@ -162,6 +208,10 @@ if (slug && known.has(slug)) {
       ...current,
       ratio: max ? Math.min(1, Math.max(0, scrollY / max)) : 0,
       anchor: heading?.id || '',
+      headingTitle: (heading?.dataset.readingTitle || heading?.textContent || '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .slice(0, 300),
       offset: heading ? Math.max(0, -heading.getBoundingClientRect().top) : 0,
       updatedAt: Date.now(),
     };

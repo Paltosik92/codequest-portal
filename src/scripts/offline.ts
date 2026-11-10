@@ -8,6 +8,8 @@ const area = panel || hub;
 let summaries: OfflineSummary[] = [];
 let copies: SavedLesson[] = [];
 let ready = false;
+let indexState: 'loading' | 'ready' | 'error' | 'unavailable' = 'loading';
+let storageBlocked = false;
 let job: AbortController | undefined;
 const size = (bytes: number) =>
   `${new Intl.NumberFormat('ru', { maximumFractionDigits: 1 }).format(bytes / 1024 / 1024)} МБ`;
@@ -16,10 +18,31 @@ function message(text: string) {
   if (status) status.textContent = text;
 }
 async function loadIndex() {
-  const index = await fetch(url('offline-index.json'), { cache: 'no-store' })
-    .then((response) => (response.ok ? response.json() : undefined))
-    .catch(() => undefined);
-  if (index?.version === 1 && Array.isArray(index.lessons)) summaries = index.lessons;
+  if (!area || indexState === 'unavailable') return;
+  indexState = 'loading';
+  ready = false;
+  render();
+  if (!job && !storageBlocked) message('Получаем сведения для сохранения…');
+  try {
+    const response = await fetch(url('offline-index.json'), { cache: 'no-store' });
+    if (!response.ok) throw new Error('Index unavailable');
+    const index = await response.json();
+    if (index?.version !== 1 || !Array.isArray(index.lessons)) throw new Error('Invalid index');
+    summaries = index.lessons;
+    indexState = 'ready';
+    ready = !storageBlocked;
+    if (!job && !storageBlocked) message('');
+  } catch {
+    indexState = 'error';
+    ready = false;
+    if (!job && !storageBlocked)
+      message(
+        navigator.onLine
+          ? 'Не удалось получить размер и состав работы. Повтори запрос сведений.'
+          : 'Нет соединения. Сохранённые копии доступны; новые можно загрузить после подключения.',
+      );
+  }
+  render();
 }
 
 async function workerReady() {
@@ -65,12 +88,19 @@ function render() {
       !summary ||
       !navigator.onLine ||
       (!!saved && saved.revision === summary.revision);
-    button.textContent =
-      saved && (!summary || saved.revision === summary.revision)
+    button.textContent = storageBlocked
+      ? 'Офлайн-хранилище недоступно'
+      : saved && (!summary || saved.revision === summary.revision)
         ? '✓ Сохранено офлайн'
-        : summary
-          ? `${saved ? 'Обновить копию' : 'Сохранить офлайн'} · ${size(summary.bytes)}`
-          : 'Сохранение недоступно';
+        : indexState === 'loading'
+          ? 'Загрузка сведений…'
+          : indexState === 'error'
+            ? 'Сведения не загружены'
+            : indexState === 'unavailable'
+              ? 'Офлайн-режим недоступен'
+              : summary
+                ? `${saved ? 'Обновить копию' : 'Сохранить офлайн'} · ${size(summary.bytes)}`
+                : 'Сохранение недоступно';
     const remove = panel.querySelector<HTMLButtonElement>('[data-offline-remove]')!;
     remove.hidden = !saved;
     remove.disabled = !!job;
@@ -134,14 +164,25 @@ function render() {
   area?.querySelectorAll<HTMLElement>('[data-offline-cancel]').forEach((button) => {
     button.hidden = !job;
   });
+  area?.querySelectorAll<HTMLButtonElement>('[data-offline-retry]').forEach((button) => {
+    button.hidden = !storageBlocked && indexState !== 'error';
+    button.disabled = !!job || indexState === 'loading';
+  });
   const progress = area?.querySelector<HTMLProgressElement>('[data-offline-progress]');
   if (progress) progress.hidden = !job;
 }
 async function refresh() {
   try {
     copies = await savedLessons();
+    const wasBlocked = storageBlocked;
+    storageBlocked = false;
+    ready = indexState === 'ready';
+    if (wasBlocked && !job) message('');
     render();
   } catch {
+    storageBlocked = true;
+    ready = false;
+    render();
     if (area) message('Браузер не разрешает доступ к офлайн-хранилищу.');
   }
 }
@@ -186,7 +227,9 @@ async function download(slug: string) {
   } catch (error) {
     message(
       controller.signal.aborted
-        ? 'Сохранение отменено. Прежняя копия сохранена.'
+        ? copies.some((copy) => copy.slug === slug)
+          ? 'Сохранение отменено. Прежняя копия сохранена.'
+          : 'Сохранение отменено. Незавершённые файлы удалены.'
         : error instanceof DOMException && error.name === 'QuotaExceededError'
           ? 'Недостаточно места в браузере. Удали ненужные офлайн-копии.'
           : error instanceof TypeError
@@ -202,13 +245,17 @@ async function download(slug: string) {
 window.addEventListener('codequest-offline-changed', () => void refresh());
 window.addEventListener('pageshow', () => void refresh());
 window.addEventListener('online', () => {
-  void loadIndex().then(render);
+  if (area) void loadIndex();
 });
 window.addEventListener('offline', () => {
   render();
 });
 void refresh();
 if (area) {
+  area.querySelector('[data-offline-retry]')?.addEventListener('click', async () => {
+    await refresh();
+    if (!storageBlocked) await loadIndex();
+  });
   area.querySelector('[data-offline-cancel]')?.addEventListener('click', () => job?.abort());
   panel
     ?.querySelector('[data-offline-save]')
@@ -222,23 +269,21 @@ if (area) {
       message('Не удалось удалить копию. Попробуй ещё раз.');
     }
   });
-  if (!import.meta.env.PROD) message('Сохранение офлайн доступно в опубликованной версии портала.');
-  else if (!isSecureContext || !('serviceWorker' in navigator) || !('caches' in window))
+  if (!import.meta.env.PROD) {
+    indexState = 'unavailable';
+    render();
+    message('Сохранение офлайн доступно в опубликованной версии портала.');
+  } else if (!isSecureContext || !('serviceWorker' in navigator) || !('caches' in window)) {
+    indexState = 'unavailable';
+    render();
     message(
       'Для сохранения офлайн нужен браузер с поддержкой Service Worker и сайт, открытый по HTTPS.',
     );
-  else
+  } else
     void (async () => {
       try {
         await loadIndex();
-        ready = true;
         await refresh();
-        if (!status?.textContent)
-          message(
-            navigator.onLine
-              ? 'Размер включает методичку, оформление, иллюстрации и карту курса.'
-              : 'Нет соединения. Доступны сохранённые работы.',
-          );
       } catch {
         message(
           'Не удалось включить офлайн-режим. Проверь настройки браузера и подключение к сети.',

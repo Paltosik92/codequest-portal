@@ -189,6 +189,8 @@ try {
   assert(await page.locator('.image-dialog').isVisible(), 'Просмотр иллюстрации не открылся');
   await page.keyboard.press('Escape');
   assert(await page.locator('.image-dialog').isHidden(), 'Escape не закрыл иллюстрацию');
+  await page.locator('[data-toc-root]').evaluate(element => { element.open = true; });
+  await page.locator('[data-toc-group]').evaluateAll(elements => elements.forEach(element => { element.open = true; }));
   await page.locator('.toc a[data-heading]').last().click();
   assert(page.url().includes('#'), 'Оглавление не переключило якорь');
   await page.goto(`${origin}${base}/404.html`);

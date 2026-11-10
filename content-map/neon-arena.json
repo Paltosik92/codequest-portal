@@ -97,5 +97,8 @@
   ],
   "downloads": [
     "public/materials/neon-arena/downloads/neon-arena-assets.zip"
+  ],
+  "omitSections": [
+    "Что нужно подготовить преподавателю до занятия"
   ]
 }

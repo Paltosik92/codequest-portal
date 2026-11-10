@@ -4,6 +4,7 @@ import { resolve } from 'node:path';
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 import { localArtifactRoutes } from './local-artifact-routes.mjs';
+import { readSearchCatalog } from './read-search-catalog.mjs';
 import {
   emptyState,
   parseState,
@@ -17,7 +18,7 @@ const base = (process.env.BASE_PATH || '').replace(/\/$/, '');
 const artifactSuffix = base ? '-base' : '';
 const origin = 'http://localhost:4321';
 const address = (path) => `${origin}${base}/${path}`;
-const catalog = JSON.parse(await readFile(resolve(directory, 'search-index.json'), 'utf8'));
+const catalog = await readSearchCatalog(directory);
 const first = catalog.find((l) => l.courseId === 'guild-of-heroes');
 const second = catalog.find((l) => l.courseId === 'desktop-forge');
 const known = new Set(catalog.map((l) => l.slug));

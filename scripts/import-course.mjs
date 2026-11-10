@@ -1,5 +1,5 @@
 /** Выборочный импорт доверенных студенческих Markdown. Оригиналы только читаются. */
-import { readFile, writeFile, mkdir, lstat, access } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, lstat, access, unlink } from 'node:fs/promises';
 import { resolve, relative, dirname, extname, isAbsolute, sep } from 'node:path';
 import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -177,6 +177,27 @@ for (const lesson of [...config.lessons].sort((a, b) => a.number - b.number)) {
     `Практическая работа №${lesson.number}. ${lesson.title}`,
   );
   const edits = [];
+  const removedSections = [];
+  for (let index = 0; index < tree.children.length; ) {
+    const node = tree.children[index];
+    if (node.type !== 'heading' || !(config.omitSections || []).includes(plainText(node))) {
+      index++;
+      continue;
+    }
+    let end = index + 1;
+    while (
+      end < tree.children.length &&
+      !(tree.children[end].type === 'heading' && tree.children[end].depth <= node.depth)
+    )
+      end++;
+    edits.push({
+      start: node.position.start.offset,
+      end: tree.children[end]?.position.start.offset ?? raw.length,
+      value: '',
+    });
+    removedSections.push(plainText(node));
+    tree.children.splice(index, end - index);
+  }
   let insideTopSection = false;
   let removedComments = 0;
   let removedEditorialItems = 0;
@@ -296,6 +317,21 @@ for (const lesson of [...config.lessons].sort((a, b) => a.number - b.number)) {
     boundary = edit.start;
   }
   body = body.trimStart();
+  for (const rule of config.studentReplacements || []) {
+    if (rule.lesson !== lesson.number) continue;
+    assert.equal(
+      body.split(rule.from).length - 1,
+      1,
+      `Публичная замена должна иметь одно точное совпадение: ${lesson.source}`,
+    );
+    body = body.replace(rule.from, rule.to);
+    corrections.push({
+      source: sourcePath(sourceFile),
+      from: rule.from,
+      to: rule.to,
+      reason: 'Проверенная студенческая инструкция вместо редакторской отсылки',
+    });
+  }
   const resultTree = parser.parse(body);
   assert.deepEqual(codeBlocks(resultTree), codeBlocks(tree), `Изменился листинг: ${lesson.source}`);
   assert(
@@ -326,6 +362,7 @@ for (const lesson of [...config.lessons].sort((a, b) => a.number - b.number)) {
     slug: lesson.slug,
     removedComments,
     ...(removedEditorialItems ? { removedEditorialItems } : {}),
+    ...(removedSections.length ? { removedSections } : {}),
     ...stats,
     text,
   });
@@ -367,6 +404,25 @@ const manifest = {
   corrections,
   ...(downloads.length ? { downloads } : {}),
 };
+// Validate removals before changing the manifest, so a conflict remains recoverable.
+const pruneTargets = [];
+if (process.argv.includes('--prune')) {
+  const keep = new Set(manifest.assets.map((item) => item.target));
+  for (const old of previous?.assets || []) {
+    if (keep.has(old.target)) continue;
+    const target = resolve(project, old.target);
+    assert(inside(assetRoot, target) && target !== assetRoot, 'Очистка разрешена только внутри ресурсов этого курса');
+    const current = await readIfExists(target);
+    if (!current) continue;
+    let parent = project;
+    for (const segment of relative(project, target).split(sep)) {
+      parent = resolve(parent, segment);
+      assert(!(await lstat(parent)).isSymbolicLink(), 'Очистка не следует символьным ссылкам');
+    }
+    assert.equal(hash(current), old.sha256, `Локально изменён осиротевший ресурс: ${old.target}`);
+    pruneTargets.push(target);
+  }
+}
 if (write) {
   for (const file of outputs) {
     const destination = resolve(project, file.target);
@@ -380,6 +436,7 @@ if (write) {
   }
   await mkdir(dirname(manifestPath), { recursive: true });
   await writeFile(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
+  for (const target of pruneTargets) await unlink(target);
 }
 console.log(
   JSON.stringify(
@@ -394,6 +451,7 @@ console.log(
         (sum, file) => sum + (file.removedEditorialItems || 0),
         0,
       ),
+      removedSections: outputs.flatMap((file) => file.removedSections || []),
       unchangedCodeBlocks: outputs.reduce((sum, file) => sum + file.codeBlocks, 0),
       corrections,
       cover: manifest.cover,

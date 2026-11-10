@@ -40,7 +40,7 @@ jobs:
         with:
           node-version: 24
           package-manager: npm
-          build-cmd: npm run check && npm run build && npm run verify:links
+          build-cmd: npm run check && npm run build && npm run verify:links && npm run verify:source && npm run verify:publication
         env:
           SITE_URL: ${{ steps.config.outputs.site }}
           BASE_PATH: ${{ steps.config.outputs.base }}

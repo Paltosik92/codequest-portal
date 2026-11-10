@@ -301,5 +301,12 @@
       "slug": "mediahub/lab-30",
       "description": "Практическая работа №30 по созданию игрового магазина PixelPort. Демо-день."
     }
+  ],
+  "studentReplacements": [
+    {
+      "lesson": 6,
+      "from": "командой ImageMagick из материалов курса (`materials/Промпты_для_изображений.md`, раздел 7)",
+      "to": "командой ImageMagick `magick input.png -resize \"543x>\" -quality 82 output.webp` (подставь имена своих файлов; если команда `magick` не найдена, используй предложенный выше веб-инструмент)"
+    }
   ]
 }

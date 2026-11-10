@@ -43,11 +43,14 @@
       "source": "Разработка_игровых_приложений_2027/Практическая работа №4. Система здоровья и урона.md",
       "sourceSha256": "57f94567307ef6f2334f9e999d2601c40237682b6dd1dc1aaa9792d929247f33",
       "target": "src/content/lessons/neon-arena/lab-04.md",
-      "sha256": "ef7458727ad7783af93c930ba41d454a8947a6e226df62147fcfc1eb4e0eb4ca",
+      "sha256": "0cde18fc2e73854cdc771df11a5f57396016ebafda491000a3569c669642dee8",
       "number": 4,
       "slug": "neon-arena/lab-04",
-      "removedComments": 11,
-      "codeBlocks": 264,
+      "removedComments": 10,
+      "removedSections": [
+        "Что нужно подготовить преподавателю до занятия"
+      ],
+      "codeBlocks": 261,
       "images": 17,
       "tables": 0
     },
@@ -67,11 +70,14 @@
       "source": "Разработка_игровых_приложений_2027/Практическая работа №6. EnemySpawner и волны противников.md",
       "sourceSha256": "9b82ca62c502242a4ae7fe54b1d181cc2a123689a760ab2d49db84e87ed4f030",
       "target": "src/content/lessons/neon-arena/lab-06.md",
-      "sha256": "1d9648982ba83d8a9aba516f1ba9fc46c94ae8c19371adce1b10108daaf45e12",
+      "sha256": "e34f5cc25c108ac42a3f3eb216bfd8671668c12feaee052d9bfecd785c7dfd0f",
       "number": 6,
       "slug": "neon-arena/lab-06",
-      "removedComments": 10,
-      "codeBlocks": 266,
+      "removedComments": 9,
+      "removedSections": [
+        "Что нужно подготовить преподавателю до занятия"
+      ],
+      "codeBlocks": 263,
       "images": 16,
       "tables": 1
     },
@@ -103,11 +109,14 @@
       "source": "Разработка_игровых_приложений_2027/Практическая работа №9. HUD_ здоровье, очки и номер волны.md",
       "sourceSha256": "2aa917ad8446491ecd958374bc7b298f02164bf1d2dac6216e2a01781dd8fce1",
       "target": "src/content/lessons/neon-arena/lab-09.md",
-      "sha256": "a00a8c80da7e10f5db695916a59e032046f52d90e81e360600746b84e11ff542",
+      "sha256": "1d787d39495e1019de16bb70d9ef975ee669fa47e758ccbbf92c1ef6d33b6150",
       "number": 9,
       "slug": "neon-arena/lab-09",
-      "removedComments": 7,
-      "codeBlocks": 275,
+      "removedComments": 6,
+      "removedSections": [
+        "Что нужно подготовить преподавателю до занятия"
+      ],
+      "codeBlocks": 272,
       "images": 14,
       "tables": 2
     },
@@ -115,11 +124,14 @@
       "source": "Разработка_игровых_приложений_2027/Практическая работа №10. Главное меню, пауза и завершение игры.md",
       "sourceSha256": "8d810c5cf54e1a3877149a78fe0f293ee1dba40fd2ec096da31b5ab66ee9cd18",
       "target": "src/content/lessons/neon-arena/lab-10.md",
-      "sha256": "c2de9e9ad154cec7464b55d50c7b15f7cba4b39b1ab491b931daa369c462187d",
+      "sha256": "28c573c1e333b54326feb1a98786e97e4e59c7d4f58971c5d4fd6424ca2e0425",
       "number": 10,
       "slug": "neon-arena/lab-10",
-      "removedComments": 7,
-      "codeBlocks": 307,
+      "removedComments": 6,
+      "removedSections": [
+        "Что нужно подготовить преподавателю до занятия"
+      ],
+      "codeBlocks": 304,
       "images": 14,
       "tables": 1
     },
@@ -127,11 +139,14 @@
       "source": "Разработка_игровых_приложений_2027/Практическая работа №11. Звук, эффекты и Game Feel.md",
       "sourceSha256": "700f2b70ddc7a2c45db7b0dfa589e828a33657a24099dead1b8d67be23d806cf",
       "target": "src/content/lessons/neon-arena/lab-11.md",
-      "sha256": "1fd6753b88ae7a96ada8f4f5fed8c8fbe6418d827cd4168949b380f2cd0466a5",
+      "sha256": "8daaec5b0809259ecb5445ac0eb05757f876d8150665d5a9c701e71c81f021d7",
       "number": 11,
       "slug": "neon-arena/lab-11",
-      "removedComments": 8,
-      "codeBlocks": 235,
+      "removedComments": 7,
+      "removedSections": [
+        "Что нужно подготовить преподавателю до занятия"
+      ],
+      "codeBlocks": 232,
       "images": 15,
       "tables": 1
     },
@@ -139,11 +154,14 @@
       "source": "Разработка_игровых_приложений_2027/Практическая работа №12. Сохранение, баланс и сборка версии 1.0.md",
       "sourceSha256": "bbacc6b11c7e1a0d0ed4fedba888cef4d95b43d6b8a860d3a2e57a0870b70ff5",
       "target": "src/content/lessons/neon-arena/lab-12.md",
-      "sha256": "9ba33fdb3fdceda0a19bcf5c4ef0650f414eebfad3e9c8b4df5da70db52cc6b0",
+      "sha256": "7eff8e7e081eb5a48637d76cc7721c9fa7c86f750ada4e78b84e1e36e5020b02",
       "number": 12,
       "slug": "neon-arena/lab-12",
-      "removedComments": 9,
-      "codeBlocks": 249,
+      "removedComments": 8,
+      "removedSections": [
+        "Что нужно подготовить преподавателю до занятия"
+      ],
+      "codeBlocks": 245,
       "images": 16,
       "tables": 2
     },
@@ -151,11 +169,14 @@
       "source": "Разработка_игровых_приложений_2027/Практическая работа №13. Адаптация Neon Arena под Android.md",
       "sourceSha256": "1241c69c3dd5919ca6706dbf084baff6efebe82ccf5880fb92027836e057f50d",
       "target": "src/content/lessons/neon-arena/lab-13.md",
-      "sha256": "5b11eb8d1e8693af1f5d8e5bb5ca5f9b8c859769f31bf8cf83e948c9fa99c699",
+      "sha256": "77edd95dc77f86be3e95793e58b603283de63f4fe99bfe3eb366bf26455021b6",
       "number": 13,
       "slug": "neon-arena/lab-13",
-      "removedComments": 9,
-      "codeBlocks": 321,
+      "removedComments": 8,
+      "removedSections": [
+        "Что нужно подготовить преподавателю до занятия"
+      ],
+      "codeBlocks": 315,
       "images": 17,
       "tables": 0
     }
@@ -1397,8 +1418,8 @@
   "downloads": [
     {
       "target": "public/materials/neon-arena/downloads/neon-arena-assets.zip",
-      "sha256": "505eba32853178ca5ebe37993d7431d57792ef38863092c0082a4f62129b68ae",
-      "bytes": 3967376
+      "sha256": "5403123babfe1c0baf25b035278831b09fc2692d89ba37be791c82a7d28d16f0",
+      "bytes": 2864268
     }
   ]
 }

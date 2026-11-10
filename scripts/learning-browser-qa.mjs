@@ -4,6 +4,7 @@ import { resolve } from 'node:path';
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 import { localArtifactRoutes } from './local-artifact-routes.mjs';
+import { readSearchCatalog } from './read-search-catalog.mjs';
 import { parseState, mergeStates } from '../src/scripts/learning-store.ts';
 
 const directory = resolve(process.env.OUTPUT_DIR || 'dist');
@@ -11,7 +12,7 @@ const base = (process.env.BASE_PATH || '').replace(/\/$/, '');
 const origin = 'http://localhost:4321';
 const address = (path) => `${origin}${base}/${path}`;
 const key = 'codequest-learning-v1';
-const index = JSON.parse(await readFile(resolve(directory, 'search-index.json'), 'utf8'));
+const index = await readSearchCatalog(directory);
 assert.equal(index.length, 93);
 assert.equal(new Set(index.map((item) => item.slug)).size, 93);
 assert(

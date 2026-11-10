@@ -1,0 +1,22 @@
+---
+import type { MarkdownHeading } from 'astro';
+interface Props { headings: MarkdownHeading[]; back: string; }
+const { headings, back } = Astro.props;
+const branches: { heading: MarkdownHeading; children: MarkdownHeading[] }[] = [];
+for (const heading of headings) {
+  if (heading.depth === 2 || !branches.length) branches.push({ heading, children: [] });
+  else branches.at(-1)!.children.push(heading);
+}
+const groups = [];
+for (let index = 0; index < branches.length; index += 12) groups.push(branches.slice(index, index + 12));
+const grouped = headings.length > 40;
+---
+<aside class="toc" id="lesson-toc" tabindex="-1">
+  <details open data-toc-root data-heading-count={headings.length}>
+    <summary>В этой работе <span aria-hidden="true">↕</span></summary>
+    {grouped && <div class="toc-controls" hidden><label for="toc-filter" class="sr-only">Найти раздел в оглавлении</label><input id="toc-filter" type="search" placeholder="Найти раздел…" autocomplete="off"/><button type="button" data-toc-expand>Все разделы</button></div>}
+    <nav aria-label="Разделы практической работы"><ol>{groups.map((group, index) => grouped ? <li class="toc-group"><details data-toc-group open={index === 0}><summary>Разделы {index * 12 + 1}–{index * 12 + group.length}</summary><ol>{group.flatMap(branch => [branch.heading, ...branch.children]).map(heading => <li class:list={{'toc-sub': heading.depth === 3}}><a href={`#${heading.slug}`} data-heading={heading.slug}>{heading.text}</a></li>)}</ol></details></li> : group.flatMap(branch => [branch.heading, ...branch.children]).map(heading => <li class:list={{'toc-sub': heading.depth === 3}}><a href={`#${heading.slug}`} data-heading={heading.slug}>{heading.text}</a></li>))}</ol></nav>
+    <p class="toc-empty" hidden>Разделы не найдены.</p>
+  </details>
+  <a class="toc-back" href={back}>← К программе курса</a>
+</aside>

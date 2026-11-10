@@ -28,7 +28,10 @@
     "import:mediahub": "node scripts/import-course.mjs content-map/mediahub.json",
     "test:mediahub": "node scripts/course-browser-qa.mjs mediahub",
     "import:desktop": "node scripts/import-course.mjs content-map/desktop-forge.json",
-    "test:desktop": "node scripts/course-browser-qa.mjs desktop-forge"
+    "test:desktop": "node scripts/course-browser-qa.mjs desktop-forge",
+    "verify:publication": "node scripts/verify-publication.mjs",
+    "package:neon": "node scripts/package-neon-resources.mjs",
+    "test:student-ux": "node scripts/student-ux-browser-qa.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.3.6",

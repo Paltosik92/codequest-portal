@@ -51,6 +51,8 @@ npm run dev
 npm run check
 npm run build
 npm run verify:links
+npm run verify:source
+npm run verify:publication
 ```
 
 Готовый сайт собирается в `dist/`. Автоматическая публикация настроена через GitHub Actions.

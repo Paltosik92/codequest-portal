@@ -2,7 +2,7 @@
  * Не заменяют astro check/build или браузерную QA.
  */
 import { readFile, readdir, access } from 'node:fs/promises';
-import { resolve, join } from 'node:path';
+import { resolve, join, dirname, relative, isAbsolute } from 'node:path';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { publishedCourses } from '../src/data/courses.ts';
@@ -48,9 +48,17 @@ for (const base of ['/', '/test-portal']) {
 report.push(
   'Markdown URL: база / и /test-portal, reference-ссылки, якоря, внешние адреса и lazy-изображения.',
 );
-const demo = await readFile(resolve(project, 'src/content/lessons/demo.md'), 'utf8');
-for (const [, asset] of demo.matchAll(/!\[[^\]]*\]\((\/[^)]+)\)/g))
-  await access(resolve(project, 'public', asset.slice(1)));
+const demoPath = resolve(project, 'test/fixtures/demo.md');
+const demo = await readFile(demoPath, 'utf8');
+for (const [, asset] of demo.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)) {
+  const target = resolve(dirname(demoPath), asset);
+  const path = relative(resolve(project, 'test/fixtures'), target);
+  assert(
+    !path.startsWith('..') && !isAbsolute(path),
+    'Демонстрационные ресурсы должны оставаться в test/fixtures',
+  );
+  await access(target);
+}
 for (const ext of ['svg', 'png', 'jpg', 'webp'])
   assert(demo.includes(`.${ext})`), `Нет формата ${ext}`);
 assert.match(demo, /demo: true/);

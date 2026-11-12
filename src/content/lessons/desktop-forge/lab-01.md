@@ -94,7 +94,7 @@ MainWindow.axaml.cs
 
 После нажатия на кнопку программа изменит текст статуса.
 
-![Итог](/materials/desktop-forge/img/lab1/itog.png)
+![Итог](/materials/desktop-forge/img/lab1/itog.webp)
 
 ---
 
@@ -104,7 +104,7 @@ MainWindow.axaml.cs
 
 **Avalonia** — это фреймворк для создания графических приложений на платформе .NET.
 
-![Avalonia](/materials/desktop-forge/img/lab1/avalonia-platforms.png)
+![Avalonia](/materials/desktop-forge/img/lab1/avalonia-platforms.webp)
 
 С помощью него можно создавать desktop-приложения на C#, которые работают на разных операционных системах:
 
@@ -182,7 +182,7 @@ Content="Нажать"
 
 Поэтому AXAML тесно связан с классами и объектами C#.
 
-![AXAML](/materials/desktop-forge/img/lab1/axaml-object.png)
+![AXAML](/materials/desktop-forge/img/lab1/axaml-object.webp)
 
 ---
 
@@ -267,7 +267,7 @@ ShowStatusButton_Click(...)
 выполняется C#-код
 ```
 
-![Event](/materials/desktop-forge/img/lab1/click-event-flow.png)
+![Event](/materials/desktop-forge/img/lab1/click-event-flow.webp)
 
 ---
 
@@ -333,7 +333,7 @@ Avalonia .NET App
 avalonia.app
 ```
 
-![List](/materials/desktop-forge/img/lab1/dotnet_list.png)
+![List](/materials/desktop-forge/img/lab1/dotnet_list.webp)
 
 > В дальнейшем мы будем использовать обычный шаблон `avalonia.app`, а не готовый MVVM-шаблон. MVVM будет изучаться позже.
 
@@ -461,7 +461,7 @@ dotnet run
 
 Откроется стандартное окно Avalonia.
 
-![Default Window](/materials/desktop-forge/img/lab1/default-avalonia-window.png)
+![Default Window](/materials/desktop-forge/img/lab1/default-avalonia-window.webp)
 
 Чтобы остановить приложение из терминала, используйте:
 
@@ -500,7 +500,7 @@ git push
 
 Основная структура выглядит примерно так:
 
-![Structure](/materials/desktop-forge/img/lab1/project-structure-vscode.png)
+![Structure](/materials/desktop-forge/img/lab1/project-structure-vscode.webp)
 
 Разберём назначение основных файлов.
 
@@ -602,7 +602,7 @@ MainWindow
 выполнить C#-метод
 ```
 
-![AXAML](/materials/desktop-forge/img/lab1/axaml-code-behind.png)
+![AXAML](/materials/desktop-forge/img/lab1/axaml-code-behind.webp)
 
 ---
 
@@ -859,7 +859,7 @@ MainWindow.axaml
 
 Откройте **Preview** для текущего AXAML-файла через кнопку предварительного просмотра в редакторе.
 
-![Preview](/materials/desktop-forge/img/lab1/preview.png)
+![Preview](/materials/desktop-forge/img/lab1/preview.webp)
 
 Вы сможете увидеть внешний вид окна непосредственно во время редактирования AXAML.
 
@@ -977,7 +977,7 @@ C#
 StatusText.Text = "...";
 ```
 
-![x:Name](/materials/desktop-forge/img/lab1/xname-connection.png)
+![x:Name](/materials/desktop-forge/img/lab1/xname-connection.webp)
 
 ---
 
@@ -1391,7 +1391,7 @@ dotnet run
 
 Сегодня мы не изучали новую архитектуру приложения, но уже использовали знакомые конструкции ООП.
 
-![OOP](/materials/desktop-forge/img/lab1/avalonia-oop-summary.png)
+![OOP](/materials/desktop-forge/img/lab1/avalonia-oop-summary.webp)
 
 ### Классы
 

@@ -178,7 +178,7 @@ AvaloniaLab07/
 
 Главное изменение — не внешний вид, а **структура программы**.
 
-![Итог](/materials/desktop-forge/img/lab7/mvvm-final.png)
+![Итог](/materials/desktop-forge/img/lab7/mvvm-final.webp)
 
 ---
 
@@ -2407,7 +2407,7 @@ dotnet run
 Задач: 3
 ```
 
-![Первый запуск MVVM-версии](/materials/desktop-forge/img/lab7/mvvm-start.png)
+![Первый запуск MVVM-версии](/materials/desktop-forge/img/lab7/mvvm-start.webp)
 
 ---
 

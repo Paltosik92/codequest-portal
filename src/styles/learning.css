@@ -187,8 +187,19 @@
 .progress-grid progress::-moz-progress-bar {
   background: var(--accent);
 }
-.transfer-panel {
+.transfer-panel,
+.reset-panel {
   margin-top: 36px;
+}
+.reset-confirm {
+  align-items: center;
+}
+.reset-confirm p {
+  flex-basis: 100%;
+  margin: 0;
+}
+[data-reset-status]:not(:empty) {
+  margin-top: 24px;
 }
 .learning-actions {
   display: flex;
@@ -268,11 +279,54 @@
   }
 }
 @media (max-width: 540px) {
+  /* Телефон: шапка в одну строку. Название скрыто визуально (остаётся для скринридеров),
+     ссылка «Подход» доступна с главной и из подвала. */
   html {
-    scroll-padding-top: 196px;
+    scroll-padding-top: 84px;
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding-block: 8px;
+    gap: 10px;
+  }
+  .brand {
+    gap: 0;
+  }
+  .brand > span:not(.brand-mark) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .brand-mark {
+    width: 40px;
+    height: 40px;
   }
   .header-inner nav {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    width: auto;
+    margin: 0;
+    gap: 4px;
+    justify-content: space-around;
+    font-size: 0.95rem;
+  }
+  .header-inner nav a {
+    min-height: 44px;
+    padding: 0 4px;
+  }
+  .header-inner nav a[href$='#approach'] {
+    display: none;
+  }
+  .theme-toggle {
+    flex: none;
+    width: 40px;
+    height: 40px;
   }
   .utility-page {
     padding-top: 36px;
@@ -298,5 +352,18 @@
   }
   .card-progress {
     padding-inline: 22px;
+  }
+}
+@media (max-width: 360px) {
+  .header-inner {
+    width: calc(100% - 24px);
+    gap: 6px;
+  }
+  .header-inner nav {
+    gap: 2px;
+    font-size: 0.8rem;
+  }
+  .header-inner nav a {
+    padding: 0 2px;
   }
 }

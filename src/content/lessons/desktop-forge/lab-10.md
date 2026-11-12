@@ -240,7 +240,7 @@ games.json
 4. выбрать файл;
 5. восстановить каталог.
 
-![Итог](/materials/desktop-forge/img/lab10/catalog-loaded.png)
+![Итог](/materials/desktop-forge/img/lab10/catalog-loaded.webp)
 
 ---
 
@@ -2686,7 +2686,7 @@ dotnet run
 Каталог ещё не сохранён.
 ```
 
-![Кнопки работы с файлами](/materials/desktop-forge/img/lab10/file-controls.png)
+![Кнопки работы с файлами](/materials/desktop-forge/img/lab10/file-controls.webp)
 
 ---
 
@@ -3025,7 +3025,7 @@ JsonException
 Ошибка: файл содержит некорректный JSON.
 ```
 
-![Сообщение о некорректном JSON](/materials/desktop-forge/img/lab10/broken-json.png)
+![Сообщение о некорректном JSON](/materials/desktop-forge/img/lab10/broken-json.webp)
 
 ---
 

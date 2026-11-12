@@ -162,7 +162,7 @@ DataTemplate
 └───────────────────────────────────────────────────┘
 ```
 
-![Итог](/materials/desktop-forge/img/lab5/task-list-final.png)
+![Итог](/materials/desktop-forge/img/lab5/task-list-final.webp)
 
 ---
 
@@ -1327,7 +1327,7 @@ dotnet run
 
 Кнопки пока ничего не делают.
 
-![Интерфейс до подключения коллекции](/materials/desktop-forge/img/lab5/empty-form.png)
+![Интерфейс до подключения коллекции](/materials/desktop-forge/img/lab5/empty-form.webp)
 
 Остановите приложение.
 
@@ -1882,7 +1882,7 @@ dotnet run
 DataTemplate
 ```
 
-![Список с DataTemplate](/materials/desktop-forge/img/lab5/data-template.png)
+![Список с DataTemplate](/materials/desktop-forge/img/lab5/data-template.webp)
 
 Остановите приложение.
 
@@ -2271,7 +2271,7 @@ dotnet run
 
 также должен обновляться.
 
-![Добавленные задачи](/materials/desktop-forge/img/lab5/tasks-added.png)
+![Добавленные задачи](/materials/desktop-forge/img/lab5/tasks-added.webp)
 
 ---
 
@@ -2903,7 +2903,7 @@ dotnet run
 
 ---
 
-![Удаление задачи](/materials/desktop-forge/img/lab5/task-deleted.png)
+![Удаление задачи](/materials/desktop-forge/img/lab5/task-deleted.webp)
 
 ---
 

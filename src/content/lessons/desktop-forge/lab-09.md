@@ -203,7 +203,7 @@ ContentControl
 
 После добавления игры можно перейти обратно в каталог и увидеть новый объект.
 
-![Итог](/materials/desktop-forge/img/lab9/catalog-final.png)
+![Итог](/materials/desktop-forge/img/lab9/catalog-final.webp)
 
 ---
 
@@ -2864,7 +2864,7 @@ Hades
 Baldur's Gate 3
 ```
 
-![Первый запуск каталога](/materials/desktop-forge/img/lab9/catalog-start.png)
+![Первый запуск каталога](/materials/desktop-forge/img/lab9/catalog-start.webp)
 
 ---
 
@@ -2954,7 +2954,7 @@ AddGameView
 
 произойдёт обратное переключение.
 
-![Экран добавления игры](/materials/desktop-forge/img/lab9/add-game.png)
+![Экран добавления игры](/materials/desktop-forge/img/lab9/add-game.webp)
 
 ---
 
@@ -3033,7 +3033,7 @@ CatalogViewModel      AddGameViewModel
 
 ---
 
-![Общий каталог после добавления игры](/materials/desktop-forge/img/lab9/shared-catalog.png)
+![Общий каталог после добавления игры](/materials/desktop-forge/img/lab9/shared-catalog.webp)
 
 ---
 

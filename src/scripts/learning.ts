@@ -311,3 +311,34 @@ if (transfer) {
       }
     });
 }
+
+// Общий компьютер: следующий студент начинает с чистого листа. Офлайн-копии не затрагиваются.
+const reset = document.querySelector<HTMLElement>('[data-progress-reset]');
+if (reset) {
+  reset.hidden = false;
+  const start = reset.querySelector<HTMLButtonElement>('[data-reset-start]')!;
+  const confirmation = reset.querySelector<HTMLElement>('[data-reset-confirm]')!;
+  const status = reset.querySelector<HTMLElement>('[data-reset-status]')!;
+  const close = () => {
+    confirmation.hidden = true;
+    start.hidden = false;
+    start.focus();
+  };
+  start.addEventListener('click', () => {
+    status.textContent = '';
+    start.hidden = true;
+    confirmation.hidden = false;
+    confirmation.querySelector<HTMLButtonElement>('[data-reset-cancel]')!.focus();
+  });
+  confirmation.querySelector('[data-reset-cancel]')!.addEventListener('click', close);
+  confirmation.querySelector('[data-reset-apply]')!.addEventListener('click', () => {
+    // Пустое состояние записывается, а не удаляется: так его получают и другие вкладки.
+    state = emptyState();
+    persist();
+    refresh();
+    close();
+    status.textContent = persistent
+      ? 'Прогресс, закладки и настройки чтения сброшены. Сохранённые офлайн-работы остались.'
+      : 'Прогресс сброшен на этой странице. Браузер не разрешает сохранять изменения.';
+  });
+}

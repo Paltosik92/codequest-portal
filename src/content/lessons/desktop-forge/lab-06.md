@@ -166,7 +166,7 @@ PropertyChanged
 
 которая изменит свойства объекта **из C#**, а интерфейс получит уведомление и обновится.
 
-![Итог](/materials/desktop-forge/img/lab6/profile-final.png)
+![Итог](/materials/desktop-forge/img/lab6/profile-final.webp)
 
 ---
 
@@ -1609,7 +1609,7 @@ dotnet run
 - `CheckBox` должен быть включён;
 - справа должны отображаться те же текстовые данные.
 
-![Первый запуск с Binding](/materials/desktop-forge/img/lab6/binding-start.png)
+![Первый запуск с Binding](/materials/desktop-forge/img/lab6/binding-start.webp)
 
 ---
 
@@ -1669,7 +1669,7 @@ public string Name { get; set; }
 
 Посмотрите на карточку справа: там по-прежнему написано «Анна». Свойство `Profile.Name` уже равно «Мария» — `TwoWay` Binding записал новое значение в объект. Но объект никому не сообщил об изменении, поэтому `TextBlock` карточки не перечитал свойство.
 
-![Без уведомлений карточка не обновилась](/materials/desktop-forge/img/lab6/no-notification.png)
+![Без уведомлений карточка не обновилась](/materials/desktop-forge/img/lab6/no-notification.webp)
 
 Получается:
 
@@ -2313,7 +2313,7 @@ OneWay Binding
 
 Теперь связь работает полностью.
 
-![TwoWay и OneWay с уведомлениями](/materials/desktop-forge/img/lab6/two-way-binding.png)
+![TwoWay и OneWay с уведомлениями](/materials/desktop-forge/img/lab6/two-way-binding.webp)
 
 ---
 

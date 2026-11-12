@@ -291,6 +291,8 @@
 .prose img {
   display: block;
   max-width: 100%;
+  /* Размеры заданы атрибутами при сборке; auto сохраняет пропорции при сужении. */
+  height: auto;
   max-height: 800px;
   object-fit: contain;
   border: 1px solid var(--border);

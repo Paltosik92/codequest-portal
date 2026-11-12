@@ -2,6 +2,7 @@
   "courseId": "mediahub",
   "sourceRoot": "Осуществление_интеграции_программных_модулей_2027",
   "cover": "img/hero.png",
+  "optimizeImages": { "format": "webp", "quality": 85 },
   "attachments": [
     "Памятка_общего_компьютера.md",
     "setup/Настройка_ноутбука_к_работе_07.md",

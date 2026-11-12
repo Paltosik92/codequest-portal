@@ -132,7 +132,7 @@ FontWeight="Bold"
 
 При наведении и нажатии основная кнопка будет изменять внешний вид благодаря состояниям стиля.
 
-![Итог](/materials/desktop-forge/img/lab4/character-card.png)
+![Итог](/materials/desktop-forge/img/lab4/character-card.webp)
 
 ---
 
@@ -1625,7 +1625,7 @@ dotnet run
 
 Обратите внимание на изменение основного цвета.
 
-![Состояния основной кнопки: обычное, наведение, нажатие](/materials/desktop-forge/img/lab4/button-states.png)
+![Состояния основной кнопки: обычное, наведение, нажатие](/materials/desktop-forge/img/lab4/button-states.webp)
 
 ---
 
@@ -2118,7 +2118,7 @@ dotnet run
 - при наведении основная кнопка меняет цвет;
 - при нажатии цвет меняется ещё раз.
 
-![Оформленный интерфейс](/materials/desktop-forge/img/lab4/styled-card.png)
+![Оформленный интерфейс](/materials/desktop-forge/img/lab4/styled-card.webp)
 
 Остановите приложение.
 
@@ -2561,7 +2561,7 @@ dotnet run
 
 Все значения должны вернуться к начальному состоянию.
 
-![Обновлённая карточка](/materials/desktop-forge/img/lab4/card-updated.png)
+![Обновлённая карточка](/materials/desktop-forge/img/lab4/card-updated.webp)
 
 ---
 

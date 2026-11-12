@@ -1,6 +1,9 @@
 /** Выборочный импорт доверенных студенческих Markdown. Оригиналы только читаются. */
-import { readFile, writeFile, mkdir, lstat, access, unlink } from 'node:fs/promises';
-import { resolve, relative, dirname, extname, isAbsolute, sep } from 'node:path';
+import { readFile, writeFile, mkdir, lstat, access, unlink, mkdtemp, rm } from 'node:fs/promises';
+import { resolve, relative, dirname, extname, isAbsolute, sep, join } from 'node:path';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
+import { tmpdir } from 'node:os';
 import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 import { unified } from 'unified';
@@ -23,6 +26,17 @@ const parser = unified().use(remarkParse).use(remarkGfm);
 const printer = unified().use(remarkStringify).use(remarkGfm);
 const imageExtensions = ['.webp', '.png', '.jpg', '.jpeg', '.svg', '.gif'];
 const assets = new Map();
+// Байты, которые попадут в public: копия исходника или его WebP-версия.
+const assetBytes = new Map();
+// PNG → WebP при импорте. Оригиналы остаются в исходной папке курса без изменений.
+const optimize = config.optimizeImages;
+if (optimize) {
+  assert.equal(optimize.format, 'webp', 'optimizeImages поддерживает только format: "webp"');
+  assert(
+    Number.isInteger(optimize.quality) && optimize.quality >= 1 && optimize.quality <= 100,
+    'optimizeImages.quality — целое число от 1 до 100',
+  );
+}
 const outputs = [];
 const corrections = [];
 const hash = (data) => createHash('sha256').update(data).digest('hex');
@@ -59,6 +73,81 @@ const readIfExists = async (path) => {
 };
 const previousBytes = await readIfExists(manifestPath);
 const previous = previousBytes ? JSON.parse(previousBytes.toString('utf8')) : undefined;
+const previousAssets = new Map((previous?.assets || []).map((item) => [item.target, item]));
+const run = promisify(execFile);
+let imageMagick;
+// На Windows convert.exe — системная утилита дисков, поэтому там допустим только magick.
+async function runImageMagick(args) {
+  const candidates = imageMagick
+    ? [imageMagick]
+    : process.env.IMAGEMAGICK
+      ? [process.env.IMAGEMAGICK]
+      : process.platform === 'win32'
+        ? ['magick']
+        : ['magick', 'convert'];
+  for (const command of candidates) {
+    try {
+      await run(command, args);
+      imageMagick = command;
+      return;
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+    }
+  }
+  throw new Error(
+    'Для optimizeImages нужен ImageMagick: команда magick не найдена в PATH. Путь можно задать в переменной IMAGEMAGICK.',
+  );
+}
+/** Возвращает WebP-копию PNG или undefined, если выигрыш меньше 10 % и лучше оставить PNG.
+ * Кодируются два варианта: с потерями (иллюстрации, фото) и без потерь (снимки окон с текстом).
+ * Вариант без потерь выбирается, когда он не тяжелее варианта с потерями более чем на 10 %. */
+async function webpCopy(sourceFile, bytes, pngTarget, webpTarget) {
+  const sourceSha256 = hash(bytes);
+  // Неизменённый исходник не кодируется заново: байты WebP зависят от версии ImageMagick.
+  const kept = previousAssets.get(projectPath(pngTarget));
+  if (kept?.keptOriginal && kept.sha256 === sourceSha256 && kept.quality === optimize.quality)
+    return undefined;
+  const before = previousAssets.get(projectPath(webpTarget));
+  if (
+    before?.sourceSha256 === sourceSha256 &&
+    before.quality === optimize.quality &&
+    before.encoding
+  ) {
+    const current = await readIfExists(webpTarget);
+    if (current && hash(current) === before.sha256)
+      return { data: current, encoding: before.encoding };
+  }
+  const directory = await mkdtemp(join(tmpdir(), 'codequest-webp-'));
+  try {
+    const lossyFile = join(directory, 'lossy.webp');
+    const losslessFile = join(directory, 'lossless.webp');
+    await runImageMagick([
+      sourceFile,
+      '-quality',
+      String(optimize.quality),
+      '-define',
+      'webp:method=6',
+      lossyFile,
+    ]);
+    await runImageMagick([
+      sourceFile,
+      '-define',
+      'webp:lossless=true',
+      '-define',
+      'webp:method=6',
+      losslessFile,
+    ]);
+    const lossy = await readFile(lossyFile);
+    const lossless = await readFile(losslessFile);
+    const result =
+      lossless.length <= lossy.length * 1.1
+        ? { data: lossless, encoding: 'lossless' }
+        : { data: lossy, encoding: 'lossy' };
+    return result.data.length <= bytes.length * 0.9 ? result : undefined;
+  } finally {
+    await rm(directory, { recursive: true, force: true });
+  }
+}
 const allowedSources = new Map();
 const usedSlugs = new Set();
 const numbers = new Set();
@@ -92,13 +181,35 @@ async function registerAsset(path) {
   );
   if (!assets.has(resolved)) {
     const bytes = await readFile(resolved);
-    const target = resolve(assetRoot, relative(sourceRoot, resolved));
+    let target = resolve(assetRoot, relative(sourceRoot, resolved));
     assert(inside(assetRoot, target), 'Ресурс выходит за пределы каталога назначения');
+    let data = bytes;
+    let optimization = {};
+    if (optimize && extname(resolved).toLowerCase() === '.png') {
+      const webpTarget = target.replace(/\.png$/i, '.webp');
+      const webp = await webpCopy(resolved, bytes, target, webpTarget);
+      if (webp) {
+        target = webpTarget;
+        data = webp.data;
+        optimization = {
+          sourceSha256: hash(bytes),
+          sourceBytes: bytes.length,
+          quality: optimize.quality,
+          encoding: webp.encoding,
+        };
+      } else optimization = { keptOriginal: true, quality: optimize.quality };
+    }
+    assert(
+      !assetBytes.has(projectPath(target)),
+      `Два исходных файла дают один публичный путь: ${projectPath(target)}`,
+    );
+    assetBytes.set(projectPath(target), data);
     assets.set(resolved, {
       source: sourcePath(resolved),
       target: projectPath(target),
-      sha256: hash(bytes),
-      bytes: bytes.length,
+      sha256: hash(data),
+      bytes: data.length,
+      ...optimization,
       ...(allowedAttachments.has(resolved.toLowerCase()) ? { kind: 'attachment' } : {}),
     });
   }
@@ -432,7 +543,7 @@ if (write) {
   for (const asset of assets.values()) {
     const destination = resolve(project, asset.target);
     await mkdir(dirname(destination), { recursive: true });
-    await writeFile(destination, await readFile(resolve(workspace, asset.source)));
+    await writeFile(destination, assetBytes.get(asset.target));
   }
   await mkdir(dirname(manifestPath), { recursive: true });
   await writeFile(manifestPath, JSON.stringify(manifest, null, 2) + '\n');

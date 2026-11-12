@@ -34,8 +34,10 @@ export const defaultReading = (): ReadingSettings => ({
   updatedAt: 0,
 });
 export const bookmarkKey = (slug: string, anchor: string) => `${slug}#${anchor}`;
-const validTime = (time: number) =>
-  Number.isSafeInteger(time) && time >= 0 && time <= Date.now() + 300_000;
+const validTime = (time: number) => Number.isSafeInteger(time) && time >= 0;
+// Часы учебного ПК могли спешить. Время «из будущего» не повод отклонять весь файл:
+// оно приводится к текущему моменту.
+const pastOrNow = (time: number) => Math.min(time, Date.now());
 export const emptyState = (): LearningState => ({
   version: 2,
   lastSlug: null,
@@ -72,7 +74,6 @@ export function parseState(value: unknown, known: Set<string>): LearningState {
       raw.offset > 10_000_000 ||
       !Number.isSafeInteger(raw.updatedAt) ||
       raw.updatedAt < 0 ||
-      raw.updatedAt > Date.now() + 300_000 ||
       (raw.headingTitle !== undefined &&
         (typeof raw.headingTitle !== 'string' || raw.headingTitle.length > 300))
     )
@@ -82,7 +83,7 @@ export function parseState(value: unknown, known: Set<string>): LearningState {
       ratio: raw.ratio,
       anchor: raw.anchor,
       offset: raw.offset,
-      updatedAt: raw.updatedAt,
+      updatedAt: pastOrNow(raw.updatedAt),
       ...(raw.headingTitle ? { headingTitle: raw.headingTitle } : {}),
     };
   }
@@ -104,7 +105,7 @@ export function parseState(value: unknown, known: Set<string>): LearningState {
       fontSize: reading.fontSize,
       width: reading.width,
       spacing: reading.spacing,
-      updatedAt: reading.updatedAt,
+      updatedAt: pastOrNow(reading.updatedAt),
     };
     if (!data.bookmarks || typeof data.bookmarks !== 'object' || Array.isArray(data.bookmarks))
       throw new Error('Некорректный список закладок.');
@@ -134,7 +135,7 @@ export function parseState(value: unknown, known: Set<string>): LearningState {
         anchor: bookmark.anchor,
         title: bookmark.title,
         removed: bookmark.removed,
-        updatedAt: bookmark.updatedAt,
+        updatedAt: pastOrNow(bookmark.updatedAt),
       };
     }
   }

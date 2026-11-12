@@ -15,9 +15,9 @@ demo: false
 
 ## Тикет PIX-020
 
-![Аня заполняет светящуюся форму на панели, на полке материализуется новая коробка с игрой](/materials/mediahub/assets/tickets/pix-020.png)
+![Аня заполняет светящуюся форму на панели, на полке материализуется новая коробка с игрой](/materials/mediahub/assets/tickets/pix-020.webp)
 
-> <img src="/materials/mediahub/assets/tickets/anya.png" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
+> <img src="/materials/mediahub/assets/tickets/anya.webp" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
 >
 > Студия Comet Post прислала нам свою игру, а я третий день жду, пока Гоша найдёт время её добавить. Хочу добавлять игры сама! Форма в админке у нас есть с самого начала, но она никуда не отправляет. Только сделай так, чтобы я не могла ничего сломать: если ошибусь, пусть подсветит, где именно. И если я нервно нажму «Сохранить» три раза — игра должна добавиться одна.
 
@@ -564,7 +564,7 @@ fieldset:disabled {
 > - На витрине с сортировкой «Новее» новая игра первая. Перезапусти сервер — она на месте.
 > - На Live Server вместо формы — пояснение.
 
-![Ошибка у поля «Адрес»](/materials/mediahub/assets/screenshots/lab20-error.png)
+![Ошибка у поля «Адрес»](/materials/mediahub/assets/screenshots/lab20-error.webp)
 
 ## 🔧 Сломай нарочно
 

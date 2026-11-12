@@ -15,9 +15,9 @@ demo: false
 
 ## Тикет PIX-013
 
-![Дрон доставляет к магазину светящийся пакет с данными, Гоша встречает его с планшетом, Аня выглядывает из двери](/materials/mediahub/assets/tickets/pix-013.png)
+![Дрон доставляет к магазину светящийся пакет с данными, Гоша встречает его с планшетом, Аня выглядывает из двери](/materials/mediahub/assets/tickets/pix-013.webp)
 
-> <img src="/materials/mediahub/assets/tickets/anya.png" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
+> <img src="/materials/mediahub/assets/tickets/anya.webp" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
 >
 > Хорошие новости: Гоша начинает делать нам настоящий сервер! Скоро каталог будет приходить по сети, а маркетинг сможет менять цены без программистов. Но сервер — это сеть, а сеть бывает медленной и иногда падает. Давайте подготовимся заранее: пусть витрина уже сейчас загружает каталог из отдельного файла, показывает, что идёт загрузка, и не умирает молча, если что-то пошло не так.
 
@@ -410,9 +410,9 @@ start();
 > - Страница игры, корзина, «Желаемое» в библиотеке работают. Счётчик корзины появляется сразу.
 > - Без файла каталога ошибка видна и на странице игры, и в корзине.
 
-![Витрина во время загрузки](/materials/mediahub/assets/screenshots/lab13-skeleton.png)
+![Витрина во время загрузки](/materials/mediahub/assets/screenshots/lab13-skeleton.webp)
 
-![Каталог не загрузился](/materials/mediahub/assets/screenshots/lab13-error.png)
+![Каталог не загрузился](/materials/mediahub/assets/screenshots/lab13-error.webp)
 
 <details>
 <summary>Полный src/main.ts</summary>

@@ -9,15 +9,15 @@ status: "published"
 demo: false
 ---
 
-![Результат работы: страница игры Neon Circuit в браузере](/materials/mediahub/assets/screenshots/lab01-result.png)
+![Результат работы: страница игры Neon Circuit в браузере](/materials/mediahub/assets/screenshots/lab01-result.webp)
 
 > **Сегодня ты сделаешь:** страницу игры для магазина PixelPort и опубликуешь её в интернете. К концу пары её можно открыть с телефона по личной ссылке.
 
 ## Тикет PIX-001
 
-![Аня показывает издателю страницу игры на телефоне](/materials/mediahub/assets/tickets/pix-001.png)
+![Аня показывает издателю страницу игры на телефоне](/materials/mediahub/assets/tickets/pix-001.webp)
 
-> <img src="/materials/mediahub/assets/tickets/anya.png" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
+> <img src="/materials/mediahub/assets/tickets/anya.webp" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
 >
 > Привет! Добро пожаловать в команду. Мы запускаем PixelPort — магазин инди-игр. Завтра у меня встреча с издателем, и он хочет увидеть, как будет выглядеть страница его игры у нас. Красоту наведём потом. Сейчас нужно, чтобы на странице было всё важное: название, обложка, описание, цена со скидкой и системные требования. И главное — пришли мне ссылку, чтобы я открыла её с телефона прямо на встрече.
 

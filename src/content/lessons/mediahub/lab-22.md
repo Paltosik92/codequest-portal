@@ -15,9 +15,9 @@ demo: false
 
 ## Тикет PIX-022
 
-![Аня и Гоша смотрят, как нажатие кнопки «Купить» проходит через браузер, сервер и базу](/materials/mediahub/assets/tickets/pix-022.png)
+![Аня и Гоша смотрят, как нажатие кнопки «Купить» проходит через браузер, сервер и базу](/materials/mediahub/assets/tickets/pix-022.webp)
 
-> <img src="/materials/mediahub/assets/tickets/anya.png" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
+> <img src="/materials/mediahub/assets/tickets/anya.webp" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
 >
 > У нас есть витрина, отзывы, админка со скидками — а купить ничего нельзя! Главная кнопка магазина пишет «Скоро». Хочу: нажал «Оформить заказ» — игры в библиотеке, корзина пуста. Библиотека у каждого игрока своя, а не две игры, нарисованные для красоты. Если игра уже куплена — второй раз её не продаём. И важно: если завтра поставим скидку, в истории должна остаться цена, за которую игрок реально купил.
 
@@ -622,7 +622,7 @@ export function showLibraryOffline(): void {
 > - Положи в корзину Lantern Valley и Neon Circuit, оформи — «У Nova уже есть: Lantern Valley…». Корзина на месте, Neon Circuit не куплен.
 > - Открой `cart.html` через Live Server и нажми «Оформить заказ» — подсказка про сервер; `library.html` там же — сообщение, что покупки хранятся на сервере.
 
-![Повторная покупка: сервер объясняет, что не так](/materials/mediahub/assets/screenshots/lab22-conflict.png)
+![Повторная покупка: сервер объясняет, что не так](/materials/mediahub/assets/screenshots/lab22-conflict.webp)
 
 ## 🔧 Сломай нарочно
 

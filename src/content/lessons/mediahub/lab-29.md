@@ -15,9 +15,9 @@ demo: false
 
 ## Тикет PIX-029
 
-![Ракета-коробка с игрой на стартовой площадке: Аня сверяет чек-лист, Гоша держит кнопку запуска](/materials/mediahub/assets/tickets/pix-029.png)
+![Ракета-коробка с игрой на стартовой площадке: Аня сверяет чек-лист, Гоша держит кнопку запуска](/materials/mediahub/assets/tickets/pix-029.webp)
 
-> <img src="/materials/mediahub/assets/tickets/anya.png" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
+> <img src="/materials/mediahub/assets/tickets/anya.webp" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
 >
 > Директор хочет показать магазин партнёрам — на своём ноутбуке, без нас. Скачает с GitHub, откроет README и будет делать, что написано. Если где-то споткнётся — релиза нет. Поэтому: проверьте всё так, будто видите проект впервые, и пусть кто-то другой проверит ещё раз.
 

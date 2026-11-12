@@ -7,6 +7,7 @@ import CourseMap from '../components/CourseMap.astro';
 import type { Course } from '../data/courses';
 import { getPublishedLessons } from '../lib/lessons';
 import { url, lessonUrl } from '../lib/paths';
+import { downloadSize } from '../lib/download-sizes';
 interface Props { course: Course; }
 const { course } = Astro.props;
 const published = (await getPublishedLessons()).filter(l => l.data.courseId === course.id && !l.data.demo);
@@ -28,7 +29,7 @@ const allPublished = lessons.length > 0 && lessons.every(lesson => lesson.entry)
     <ResumePanel courseId={course.id}/><p class="course-progress-label" data-course-progress={course.id} hidden></p>
     <nav class="course-tabs" aria-label="На странице курса"><a href="#about">О курсе</a><a href="#outcomes">Чему научишься</a><a href="#curriculum">Программа</a></nav>
     <div class="course-body"><div class="course-main"><section class="course-section" id="about"><div class="eyebrow">ОТ ИДЕИ ДО ПРИЛОЖЕНИЯ</div><h2>Что будем создавать</h2><p>{course.intro}</p>{course.sourceNote && <p class="source-note">{course.sourceNote}</p>}</section>
-    {course.downloads && <section class="course-section"><h2>Ресурсы проекта</h2>{course.downloads.map(resource => <div class="course-download"><h3>{resource.title}</h3><p>{resource.description}</p><a class="button button-outline" href={url(resource.path)} download>{resource.buttonLabel || 'Скачать архив'} <span aria-hidden="true">↓</span></a></div>)}</section>}
+    {course.downloads && <section class="course-section"><h2>Ресурсы проекта</h2>{course.downloads.map(resource => <div class="course-download"><h3>{resource.title}</h3><p>{resource.description}</p><a class="button button-outline" href={url(resource.path)} download>{resource.buttonLabel || 'Скачать архив'}{downloadSize(resource.path) && ` · ${downloadSize(resource.path)}`} <span aria-hidden="true">↓</span></a></div>)}</section>}
     <section class="course-section" id="outcomes"><h2>Чему научишься</h2><ul class="outcomes">{course.goals.map(goal => <li><span><Icon name="check" size={18}/></span>{goal}</li>)}</ul></section>
     <section class="course-section curriculum" id="curriculum"><div class="curriculum-title"><h2>Программа курса</h2><span>{lessons.length} {workLabel} в программе</span></div><div class="notice"><Icon name="book" size={24}/><p><strong>{allPublished ? 'Все работы доступны' : published.length ? 'Продолжай свой проект' : 'Знакомство с программой'}</strong>{published.length ? `Доступно: ${activeNumbers.size} из ${lessons.length}. Открывай работы по порядку: каждая продолжает предыдущую.` : 'Названия и номера взяты из учебных файлов. Полные методички пока не опубликованы.'}</p></div>
     <CourseMap courseId={course.id} groups={groups} lessons={lessons.map(lesson => ({ number: lesson.number, title: lesson.title, slug: lesson.entry?.data.slug }))}/><div id="course-list">

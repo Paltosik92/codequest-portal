@@ -147,7 +147,7 @@ demo: false
 
 Если высоты окна недостаточно, содержимое можно будет прокручивать.
 
-![Итог](/materials/desktop-forge/img/lab3/settings-final.png)
+![Итог](/materials/desktop-forge/img/lab3/settings-final.webp)
 
 ---
 
@@ -1730,7 +1730,7 @@ dotnet run
 - окно можно уменьшить по высоте;
 - при недостатке места появляется вертикальная прокрутка.
 
-![Компоновка окна настроек](/materials/desktop-forge/img/lab3/settings-layout.png)
+![Компоновка окна настроек](/materials/desktop-forge/img/lab3/settings-layout.webp)
 
 ---
 
@@ -2063,7 +2063,7 @@ dotnet run
 
 После этого уменьшите высоту окна и ещё раз убедитесь, что основное содержимое можно прокручивать. При крупном шрифте прокрутка понадобится раньше.
 
-![Сохранённые настройки](/materials/desktop-forge/img/lab3/settings-saved.png)
+![Сохранённые настройки](/materials/desktop-forge/img/lab3/settings-saved.webp)
 
 ---
 

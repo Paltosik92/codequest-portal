@@ -2,6 +2,7 @@
   "courseId": "desktop-forge",
   "sourceRoot": "Основы_алгоритмизации_и_программирования_2027/Labs_Avalonia",
   "cover": "img/lab9/catalog-final.png",
+  "optimizeImages": { "format": "webp", "quality": 85 },
   "omitEditorialBlocks": [
     {
       "type": "blockquote",

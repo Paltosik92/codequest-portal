@@ -9,15 +9,15 @@ status: "published"
 demo: false
 ---
 
-![Сервер на C# запущен и отдаёт каталог игр в формате JSON](/materials/mediahub/assets/screenshots/lab14-result.png)
+![Сервер на C# запущен и отдаёт каталог игр в формате JSON](/materials/mediahub/assets/screenshots/lab14-result.webp)
 
 > **Сегодня ты сделаешь:** свой первый веб-сервер на C# и ASP.NET Core. Он будет раздавать весь сайт PixelPort, как Live Server, и отвечать на запрос `/api/games` списком игр в формате JSON — тем самым, который витрина научилась загружать в №13. С этой работы у магазина появляется «задняя часть» — бэкенд.
 
 ## Тикет PIX-014
 
-![Гоша за столом с двумя мониторами: на одном витрина, на другом код сервера; от сервера к витрине тянутся светящиеся линии](/materials/mediahub/assets/tickets/pix-014.png)
+![Гоша за столом с двумя мониторами: на одном витрина, на другом код сервера; от сервера к витрине тянутся светящиеся линии](/materials/mediahub/assets/tickets/pix-014.webp)
 
-> <img src="/materials/mediahub/assets/tickets/gosha.png" alt="" width="48" align="left"> **От:** Гоша, бэкенд-разработчик PixelPort
+> <img src="/materials/mediahub/assets/tickets/gosha.webp" alt="" width="48" align="left"> **От:** Гоша, бэкенд-разработчик PixelPort
 >
 > Привет! Аня сказала, что витрина уже умеет загружать каталог по сети. Пора дать ей настоящий сервер. Для начала скромно: сервер на ASP.NET Core отдаёт сайт и по адресу `/api/games` возвращает список игр. Данные пока берём из того же `catalog.json`, базу подключим через пару недель. И договоримся сразу: сервер никому не показывает свои внутренности — ни настройки, ни служебные файлы.
 
@@ -293,7 +293,7 @@ app.Run();
 
 Перезапусти сервер. В терминале первой строкой твоё сообщение:
 
-![Консоль запущенного сервера](/materials/mediahub/assets/screenshots/lab14-terminal.png)
+![Консоль запущенного сервера](/materials/mediahub/assets/screenshots/lab14-terminal.webp)
 
 Открой `http://localhost:5080/api/games`. Это ответ твоего API. В Chrome поставь галочку **Pretty-print** вверху, чтобы JSON стал читаемым.
 

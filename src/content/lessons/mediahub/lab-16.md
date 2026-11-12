@@ -15,9 +15,9 @@ demo: false
 
 ## Тикет PIX-016
 
-![Аня и Гоша достраивают светящийся мост между окном браузера и серверной стойкой и пожимают руки](/materials/mediahub/assets/tickets/pix-016.png)
+![Аня и Гоша достраивают светящийся мост между окном браузера и серверной стойкой и пожимают руки](/materials/mediahub/assets/tickets/pix-016.webp)
 
-> <img src="/materials/mediahub/assets/tickets/gosha.png" alt="" width="48" align="left"> **От:** Гоша, бэкенд-разработчик PixelPort
+> <img src="/materials/mediahub/assets/tickets/gosha.webp" alt="" width="48" align="left"> **От:** Гоша, бэкенд-разработчик PixelPort
 >
 > API готов, а витрина про него даже не знает: по-прежнему качает весь `catalog.json` и фильтрует сама. Подключай! Только аккуратно: сайт на GitHub Pages ломать нельзя, его смотрят издатели, а сервера там нет и не будет. И ещё: я тут прочитал наш контракт и, кажется, мы с фронтендом по-разному понимаем «у игры нет особенностей». Проверь, пожалуйста.
 
@@ -378,7 +378,7 @@ async function start(): Promise<void> {
 
 Сделай то, что просил Гоша: пройдись по страницам игр в режиме сервера. Neon Circuit открывается. А теперь `localhost:5080/game.html?id=1` — Orbital Echo:
 
-![Страница Orbital Echo показывает ошибку загрузки](/materials/mediahub/assets/screenshots/lab16-bug.png)
+![Страница Orbital Echo показывает ошибку загрузки](/materials/mediahub/assets/screenshots/lab16-bug.webp)
 
 Каталог загрузился бы, но страница упала. А на Live Server та же страница работает! Найдём причину, как это делают разработчики: **симптом → улики → гипотеза → проверка**.
 

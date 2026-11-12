@@ -24,5 +24,11 @@ const catalog = await getLearningCatalog();
       <div class="learning-actions"><button class="button button-outline" type="button" data-progress-export>Экспорт JSON ↓</button><label class="button button-outline import-label">Импорт JSON ↑<input type="file" accept="application/json,.json" data-progress-import aria-label="Выбрать JSON с прогрессом"/></label></div>
       <p data-transfer-status role="status" aria-live="polite"></p>
     </section>
+    <section class="learning-panel reset-panel" data-progress-reset hidden>
+      <h2>Начать заново</h2><p>Если за этим компьютером до тебя занимался кто-то другой, сбрось чужие отметки. Удалятся выполненные работы, место чтения, закладки и настройки чтения в этом браузере. Сохранённые офлайн-работы останутся. Свой прогресс сначала сохрани через «Экспорт JSON».</p>
+      <div class="learning-actions"><button class="button button-outline" type="button" data-reset-start>Сбросить прогресс…</button></div>
+      <div class="learning-actions reset-confirm" data-reset-confirm hidden><p>Точно сбросить? Отменить это будет нельзя.</p><button class="button button-primary" type="button" data-reset-apply>Да, сбросить</button><button class="button button-outline" type="button" data-reset-cancel>Отмена</button></div>
+      <p data-reset-status role="status" aria-live="polite"></p>
+    </section>
   </div>
 </BaseLayout>

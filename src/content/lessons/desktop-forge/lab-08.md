@@ -165,7 +165,7 @@ AvaloniaLab07/
 - `MainWindowViewModel` станет заметно короче: свойства и команды сгенерирует Toolkit;
 - поведение приложения останется прежним.
 
-![Итог](/materials/desktop-forge/img/lab8/toolkit-final.png)
+![Итог](/materials/desktop-forge/img/lab8/toolkit-final.webp)
 
 ---
 
@@ -596,7 +596,7 @@ Execute()
 AddTask()
 ```
 
-![Кнопки на командах](/materials/desktop-forge/img/lab8/commands.png)
+![Кнопки на командах](/materials/desktop-forge/img/lab8/commands.webp)
 
 ---
 
@@ -1050,7 +1050,7 @@ git diff --stat
 
 Удалённых строк должно быть заметно больше, чем добавленных.
 
-![После перехода на CommunityToolkit.Mvvm](/materials/desktop-forge/img/lab8/toolkit.png)
+![После перехода на CommunityToolkit.Mvvm](/materials/desktop-forge/img/lab8/toolkit.webp)
 
 ---
 

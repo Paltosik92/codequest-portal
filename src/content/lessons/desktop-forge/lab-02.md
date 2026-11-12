@@ -98,7 +98,7 @@ MainWindow.axaml.cs
 Итого: 7600 ₽
 ```
 
-![Итог](/materials/desktop-forge/img/lab2/order-result.png)
+![Итог](/materials/desktop-forge/img/lab2/order-result.webp)
 
 ---
 
@@ -776,7 +776,7 @@ dotnet run
 
 Проверьте ввод имени, выбор товара, изменение количества, галочку упаковки и переключение доставки. Кнопка «Рассчитать» пока ничего не делает. Затем закройте окно.
 
-![Форма заказа](/materials/desktop-forge/img/lab2/order-form.png)
+![Форма заказа](/materials/desktop-forge/img/lab2/order-form.webp)
 
 ---
 
@@ -1544,7 +1544,7 @@ dotnet run
 Ошибка: выберите товар.
 ```
 
-![Проверка ввода](/materials/desktop-forge/img/lab2/validation-error.png)
+![Проверка ввода](/materials/desktop-forge/img/lab2/validation-error.webp)
 
 ---
 

@@ -15,9 +15,9 @@ demo: false
 
 ## Тикет PIX-012
 
-![Аня и Гоша вешают гирлянды на вывеску магазина, над ними парят светящиеся часы](/materials/mediahub/assets/tickets/pix-012.png)
+![Аня и Гоша вешают гирлянды на вывеску магазина, над ними парят светящиеся часы](/materials/mediahub/assets/tickets/pix-012.webp)
 
-> <img src="/materials/mediahub/assets/tickets/anya.png" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
+> <img src="/materials/mediahub/assets/tickets/anya.webp" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
 >
 > Через неделю стартует Зимняя распродажа, а у нас на главной написано «уже близко» — и всё. Маркетинг хочет большой таймер: дни, часы, минуты, секунды, чтобы покупатели видели, сколько ждать. Когда распродажа начнётся, пусть таймер считает, сколько до её конца. И ещё две идеи: «Игра дня», которая меняется каждый день, и нормальная страница «Желаемое». Сейчас там две игры, которые никто не выбирал.
 
@@ -418,9 +418,9 @@ updateCartCount();
 > - Отметь ♡ у двух игр и открой «Библиотеку»: они там. Сними сердечко у одной — она сразу исчезла. Сними у второй — подсказка «В желаемом пока пусто».
 > - Окно уже 700 px: ячейки таймера делят ширину поровну, «Игра дня» в одну колонку.
 
-![Витрина с таймером и «Игрой дня»](/materials/mediahub/assets/screenshots/lab12-result.png)
+![Витрина с таймером и «Игрой дня»](/materials/mediahub/assets/screenshots/lab12-result.webp)
 
-![Желаемое в библиотеке](/materials/mediahub/assets/screenshots/lab12-library.png)
+![Желаемое в библиотеке](/materials/mediahub/assets/screenshots/lab12-library.webp)
 
 <details>
 <summary>Полный src/main.ts</summary>

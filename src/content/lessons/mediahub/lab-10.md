@@ -15,9 +15,9 @@ demo: false
 
 ## Тикет PIX-010
 
-![Аня с ключом идёт по коридору одинаковых дверей](/materials/mediahub/assets/tickets/pix-010.png)
+![Аня с ключом идёт по коридору одинаковых дверей](/materials/mediahub/assets/tickets/pix-010.webp)
 
-> <img src="/materials/mediahub/assets/tickets/anya.png" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
+> <img src="/materials/mediahub/assets/tickets/anya.webp" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
 >
 > Покупатель нажал на Cloud Bakery — а открылась страница Neon Circuit. И так с любой игрой! Нужно, чтобы у каждой игры была своя страница, со скриншотами — люди хотят видеть игру, а не только обложку. И ещё: мы будем рассылать ссылки на игры в соцсетях, так что если кто-то откроет старую или кривую ссылку — пусть увидит «игра не найдена», а не сломанную страницу.
 
@@ -549,7 +549,7 @@ if (gamePage !== null) {
 > - Открой вручную `game.html?id=99`, `game.html?id=abc` и `game.html` — «Игра не найдена».
 > - «Купить» и ♡ работают, счётчик корзины растёт.
 
-![Состояние «Игра не найдена»](/materials/mediahub/assets/screenshots/lab10-notfound.png)
+![Состояние «Игра не найдена»](/materials/mediahub/assets/screenshots/lab10-notfound.webp)
 
 <details>
 <summary>Полный src/main.ts</summary>

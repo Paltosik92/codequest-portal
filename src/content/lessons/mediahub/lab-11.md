@@ -15,9 +15,9 @@ demo: false
 
 ## Тикет PIX-011
 
-![Аня катит тележку с играми, над ней крутится стрелка обновления](/materials/mediahub/assets/tickets/pix-011.png)
+![Аня катит тележку с играми, над ней крутится стрелка обновления](/materials/mediahub/assets/tickets/pix-011.webp)
 
-> <img src="/materials/mediahub/assets/tickets/anya.png" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
+> <img src="/materials/mediahub/assets/tickets/anya.webp" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
 >
 > Покупатели жалуются: положили три игры в корзину, открыли страницу корзины — а там совсем другие две игры, ещё из прототипа. А после обновления страницы пропадает вообще всё. Так мы ничего не продадим! Корзина должна помнить выбор, считать итог, давать удалить лишнее. И давай сразу промокоды — маркетинг хочет запустить PIXEL10 на минус 10%.
 
@@ -421,7 +421,7 @@ checkoutButton?.addEventListener("click", () => {
 > - Введи `FREE`: «Такого промокода нет», строка промокода исчезла.
 > - Удали все игры: кот в пустой тележке, счётчик 0. Нажми F5: корзина по-прежнему пуста.
 
-![Корзина с промокодом PIXEL10](/materials/mediahub/assets/screenshots/lab11-result.png)
+![Корзина с промокодом PIXEL10](/materials/mediahub/assets/screenshots/lab11-result.webp)
 
 <details>
 <summary>Полный src/main.ts</summary>

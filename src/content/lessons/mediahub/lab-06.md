@@ -9,15 +9,15 @@ status: "published"
 demo: false
 ---
 
-![Витрина, страница игры и админка на экране телефона](/materials/mediahub/assets/screenshots/lab06-result.png)
+![Витрина, страница игры и админка на экране телефона](/materials/mediahub/assets/screenshots/lab06-result.webp)
 
 > **Сегодня ты сделаешь:** PixelPort, которым удобно пользоваться с телефона, проверишь его тем же инструментом, что и профессиональные команды, и выпустишь первую версию — с README и тегом релиза. Этой работой заканчивается блок «Витрина».
 
 ## Тикет PIX-006
 
-![Аня в метро листает PixelPort на телефоне](/materials/mediahub/assets/tickets/pix-006.png)
+![Аня в метро листает PixelPort на телефоне](/materials/mediahub/assets/tickets/pix-006.webp)
 
-> <img src="/materials/mediahub/assets/tickets/anya.png" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
+> <img src="/materials/mediahub/assets/tickets/anya.webp" alt="" width="48" align="left"> **От:** Аня, продакт-менеджер PixelPort
 >
 > Открыла наш сайт в метро — и расстроилась. Половина наших покупателей с телефона, а на телефоне всё ломается: картинка из баннера пропала, страница игры уехала вбок, форма админки вылезает за экран. Давай починим, проверим сайт «по-взрослому» и выпустим версию 0.1 витрины. После этого начнём её оживлять.
 
@@ -42,7 +42,7 @@ demo: false
 
 Пройди по страницам. Вот что увидела Аня:
 
-![До исправлений: баннер без картинки, страница игры уехала вбок, форма шире экрана](/materials/mediahub/assets/screenshots/lab06-before.png)
+![До исправлений: баннер без картинки, страница игры уехала вбок, форма шире экрана](/materials/mediahub/assets/screenshots/lab06-before.webp)
 
 1. **Витрина.** Картинка из баннера пропала. Две колонки сетки `1fr 1.3fr` на узком экране сжались. Колонка с текстом не может стать уже самого длинного слова «распродажа», и картинке почти не осталось места.
 2. **Страница игры.** Обложка шириной 320 px плюс колонка описания не помещаются в 375 px. Страница уехала вбок.
@@ -250,7 +250,7 @@ fieldset {
 
 Запусти Lighthouse ещё раз:
 
-![Lighthouse после исправлений: Performance 75, Accessibility 100, Best Practices 100, SEO 100](/materials/mediahub/assets/screenshots/lab06-lighthouse.png)
+![Lighthouse после исправлений: Performance 75, Accessibility 100, Best Practices 100, SEO 100](/materials/mediahub/assets/screenshots/lab06-lighthouse.webp)
 
 Числа у тебя могут немного отличаться: Performance зависит от скорости компьютера и сети. Почему не 100? Раскрой раздел Performance: главное замечание — **«Avoid enormous network payloads»**. Каждая наша картинка весит 2–3 мегабайта, а витрина целиком — больше 10. Это задача квеста ★★★.
 
@@ -753,9 +753,9 @@ git push origin v0.1
 
 Аня прислала макет новой страницы. Сверстай `sale.html` **без готового кода**: используй всё, что умеешь после шести работ.
 
-![Макет страницы «Зимняя распродажа» на компьютере](/materials/mediahub/assets/screenshots/lab06-boss-desktop.png)
+![Макет страницы «Зимняя распродажа» на компьютере](/materials/mediahub/assets/screenshots/lab06-boss-desktop.webp)
 
-<img src="/materials/mediahub/assets/screenshots/lab06-boss-mobile.png" alt="Макет страницы «Зимняя распродажа» на телефоне" width="300">
+<img src="/materials/mediahub/assets/screenshots/lab06-boss-mobile.webp" alt="Макет страницы «Зимняя распродажа» на телефоне" width="300">
 
 Требования:
 

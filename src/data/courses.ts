@@ -119,7 +119,7 @@ const definitions: Omit<Course, 'materialsPath' | 'plannedLessons'>[] = [
       'Создавай приложения, которыми удобно пользоваться: от первого окна до собственного каталога.',
     intro:
       'Знакомься с Avalonia на небольших видимых результатах: карточка студента, калькулятор заказа, настройки и список задач. Затем переходи к привязкам данных, MVVM и приложению с JSON.',
-    image: 'materials/desktop-forge/img/lab9/catalog-final.png',
+    image: 'materials/desktop-forge/img/lab9/catalog-final.webp',
     imageFit: 'contain',
     cover: 'desktop',
     accent: '#7cdbb7',
@@ -143,7 +143,7 @@ const definitions: Omit<Course, 'materialsPath' | 'plannedLessons'>[] = [
       'Преврати страницу в игровой магазин: витрина, корзина, API, отзывы и собственная фича.',
     intro:
       'Создай PixelPort — свой магазин инди-игр. Начни со страницы одной игры, добавь витрину и корзину на TypeScript, подключи ASP.NET Core API и PostgreSQL. В финале — отзывы, заказы, админка и собственная функция для демо-дня.',
-    image: 'materials/mediahub/img/hero.png',
+    image: 'materials/mediahub/img/hero.webp',
     cover: 'web',
     accent: '#b0a0ff',
     technologies: ['HTML', 'CSS', 'TypeScript', 'ASP.NET Core', 'PostgreSQL', 'EF Core'],
